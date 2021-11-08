@@ -1,7 +1,7 @@
 {
   "Name": "Microsoft.Azure.ServiceBus",
-  "Version": "5.2.0",
-  "DevVersion": null,
+  "Version": "5.2.0-alpha.20211108.1",
+  "DevVersion": "5.2.0-alpha.20211108.1",
   "DirectoryPath": "sdk/servicebus/Microsoft.Azure.ServiceBus",
   "ServiceDirectory": "servicebus",
   "ReadMePath": "sdk/servicebus/Microsoft.Azure.ServiceBus/README.md",
