@@ -1,0 +1,573 @@
+<Type Name="WebPubSubOperation" FullName="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation">
+  <TypeSignature Language="C#" Value="public abstract class WebPubSubOperation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit WebPubSubOperation extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class WebPubSubOperation" />
+  <TypeSignature Language="F#" Value="type WebPubSubOperation = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[Newtonsoft.Json.JsonObject(NamingStrategyType=typeof(Newtonsoft.Json.Serialization.CamelCaseNamingStrategy))]</AttributeName>
+      <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonObject(NamingStrategyType=typeof(Newtonsoft.Json.Serialization.CamelCaseNamingStrategy))&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Abstract class of operation to invoke service.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected WebPubSubOperation ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddConnectionToGroup">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.AddConnectionToGroup AddConnectionToGroup (string connectionId, string group);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.AddConnectionToGroup AddConnectionToGroup(string connectionId, string group) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.AddConnectionToGroup(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function AddConnectionToGroup (connectionId As String, group As String) As AddConnectionToGroup" />
+      <MemberSignature Language="F#" Value="static member AddConnectionToGroup : string * string -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.AddConnectionToGroup" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.AddConnectionToGroup (connectionId, group)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.AddConnectionToGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionId" Type="System.String" />
+        <Parameter Name="group" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="connectionId">Target connectionId.</param>
+        <param name="group">Target group.</param>
+        <summary>
+            Create an instance of operation AddConnectionToGroup for output binding.
+            </summary>
+        <returns>An instance of AddConnectionToGroup.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddUserToGroup">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.AddUserToGroup AddUserToGroup (string userId, string group);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.AddUserToGroup AddUserToGroup(string userId, string group) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.AddUserToGroup(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function AddUserToGroup (userId As String, group As String) As AddUserToGroup" />
+      <MemberSignature Language="F#" Value="static member AddUserToGroup : string * string -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.AddUserToGroup" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.AddUserToGroup (userId, group)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.AddUserToGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userId" Type="System.String" />
+        <Parameter Name="group" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userId">Target userId.</param>
+        <param name="group">Target group.</param>
+        <summary>
+            Create an instance of operation AddUserToGroup for output binding.
+            </summary>
+        <returns>An instance of AddUserToGroup.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseAllConnections">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.CloseAllConnections CloseAllConnections (System.Collections.Generic.IList&lt;string&gt; excluded, string reason);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.CloseAllConnections CloseAllConnections(class System.Collections.Generic.IList`1&lt;string&gt; excluded, string reason) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.CloseAllConnections(System.Collections.Generic.IList{System.String},System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CloseAllConnections (excluded As IList(Of String), reason As String) As CloseAllConnections" />
+      <MemberSignature Language="F#" Value="static member CloseAllConnections : System.Collections.Generic.IList&lt;string&gt; * string -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.CloseAllConnections" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.CloseAllConnections (excluded, reason)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.CloseAllConnections</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="excluded" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
+        <Parameter Name="reason" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="excluded">ConnectionIds to exclude.</param>
+        <param name="reason">Close reason.</param>
+        <summary>
+            Create an instance of operation CloseAllConnections for output binding.
+            </summary>
+        <returns>An instance of CloseAllConnections.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseClientConnection">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.CloseClientConnection CloseClientConnection (string connectionId, string reason);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.CloseClientConnection CloseClientConnection(string connectionId, string reason) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.CloseClientConnection(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CloseClientConnection (connectionId As String, reason As String) As CloseClientConnection" />
+      <MemberSignature Language="F#" Value="static member CloseClientConnection : string * string -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.CloseClientConnection" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.CloseClientConnection (connectionId, reason)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.CloseClientConnection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionId" Type="System.String" />
+        <Parameter Name="reason" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="connectionId">Target connectionId.</param>
+        <param name="reason">Close reason.</param>
+        <summary>
+            Create an instance of operation CloseClientConnection for output binding.
+            </summary>
+        <returns>An instance of CloseClientConnection.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseGroupConnections">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.CloseGroupConnections CloseGroupConnections (string group, System.Collections.Generic.IList&lt;string&gt; excluded, string reason);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.CloseGroupConnections CloseGroupConnections(string group, class System.Collections.Generic.IList`1&lt;string&gt; excluded, string reason) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.CloseGroupConnections(System.String,System.Collections.Generic.IList{System.String},System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CloseGroupConnections (group As String, excluded As IList(Of String), reason As String) As CloseGroupConnections" />
+      <MemberSignature Language="F#" Value="static member CloseGroupConnections : string * System.Collections.Generic.IList&lt;string&gt; * string -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.CloseGroupConnections" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.CloseGroupConnections (group, excluded, reason)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.CloseGroupConnections</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="group" Type="System.String" />
+        <Parameter Name="excluded" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
+        <Parameter Name="reason" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="group">Target group.</param>
+        <param name="excluded">ConnectionIds to exclude.</param>
+        <param name="reason">Close reason.</param>
+        <summary>
+            Create an instance of operation CloseGroupConnections for output binding.
+            </summary>
+        <returns>An instance of CloseGroupConnections.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GrantPermission">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.GrantPermission GrantPermission (string connectionId, Azure.Messaging.WebPubSub.WebPubSubPermission permission, string targetName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.GrantPermission GrantPermission(string connectionId, valuetype Azure.Messaging.WebPubSub.WebPubSubPermission permission, string targetName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.GrantPermission(System.String,Azure.Messaging.WebPubSub.WebPubSubPermission,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GrantPermission (connectionId As String, permission As WebPubSubPermission, targetName As String) As GrantPermission" />
+      <MemberSignature Language="F#" Value="static member GrantPermission : string * Azure.Messaging.WebPubSub.WebPubSubPermission * string -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.GrantPermission" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.GrantPermission (connectionId, permission, targetName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.GrantPermission</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionId" Type="System.String" />
+        <Parameter Name="permission" Type="Azure.Messaging.WebPubSub.WebPubSubPermission" />
+        <Parameter Name="targetName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="connectionId">Target connectionId.</param>
+        <param name="permission">Target permission.</param>
+        <param name="targetName">Target name.</param>
+        <summary>
+            Create an instance of operation GrantPermission for output binding.
+            </summary>
+        <returns>An instance of GrantPermission.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveConnectionFromGroup">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.RemoveConnectionFromGroup RemoveConnectionFromGroup (string connectionId, string group);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.RemoveConnectionFromGroup RemoveConnectionFromGroup(string connectionId, string group) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.RemoveConnectionFromGroup(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RemoveConnectionFromGroup (connectionId As String, group As String) As RemoveConnectionFromGroup" />
+      <MemberSignature Language="F#" Value="static member RemoveConnectionFromGroup : string * string -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.RemoveConnectionFromGroup" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.RemoveConnectionFromGroup (connectionId, group)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.RemoveConnectionFromGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionId" Type="System.String" />
+        <Parameter Name="group" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="connectionId">Target connectionId.</param>
+        <param name="group">Target group.</param>
+        <summary>
+            Create an instance of operation RemoveConnectionFromGroup for output binding.
+            </summary>
+        <returns>An instance of RemoveConnectionFromGroup.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveUserFromAllGroups">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.RemoveUserFromAllGroups RemoveUserFromAllGroups (string userId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.RemoveUserFromAllGroups RemoveUserFromAllGroups(string userId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.RemoveUserFromAllGroups(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RemoveUserFromAllGroups (userId As String) As RemoveUserFromAllGroups" />
+      <MemberSignature Language="F#" Value="static member RemoveUserFromAllGroups : string -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.RemoveUserFromAllGroups" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.RemoveUserFromAllGroups userId" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.RemoveUserFromAllGroups</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userId">Target userId.</param>
+        <summary>
+            Create an instance of operation RemoveUserFromAllGroups for output binding.
+            </summary>
+        <returns>An instance of RemoveUserFromAllGroups.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveUserFromGroup">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.RemoveUserFromGroup RemoveUserFromGroup (string userId, string group);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.RemoveUserFromGroup RemoveUserFromGroup(string userId, string group) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.RemoveUserFromGroup(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RemoveUserFromGroup (userId As String, group As String) As RemoveUserFromGroup" />
+      <MemberSignature Language="F#" Value="static member RemoveUserFromGroup : string * string -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.RemoveUserFromGroup" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.RemoveUserFromGroup (userId, group)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.RemoveUserFromGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userId" Type="System.String" />
+        <Parameter Name="group" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userId">Target userId.</param>
+        <param name="group">Target group.</param>
+        <summary>
+            Create an instance of operation RemoveUserFromGroup for output binding.
+            </summary>
+        <returns>An instance of RemoveUserFromGroup.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RevokePermission">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.RevokePermission RevokePermission (string connectionId, Azure.Messaging.WebPubSub.WebPubSubPermission permission, string targetName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.RevokePermission RevokePermission(string connectionId, valuetype Azure.Messaging.WebPubSub.WebPubSubPermission permission, string targetName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.RevokePermission(System.String,Azure.Messaging.WebPubSub.WebPubSubPermission,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RevokePermission (connectionId As String, permission As WebPubSubPermission, targetName As String) As RevokePermission" />
+      <MemberSignature Language="F#" Value="static member RevokePermission : string * Azure.Messaging.WebPubSub.WebPubSubPermission * string -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.RevokePermission" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.RevokePermission (connectionId, permission, targetName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.RevokePermission</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionId" Type="System.String" />
+        <Parameter Name="permission" Type="Azure.Messaging.WebPubSub.WebPubSubPermission" />
+        <Parameter Name="targetName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="connectionId">Target connectionId.</param>
+        <param name="permission">Target permission.</param>
+        <param name="targetName">Target name.</param>
+        <summary>
+            Create an instance of operation RevokePermission for output binding.
+            </summary>
+        <returns>An instance of RevokePermission.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToAll">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToAll SendToAll (BinaryData data, Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType, System.Collections.Generic.IList&lt;string&gt; excluded = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToAll SendToAll(class System.BinaryData data, valuetype Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType, class System.Collections.Generic.IList`1&lt;string&gt; excluded) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToAll(System.BinaryData,Microsoft.Azure.WebPubSub.Common.WebPubSubDataType,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SendToAll (data As BinaryData, dataType As WebPubSubDataType, Optional excluded As IList(Of String) = Nothing) As SendToAll" />
+      <MemberSignature Language="F#" Value="static member SendToAll : BinaryData * Microsoft.Azure.WebPubSub.Common.WebPubSubDataType * System.Collections.Generic.IList&lt;string&gt; -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToAll" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToAll (data, dataType, excluded)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToAll</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="dataType" Type="Microsoft.Azure.WebPubSub.Common.WebPubSubDataType" />
+        <Parameter Name="excluded" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="data">Web PubSub message data.</param>
+        <param name="dataType">Web PubSub message data type.</param>
+        <param name="excluded">ConnectionIds to exclude.</param>
+        <summary>
+            Create an instance of SendToAll for output binding.
+            </summary>
+        <returns>SendToAll</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToAll">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToAll SendToAll (string data, Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType = Microsoft.Azure.WebPubSub.Common.WebPubSubDataType.Text, System.Collections.Generic.IList&lt;string&gt; excluded = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToAll SendToAll(string data, valuetype Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType, class System.Collections.Generic.IList`1&lt;string&gt; excluded) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToAll(System.String,Microsoft.Azure.WebPubSub.Common.WebPubSubDataType,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SendToAll (data As String, Optional dataType As WebPubSubDataType = Microsoft.Azure.WebPubSub.Common.WebPubSubDataType.Text, Optional excluded As IList(Of String) = Nothing) As SendToAll" />
+      <MemberSignature Language="F#" Value="static member SendToAll : string * Microsoft.Azure.WebPubSub.Common.WebPubSubDataType * System.Collections.Generic.IList&lt;string&gt; -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToAll" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToAll (data, dataType, excluded)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToAll</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.String" />
+        <Parameter Name="dataType" Type="Microsoft.Azure.WebPubSub.Common.WebPubSubDataType" />
+        <Parameter Name="excluded" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="data">Web PubSub message data.</param>
+        <param name="dataType">Web PubSub message data type.</param>
+        <param name="excluded">ConnectionIds to exclude.</param>
+        <summary>
+            Create an instance of operation SendToAll for output binding.
+            </summary>
+        <returns>An instance of SendToAll.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToConnection">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToConnection SendToConnection (string connectionId, BinaryData data, Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToConnection SendToConnection(string connectionId, class System.BinaryData data, valuetype Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToConnection(System.String,System.BinaryData,Microsoft.Azure.WebPubSub.Common.WebPubSubDataType)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SendToConnection (connectionId As String, data As BinaryData, dataType As WebPubSubDataType) As SendToConnection" />
+      <MemberSignature Language="F#" Value="static member SendToConnection : string * BinaryData * Microsoft.Azure.WebPubSub.Common.WebPubSubDataType -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToConnection" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToConnection (connectionId, data, dataType)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToConnection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionId" Type="System.String" />
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="dataType" Type="Microsoft.Azure.WebPubSub.Common.WebPubSubDataType" />
+      </Parameters>
+      <Docs>
+        <param name="connectionId">Target connectionId.</param>
+        <param name="data">Message data.</param>
+        <param name="dataType">Message data type.</param>
+        <summary>
+            Create an instance of SendToConnection for output binding.
+            </summary>
+        <returns>An instance of SendToConnection.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToConnection">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToConnection SendToConnection (string connectionId, string data, Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType = Microsoft.Azure.WebPubSub.Common.WebPubSubDataType.Text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToConnection SendToConnection(string connectionId, string data, valuetype Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToConnection(System.String,System.String,Microsoft.Azure.WebPubSub.Common.WebPubSubDataType)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SendToConnection (connectionId As String, data As String, Optional dataType As WebPubSubDataType = Microsoft.Azure.WebPubSub.Common.WebPubSubDataType.Text) As SendToConnection" />
+      <MemberSignature Language="F#" Value="static member SendToConnection : string * string * Microsoft.Azure.WebPubSub.Common.WebPubSubDataType -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToConnection" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToConnection (connectionId, data, dataType)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToConnection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionId" Type="System.String" />
+        <Parameter Name="data" Type="System.String" />
+        <Parameter Name="dataType" Type="Microsoft.Azure.WebPubSub.Common.WebPubSubDataType" />
+      </Parameters>
+      <Docs>
+        <param name="connectionId">Target connectionId.</param>
+        <param name="data">Message data.</param>
+        <param name="dataType">Message data type.</param>
+        <summary>
+            Create an instance of SendToConnection for output binding.
+            </summary>
+        <returns>An instance of SendToConnection.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToGroup">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToGroup SendToGroup (string group, BinaryData data, Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType, System.Collections.Generic.IList&lt;string&gt; excluded = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToGroup SendToGroup(string group, class System.BinaryData data, valuetype Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType, class System.Collections.Generic.IList`1&lt;string&gt; excluded) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToGroup(System.String,System.BinaryData,Microsoft.Azure.WebPubSub.Common.WebPubSubDataType,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SendToGroup (group As String, data As BinaryData, dataType As WebPubSubDataType, Optional excluded As IList(Of String) = Nothing) As SendToGroup" />
+      <MemberSignature Language="F#" Value="static member SendToGroup : string * BinaryData * Microsoft.Azure.WebPubSub.Common.WebPubSubDataType * System.Collections.Generic.IList&lt;string&gt; -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToGroup" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToGroup (group, data, dataType, excluded)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="group" Type="System.String" />
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="dataType" Type="Microsoft.Azure.WebPubSub.Common.WebPubSubDataType" />
+        <Parameter Name="excluded" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="group">Target group.</param>
+        <param name="data">Message data.</param>
+        <param name="dataType">Message data type.</param>
+        <param name="excluded">ConnectionIds to exclude.</param>
+        <summary>
+            Create an instance of SendToGroup for output binding.
+            </summary>
+        <returns>An instance of SendToGroup.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToGroup">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToGroup SendToGroup (string group, string data, Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType = Microsoft.Azure.WebPubSub.Common.WebPubSubDataType.Text, System.Collections.Generic.IList&lt;string&gt; excluded = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToGroup SendToGroup(string group, string data, valuetype Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType, class System.Collections.Generic.IList`1&lt;string&gt; excluded) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToGroup(System.String,System.String,Microsoft.Azure.WebPubSub.Common.WebPubSubDataType,System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SendToGroup (group As String, data As String, Optional dataType As WebPubSubDataType = Microsoft.Azure.WebPubSub.Common.WebPubSubDataType.Text, Optional excluded As IList(Of String) = Nothing) As SendToGroup" />
+      <MemberSignature Language="F#" Value="static member SendToGroup : string * string * Microsoft.Azure.WebPubSub.Common.WebPubSubDataType * System.Collections.Generic.IList&lt;string&gt; -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToGroup" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToGroup (group, data, dataType, excluded)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="group" Type="System.String" />
+        <Parameter Name="data" Type="System.String" />
+        <Parameter Name="dataType" Type="Microsoft.Azure.WebPubSub.Common.WebPubSubDataType" />
+        <Parameter Name="excluded" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="group">Target group.</param>
+        <param name="data">Message data.</param>
+        <param name="dataType">Message data type.</param>
+        <param name="excluded">ConnectionIds to exclude.</param>
+        <summary>
+            Create an instance of SendToGroup for output binding.
+            </summary>
+        <returns>An instance of SendToGroup.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToUser">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToUser SendToUser (string userId, BinaryData data, Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToUser SendToUser(string userId, class System.BinaryData data, valuetype Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToUser(System.String,System.BinaryData,Microsoft.Azure.WebPubSub.Common.WebPubSubDataType)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SendToUser (userId As String, data As BinaryData, dataType As WebPubSubDataType) As SendToUser" />
+      <MemberSignature Language="F#" Value="static member SendToUser : string * BinaryData * Microsoft.Azure.WebPubSub.Common.WebPubSubDataType -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToUser" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToUser (userId, data, dataType)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToUser</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userId" Type="System.String" />
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="dataType" Type="Microsoft.Azure.WebPubSub.Common.WebPubSubDataType" />
+      </Parameters>
+      <Docs>
+        <param name="userId">Target userId.</param>
+        <param name="data">Message data.</param>
+        <param name="dataType">Message data type.</param>
+        <summary>
+            Create an instance of SendToUser for output binding.
+            </summary>
+        <returns>An instance of SendToUser.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToUser">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToUser SendToUser (string userId, string data, Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType = Microsoft.Azure.WebPubSub.Common.WebPubSubDataType.Text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToUser SendToUser(string userId, string data, valuetype Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToUser(System.String,System.String,Microsoft.Azure.WebPubSub.Common.WebPubSubDataType)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SendToUser (userId As String, data As String, Optional dataType As WebPubSubDataType = Microsoft.Azure.WebPubSub.Common.WebPubSubDataType.Text) As SendToUser" />
+      <MemberSignature Language="F#" Value="static member SendToUser : string * string * Microsoft.Azure.WebPubSub.Common.WebPubSubDataType -&gt; Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToUser" Usage="Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubOperation.SendToUser (userId, data, dataType)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.WebPubSub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.WebJobs.Extensions.WebPubSub.SendToUser</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userId" Type="System.String" />
+        <Parameter Name="data" Type="System.String" />
+        <Parameter Name="dataType" Type="Microsoft.Azure.WebPubSub.Common.WebPubSubDataType" />
+      </Parameters>
+      <Docs>
+        <param name="userId">Target userId.</param>
+        <param name="data">Message data.</param>
+        <param name="dataType">Message data type.</param>
+        <summary>
+            Create an instance of SendToUser for output binding.
+            </summary>
+        <returns>An instance of SendToUser.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

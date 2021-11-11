@@ -38,22 +38,22 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public UserEventResponse (BinaryData message, Microsoft.Azure.WebPubSub.Common.MessageDataType dataType);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.BinaryData message, valuetype Microsoft.Azure.WebPubSub.Common.MessageDataType dataType) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebPubSub.Common.UserEventResponse.#ctor(System.BinaryData,Microsoft.Azure.WebPubSub.Common.MessageDataType)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As BinaryData, dataType As MessageDataType)" />
-      <MemberSignature Language="F#" Value="new Microsoft.Azure.WebPubSub.Common.UserEventResponse : BinaryData * Microsoft.Azure.WebPubSub.Common.MessageDataType -&gt; Microsoft.Azure.WebPubSub.Common.UserEventResponse" Usage="new Microsoft.Azure.WebPubSub.Common.UserEventResponse (message, dataType)" />
+      <MemberSignature Language="C#" Value="public UserEventResponse (BinaryData data, Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.BinaryData data, valuetype Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebPubSub.Common.UserEventResponse.#ctor(System.BinaryData,Microsoft.Azure.WebPubSub.Common.WebPubSubDataType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (data As BinaryData, dataType As WebPubSubDataType)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.WebPubSub.Common.UserEventResponse : BinaryData * Microsoft.Azure.WebPubSub.Common.WebPubSubDataType -&gt; Microsoft.Azure.WebPubSub.Common.UserEventResponse" Usage="new Microsoft.Azure.WebPubSub.Common.UserEventResponse (data, dataType)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="message" Type="System.BinaryData" />
-        <Parameter Name="dataType" Type="Microsoft.Azure.WebPubSub.Common.MessageDataType" />
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="dataType" Type="Microsoft.Azure.WebPubSub.Common.WebPubSubDataType" />
       </Parameters>
       <Docs>
-        <param name="message">BinaryData type message.</param>
+        <param name="data">BinaryData type message.</param>
         <param name="dataType">Message data type.</param>
         <summary>
             Initialize an instance of MessageResponse.
@@ -62,22 +62,22 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public UserEventResponse (string message, Microsoft.Azure.WebPubSub.Common.MessageDataType dataType = Microsoft.Azure.WebPubSub.Common.MessageDataType.Text);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, valuetype Microsoft.Azure.WebPubSub.Common.MessageDataType dataType) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebPubSub.Common.UserEventResponse.#ctor(System.String,Microsoft.Azure.WebPubSub.Common.MessageDataType)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, Optional dataType As MessageDataType = Microsoft.Azure.WebPubSub.Common.MessageDataType.Text)" />
-      <MemberSignature Language="F#" Value="new Microsoft.Azure.WebPubSub.Common.UserEventResponse : string * Microsoft.Azure.WebPubSub.Common.MessageDataType -&gt; Microsoft.Azure.WebPubSub.Common.UserEventResponse" Usage="new Microsoft.Azure.WebPubSub.Common.UserEventResponse (message, dataType)" />
+      <MemberSignature Language="C#" Value="public UserEventResponse (string data, Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType = Microsoft.Azure.WebPubSub.Common.WebPubSubDataType.Text);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string data, valuetype Microsoft.Azure.WebPubSub.Common.WebPubSubDataType dataType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebPubSub.Common.UserEventResponse.#ctor(System.String,Microsoft.Azure.WebPubSub.Common.WebPubSubDataType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (data As String, Optional dataType As WebPubSubDataType = Microsoft.Azure.WebPubSub.Common.WebPubSubDataType.Text)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.WebPubSub.Common.UserEventResponse : string * Microsoft.Azure.WebPubSub.Common.WebPubSubDataType -&gt; Microsoft.Azure.WebPubSub.Common.UserEventResponse" Usage="new Microsoft.Azure.WebPubSub.Common.UserEventResponse (data, dataType)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="dataType" Type="Microsoft.Azure.WebPubSub.Common.MessageDataType" />
+        <Parameter Name="data" Type="System.String" />
+        <Parameter Name="dataType" Type="Microsoft.Azure.WebPubSub.Common.WebPubSubDataType" />
       </Parameters>
       <Docs>
-        <param name="message">String type message.</param>
+        <param name="data">String type message.</param>
         <param name="dataType">Message data type. Default set to text.</param>
         <summary>
             Initialize an instance of MessageResponse.
@@ -107,12 +107,44 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Data">
+      <MemberSignature Language="C#" Value="public BinaryData Data { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.BinaryData Data" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.WebPubSub.Common.UserEventResponse.Data" />
+      <MemberSignature Language="VB.NET" Value="Public Property Data As BinaryData" />
+      <MemberSignature Language="F#" Value="member this.Data : BinaryData with get, set" Usage="Microsoft.Azure.WebPubSub.Common.UserEventResponse.Data" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Text.Json.Serialization.JsonConverter(typeof(System.BinaryDataJsonConverter))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Text.Json.Serialization.JsonConverter(typeof(System.BinaryDataJsonConverter))&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Text.Json.Serialization.JsonPropertyName("data")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Text.Json.Serialization.JsonPropertyName("data")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.BinaryData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Message.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="DataType">
-      <MemberSignature Language="C#" Value="public Microsoft.Azure.WebPubSub.Common.MessageDataType DataType { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.WebPubSub.Common.MessageDataType DataType" />
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.WebPubSub.Common.WebPubSubDataType DataType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.WebPubSub.Common.WebPubSubDataType DataType" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.WebPubSub.Common.UserEventResponse.DataType" />
-      <MemberSignature Language="VB.NET" Value="Public Property DataType As MessageDataType" />
-      <MemberSignature Language="F#" Value="member this.DataType : Microsoft.Azure.WebPubSub.Common.MessageDataType with get, set" Usage="Microsoft.Azure.WebPubSub.Common.UserEventResponse.DataType" />
+      <MemberSignature Language="VB.NET" Value="Public Property DataType As WebPubSubDataType" />
+      <MemberSignature Language="F#" Value="member this.DataType : Microsoft.Azure.WebPubSub.Common.WebPubSubDataType with get, set" Usage="Microsoft.Azure.WebPubSub.Common.UserEventResponse.DataType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
@@ -129,43 +161,11 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>Microsoft.Azure.WebPubSub.Common.MessageDataType</ReturnType>
+        <ReturnType>Microsoft.Azure.WebPubSub.Common.WebPubSubDataType</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
             Message data type.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Message">
-      <MemberSignature Language="C#" Value="public BinaryData Message { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.BinaryData Message" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.WebPubSub.Common.UserEventResponse.Message" />
-      <MemberSignature Language="VB.NET" Value="Public Property Message As BinaryData" />
-      <MemberSignature Language="F#" Value="member this.Message : BinaryData with get, set" Usage="Microsoft.Azure.WebPubSub.Common.UserEventResponse.Message" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName Language="C#">[System.Text.Json.Serialization.JsonConverter(typeof(System.BinaryDataJsonConverter))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Text.Json.Serialization.JsonConverter(typeof(System.BinaryDataJsonConverter))&gt;]</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName Language="C#">[System.Text.Json.Serialization.JsonPropertyName("message")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Text.Json.Serialization.JsonPropertyName("message")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.BinaryData</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Message.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

@@ -26,11 +26,11 @@
   </Docs>
   <Members>
     <Member MemberName="Claims">
-      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyDictionary&lt;string,string[]&gt; Claims { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyDictionary`2&lt;string, string[]&gt; Claims" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,string[]&gt; Claims { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, string[]&gt; Claims" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.WebPubSub.Common.ConnectEventRequest.Claims" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Claims As ReadOnlyDictionary(Of String, String())" />
-      <MemberSignature Language="F#" Value="member this.Claims : System.Collections.ObjectModel.ReadOnlyDictionary&lt;string, string[]&gt;" Usage="Microsoft.Azure.WebPubSub.Common.ConnectEventRequest.Claims" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Claims As IReadOnlyDictionary(Of String, String())" />
+      <MemberSignature Language="F#" Value="member this.Claims : System.Collections.Generic.IReadOnlyDictionary&lt;string, string[]&gt;" Usage="Microsoft.Azure.WebPubSub.Common.ConnectEventRequest.Claims" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
@@ -43,7 +43,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.ObjectModel.ReadOnlyDictionary&lt;System.String,System.String[]&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.String[]&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -143,11 +143,11 @@
       </Docs>
     </Member>
     <Member MemberName="Query">
-      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyDictionary&lt;string,string[]&gt; Query { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyDictionary`2&lt;string, string[]&gt; Query" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,string[]&gt; Query { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, string[]&gt; Query" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.WebPubSub.Common.ConnectEventRequest.Query" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Query As ReadOnlyDictionary(Of String, String())" />
-      <MemberSignature Language="F#" Value="member this.Query : System.Collections.ObjectModel.ReadOnlyDictionary&lt;string, string[]&gt;" Usage="Microsoft.Azure.WebPubSub.Common.ConnectEventRequest.Query" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Query As IReadOnlyDictionary(Of String, String())" />
+      <MemberSignature Language="F#" Value="member this.Query : System.Collections.Generic.IReadOnlyDictionary&lt;string, string[]&gt;" Usage="Microsoft.Azure.WebPubSub.Common.ConnectEventRequest.Query" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
@@ -160,7 +160,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.ObjectModel.ReadOnlyDictionary&lt;System.String,System.String[]&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.String[]&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
