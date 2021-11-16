@@ -11,7 +11,7 @@ ms.devlang: dotnet
 ms.service: communication
 ---
 
-# Azure Communication CallingServer client library for .NET - Version 1.0.0-alpha.20211115.3 
+# Azure Communication CallingServer client library for .NET - Version 1.0.0-alpha.20211116.1 
 
 
 This package contains a C# SDK for Azure Communication Services for Calling.
@@ -62,11 +62,11 @@ To make an outbound call, call the `CreateCallConnection` or `CreateCallConnecti
 ```C# Snippet:Azure_Communication_Call_Tests_CreateCallOptions
 var createCallOption = new CreateCallOptions(
        new Uri(TestEnvironment.AppCallbackUrl),
-       new[] { CallMediaType.Audio },
+       new[] { MediaType.Audio },
        new[]
        {
-           CallingEventSubscriptionType.ParticipantsUpdated,
-           CallingEventSubscriptionType.ToneReceived
+           EventSubscriptionType.ParticipantsUpdated,
+           EventSubscriptionType.DtmfReceived
        });
 ```
 ```C# Snippet:Azure_Communication_Call_Tests_CreateCallAsync
