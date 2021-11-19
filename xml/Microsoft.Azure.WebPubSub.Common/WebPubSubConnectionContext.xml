@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -20,22 +21,6 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public WebPubSubConnectionContext ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebPubSub.Common.WebPubSubConnectionContext.#ctor" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Parameters />
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public WebPubSubConnectionContext (Microsoft.Azure.WebPubSub.Common.WebPubSubEventType eventType, string eventName, string hub, string connectionId, string userId = default, string signature = default, string origin = default, System.Collections.Generic.IReadOnlyDictionary&lt;string,object&gt; states = default, System.Collections.Generic.IReadOnlyDictionary&lt;string,string[]&gt; headers = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Azure.WebPubSub.Common.WebPubSubEventType eventType, string eventName, string hub, string connectionId, string userId, string signature, string origin, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; states, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, string[]&gt; headers) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.WebPubSub.Common.WebPubSubConnectionContext.#ctor(Microsoft.Azure.WebPubSub.Common.WebPubSubEventType,System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object},System.Collections.Generic.IReadOnlyDictionary{System.String,System.String[]})" />
@@ -45,17 +30,18 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="eventType" Type="Microsoft.Azure.WebPubSub.Common.WebPubSubEventType" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="eventName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="hub" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="connectionId" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="userId" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="signature" Type="System.String" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="origin" Type="System.String" Index="6" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="states" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;" Index="7" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="headers" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.String[]&gt;" Index="8" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="eventType" Type="Microsoft.Azure.WebPubSub.Common.WebPubSubEventType" />
+        <Parameter Name="eventName" Type="System.String" />
+        <Parameter Name="hub" Type="System.String" />
+        <Parameter Name="connectionId" Type="System.String" />
+        <Parameter Name="userId" Type="System.String" />
+        <Parameter Name="signature" Type="System.String" />
+        <Parameter Name="origin" Type="System.String" />
+        <Parameter Name="states" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;" />
+        <Parameter Name="headers" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.String[]&gt;" />
       </Parameters>
       <Docs>
         <param name="eventType">Event type</param>
@@ -83,6 +69,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -111,6 +98,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -139,6 +127,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -158,19 +147,16 @@
       </Docs>
     </Member>
     <Member MemberName="Headers">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,string[]&gt; Headers { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, string[]&gt; Headers" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,string[]&gt; Headers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, string[]&gt; Headers" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.WebPubSub.Common.WebPubSubConnectionContext.Headers" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Headers As IReadOnlyDictionary(Of String, String())" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.Headers : System.Collections.Generic.IReadOnlyDictionary&lt;string, string[]&gt;" Usage="Microsoft.Azure.WebPubSub.Common.WebPubSubConnectionContext.Headers" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyDictionary&lt;string,string[]&gt; Headers { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyDictionary`2&lt;string, string[]&gt; Headers" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Headers As ReadOnlyDictionary(Of String, String())" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.Headers : System.Collections.ObjectModel.ReadOnlyDictionary&lt;string, string[]&gt;" Usage="Microsoft.Azure.WebPubSub.Common.WebPubSubConnectionContext.Headers" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Headers As IReadOnlyDictionary(Of String, String())" />
+      <MemberSignature Language="F#" Value="member this.Headers : System.Collections.Generic.IReadOnlyDictionary&lt;string, string[]&gt;" Usage="Microsoft.Azure.WebPubSub.Common.WebPubSubConnectionContext.Headers" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -179,8 +165,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.String[]&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Collections.ObjectModel.ReadOnlyDictionary&lt;System.String,System.String[]&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.String[]&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -200,6 +185,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -228,6 +214,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -256,6 +243,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -275,19 +263,16 @@
       </Docs>
     </Member>
     <Member MemberName="States">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,object&gt; States { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; States" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,object&gt; States { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; States" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.WebPubSub.Common.WebPubSubConnectionContext.States" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property States As IReadOnlyDictionary(Of String, Object)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.States : System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt;" Usage="Microsoft.Azure.WebPubSub.Common.WebPubSubConnectionContext.States" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyDictionary&lt;string,object&gt; States { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyDictionary`2&lt;string, object&gt; States" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property States As ReadOnlyDictionary(Of String, Object)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.States : System.Collections.ObjectModel.ReadOnlyDictionary&lt;string, obj&gt;" Usage="Microsoft.Azure.WebPubSub.Common.WebPubSubConnectionContext.States" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property States As IReadOnlyDictionary(Of String, Object)" />
+      <MemberSignature Language="F#" Value="member this.States : System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt;" Usage="Microsoft.Azure.WebPubSub.Common.WebPubSubConnectionContext.States" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -296,8 +281,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Collections.ObjectModel.ReadOnlyDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -317,6 +301,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
