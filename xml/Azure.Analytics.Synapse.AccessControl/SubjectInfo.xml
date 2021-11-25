@@ -1,7 +1,7 @@
-<Type Name="SubjectInfo" FullName="Azure.Analytics.Synapse.AccessControl.Models.SubjectInfo">
+<Type Name="SubjectInfo" FullName="Azure.Analytics.Synapse.AccessControl.SubjectInfo">
   <TypeSignature Language="C#" Value="public class SubjectInfo" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SubjectInfo extends System.Object" />
-  <TypeSignature Language="DocId" Value="T:Azure.Analytics.Synapse.AccessControl.Models.SubjectInfo" />
+  <TypeSignature Language="DocId" Value="T:Azure.Analytics.Synapse.AccessControl.SubjectInfo" />
   <TypeSignature Language="VB.NET" Value="Public Class SubjectInfo" />
   <TypeSignature Language="F#" Value="type SubjectInfo = class" />
   <AssemblyInfo>
@@ -20,9 +20,9 @@
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public SubjectInfo (Guid principalId);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Guid principalId) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Synapse.AccessControl.Models.SubjectInfo.#ctor(System.Guid)" />
+      <MemberSignature Language="DocId" Value="M:Azure.Analytics.Synapse.AccessControl.SubjectInfo.#ctor(System.Guid)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (principalId As Guid)" />
-      <MemberSignature Language="F#" Value="new Azure.Analytics.Synapse.AccessControl.Models.SubjectInfo : Guid -&gt; Azure.Analytics.Synapse.AccessControl.Models.SubjectInfo" Usage="new Azure.Analytics.Synapse.AccessControl.Models.SubjectInfo principalId" />
+      <MemberSignature Language="F#" Value="new Azure.Analytics.Synapse.AccessControl.SubjectInfo : Guid -&gt; Azure.Analytics.Synapse.AccessControl.SubjectInfo" Usage="new Azure.Analytics.Synapse.AccessControl.SubjectInfo principalId" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Analytics.Synapse.AccessControl</AssemblyName>
@@ -40,9 +40,9 @@
     <Member MemberName="GroupIds">
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Guid&gt; GroupIds { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;valuetype System.Guid&gt; GroupIds" />
-      <MemberSignature Language="DocId" Value="P:Azure.Analytics.Synapse.AccessControl.Models.SubjectInfo.GroupIds" />
+      <MemberSignature Language="DocId" Value="P:Azure.Analytics.Synapse.AccessControl.SubjectInfo.GroupIds" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GroupIds As IList(Of Guid)" />
-      <MemberSignature Language="F#" Value="member this.GroupIds : System.Collections.Generic.IList&lt;Guid&gt;" Usage="Azure.Analytics.Synapse.AccessControl.Models.SubjectInfo.GroupIds" />
+      <MemberSignature Language="F#" Value="member this.GroupIds : System.Collections.Generic.IList&lt;Guid&gt;" Usage="Azure.Analytics.Synapse.AccessControl.SubjectInfo.GroupIds" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Analytics.Synapse.AccessControl</AssemblyName>
@@ -60,9 +60,9 @@
     <Member MemberName="PrincipalId">
       <MemberSignature Language="C#" Value="public Guid PrincipalId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid PrincipalId" />
-      <MemberSignature Language="DocId" Value="P:Azure.Analytics.Synapse.AccessControl.Models.SubjectInfo.PrincipalId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Analytics.Synapse.AccessControl.SubjectInfo.PrincipalId" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PrincipalId As Guid" />
-      <MemberSignature Language="F#" Value="member this.PrincipalId : Guid" Usage="Azure.Analytics.Synapse.AccessControl.Models.SubjectInfo.PrincipalId" />
+      <MemberSignature Language="F#" Value="member this.PrincipalId : Guid" Usage="Azure.Analytics.Synapse.AccessControl.SubjectInfo.PrincipalId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Analytics.Synapse.AccessControl</AssemblyName>
