@@ -18,10 +18,10 @@ Use the guidelines in each section of this template to ensure consistency and re
 **Title**: The H1 of your README should be in the format: `# [Product Name] client library for [Language]`
 
 * All headings, including the H1, should use **sentence-style capitalization**. Refer to the [Microsoft Style Guide][style-guide-msft] and [Microsoft Cloud Style Guide][style-guide-cloud] for more information.
-* Example: `# Azure Batch client library for Python - Version 1.0.3-alpha.20211129.4 
+* Example: `# Azure Batch client library for Python - Version 1.0.3-alpha.20211129.5 
 `
 
-# Azure Template client library for .NET - Version 1.0.3-alpha.20211129.4 
+# Azure Template client library for .NET - Version 1.0.3-alpha.20211129.5 
 
 
 **Introduction**: The introduction appears directly under the title (H1) of your README.
