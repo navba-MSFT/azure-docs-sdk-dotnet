@@ -1,0 +1,20 @@
+<Type Name="TenantExtensions" FullName="Azure.ResourceManager.Network.TenantExtensions">
+  <TypeSignature Language="C#" Value="public static class TenantExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TenantExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Network.TenantExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Class TenantExtensions" />
+  <TypeSignature Language="F#" Value="type TenantExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A class to add extension methods to Tenant. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>
