@@ -1,9 +1,13 @@
 <Type Name="ServiceBusMessage" FullName="Azure.Messaging.ServiceBus.ServiceBusMessage">
-  <TypeSignature Language="C#" Value="public class ServiceBusMessage" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ServiceBusMessage extends System.Object" />
+  <TypeSignature Language="C#" Value="public class ServiceBusMessage" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ServiceBusMessage extends System.Object" FrameworkAlternate="azure-dotnet" />
   <TypeSignature Language="DocId" Value="T:Azure.Messaging.ServiceBus.ServiceBusMessage" />
-  <TypeSignature Language="VB.NET" Value="Public Class ServiceBusMessage" />
-  <TypeSignature Language="F#" Value="type ServiceBusMessage = class" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServiceBusMessage" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="F#" Value="type ServiceBusMessage = class" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="C#" Value="public class ServiceBusMessage : Azure.Messaging.MessageWithMetadata" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ServiceBusMessage extends Azure.Messaging.MessageWithMetadata" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServiceBusMessage&#xA;Inherits MessageWithMetadata" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="F#" Value="type ServiceBusMessage = class&#xA;    inherit MessageWithMetadata" FrameworkAlternate="azure-dotnet-preview" />
   <AssemblyInfo>
     <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
     <AssemblyVersion>7.1.2.0</AssemblyVersion>
@@ -12,9 +16,11 @@
     <AssemblyVersion>7.3.0.0</AssemblyVersion>
     <AssemblyVersion>7.4.0.0</AssemblyVersion>
     <AssemblyVersion>7.5.0.0</AssemblyVersion>
+    <AssemblyVersion>7.6.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="azure-dotnet-preview">Azure.Messaging.MessageWithMetadata</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -42,6 +48,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -66,6 +73,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="receivedMessage" Type="Azure.Messaging.ServiceBus.ServiceBusReceivedMessage" />
@@ -93,6 +101,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="body" Type="System.BinaryData" />
@@ -120,6 +129,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="body" Type="System.ReadOnlyMemory&lt;System.Byte&gt;" />
@@ -147,6 +157,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="body" Type="System.String" />
@@ -174,6 +185,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
@@ -205,6 +217,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -218,11 +231,13 @@
       </Docs>
     </Member>
     <Member MemberName="ContentType">
-      <MemberSignature Language="C#" Value="public string ContentType { get; set; }" />
+      <MemberSignature Language="C#" Value="public string ContentType { get; set; }" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="ILAsm" Value=".property instance string ContentType" />
       <MemberSignature Language="DocId" Value="P:Azure.Messaging.ServiceBus.ServiceBusMessage.ContentType" />
-      <MemberSignature Language="VB.NET" Value="Public Property ContentType As String" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContentType As String" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="F#" Value="member this.ContentType : string with get, set" Usage="Azure.Messaging.ServiceBus.ServiceBusMessage.ContentType" />
+      <MemberSignature Language="C#" Value="public override string ContentType { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property ContentType As String" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
@@ -232,6 +247,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -260,6 +276,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -272,6 +289,35 @@
             for example reflecting the MessageId of a message that is being replied to.
             See <see href="https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messages-payloads?#message-routing-and-correlation">Message Routing and Correlation</see>.
             </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Data">
+      <MemberSignature Language="C#" Value="public override BinaryData Data { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.BinaryData Data" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.ServiceBus.ServiceBusMessage.Data" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property Data As BinaryData" />
+      <MemberSignature Language="F#" Value="member this.Data : BinaryData with get, set" Usage="Azure.Messaging.ServiceBus.ServiceBusMessage.Data" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.BinaryData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Hidden property that shadows the <see cref="P:Azure.Messaging.ServiceBus.ServiceBusMessage.Body" /> property. This is added
+            in order to inherit from <see cref="T:Azure.Messaging.MessageWithMetadata" />.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRawAmqpMessage">
@@ -289,6 +335,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Amqp.AmqpAnnotatedMessage</ReturnType>
@@ -301,6 +348,35 @@
             data that is not exposed as top level properties in the <see cref="T:Azure.Messaging.ServiceBus.ServiceBusMessage" />.
             </summary>
         <returns>The raw Amqp message.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadOnly">
+      <MemberSignature Language="C#" Value="public override bool IsReadOnly { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.ServiceBus.ServiceBusMessage.IsReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsReadOnly As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsReadOnly : bool" Usage="Azure.Messaging.ServiceBus.ServiceBusMessage.IsReadOnly" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Hidden property that indicates that the <see cref="T:Azure.Messaging.ServiceBus.ServiceBusMessage" /> is not read-only. This is part of
+            the <see cref="T:Azure.Messaging.MessageWithMetadata" /> abstraction.
+            </summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -319,6 +395,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -353,6 +430,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -383,6 +461,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -413,6 +492,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -441,6 +521,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -475,6 +556,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -506,6 +588,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -534,6 +617,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -567,6 +651,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -587,7 +672,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Messaging.ServiceBus.ServiceBusMessage.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="serviceBusMessage.ToString " />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="serviceBusMessage.ToString " FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="F#" Value="abstract member ToString : unit -&gt; string&#xA;override this.ToString : unit -&gt; string" Usage="serviceBusMessage.ToString " FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
@@ -597,6 +683,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -622,6 +709,7 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
