@@ -1,0 +1,77 @@
+<Type Name="ApiManagementConfig" FullName="Azure.ResourceManager.AppService.Models.ApiManagementConfig">
+  <TypeSignature Language="C#" Value="public class ApiManagementConfig" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ApiManagementConfig extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppService.Models.ApiManagementConfig" />
+  <TypeSignature Language="VB.NET" Value="Public Class ApiManagementConfig" />
+  <TypeSignature Language="F#" Value="type ApiManagementConfig = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Azure API management (APIM) configuration linked to the app. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ApiManagementConfig ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.Models.ApiManagementConfig.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of ApiManagementConfig. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Apiconfig111">
+      <MemberSignature Language="C#" Value="public string Apiconfig111 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Apiconfig111" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.ApiManagementConfig.Apiconfig111" />
+      <MemberSignature Language="VB.NET" Value="Public Property Apiconfig111 As String" />
+      <MemberSignature Language="F#" Value="member this.Apiconfig111 : string with get, set" Usage="Azure.ResourceManager.AppService.Models.ApiManagementConfig.Apiconfig111" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> this is a fake. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.ApiManagementConfig.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberSignature Language="F#" Value="member this.Id : string with get, set" Usage="Azure.ResourceManager.AppService.Models.ApiManagementConfig.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> APIM-Api Identifier. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
