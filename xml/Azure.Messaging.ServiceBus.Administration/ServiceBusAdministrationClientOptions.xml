@@ -12,6 +12,8 @@
     <AssemblyVersion>7.3.0.0</AssemblyVersion>
     <AssemblyVersion>7.4.0.0</AssemblyVersion>
     <AssemblyVersion>7.5.0.0</AssemblyVersion>
+    <AssemblyVersion>7.5.1.0</AssemblyVersion>
+    <AssemblyVersion>7.6.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.Core.ClientOptions</BaseTypeName>
@@ -40,6 +42,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="version" Type="Azure.Messaging.ServiceBus.Administration.ServiceBusAdministrationClientOptions+ServiceVersion" />
@@ -70,6 +74,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -108,6 +114,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -142,6 +150,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -176,6 +186,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.Administration.ServiceBusAdministrationClientOptions+ServiceVersion</ReturnType>
