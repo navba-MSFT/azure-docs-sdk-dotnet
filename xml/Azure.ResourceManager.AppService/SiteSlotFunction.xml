@@ -1,0 +1,477 @@
+<Type Name="SiteSlotFunction" FullName="Azure.ResourceManager.AppService.SiteSlotFunction">
+  <TypeSignature Language="C#" Value="public class SiteSlotFunction : Azure.ResourceManager.Core.ArmResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SiteSlotFunction extends Azure.ResourceManager.Core.ArmResource" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppService.SiteSlotFunction" />
+  <TypeSignature Language="VB.NET" Value="Public Class SiteSlotFunction&#xA;Inherits ArmResource" />
+  <TypeSignature Language="F#" Value="type SiteSlotFunction = class&#xA;    inherit ArmResource" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.Core.ArmResource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A Class representing a SiteSlotFunction along with the instance operations that can be performed on it. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected SiteSlotFunction ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotFunction.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.AppService.SiteSlotFunction" /> class for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateFunctionSecretSlot">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.AppService.Models.KeyInfo&gt; CreateOrUpdateFunctionSecretSlot (string keyName, Azure.ResourceManager.AppService.Models.KeyInfo key, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.AppService.Models.KeyInfo&gt; CreateOrUpdateFunctionSecretSlot(string keyName, class Azure.ResourceManager.AppService.Models.KeyInfo key, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotFunction.CreateOrUpdateFunctionSecretSlot(System.String,Azure.ResourceManager.AppService.Models.KeyInfo,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateFunctionSecretSlot (keyName As String, key As KeyInfo, Optional cancellationToken As CancellationToken = Nothing) As Response(Of KeyInfo)" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateFunctionSecretSlot : string * Azure.ResourceManager.AppService.Models.KeyInfo * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.Models.KeyInfo&gt;&#xA;override this.CreateOrUpdateFunctionSecretSlot : string * Azure.ResourceManager.AppService.Models.KeyInfo * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.Models.KeyInfo&gt;" Usage="siteSlotFunction.CreateOrUpdateFunctionSecretSlot (keyName, key, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.Models.KeyInfo&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="keyName" Type="System.String" />
+        <Parameter Name="key" Type="Azure.ResourceManager.AppService.Models.KeyInfo" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="keyName"> The name of the key. </param>
+        <param name="key"> The key to create or update. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Add or update a function secret. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="keyName" /> or <paramref name="key" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateFunctionSecretSlotAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.KeyInfo&gt;&gt; CreateOrUpdateFunctionSecretSlotAsync (string keyName, Azure.ResourceManager.AppService.Models.KeyInfo key, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppService.Models.KeyInfo&gt;&gt; CreateOrUpdateFunctionSecretSlotAsync(string keyName, class Azure.ResourceManager.AppService.Models.KeyInfo key, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotFunction.CreateOrUpdateFunctionSecretSlotAsync(System.String,Azure.ResourceManager.AppService.Models.KeyInfo,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateFunctionSecretSlotAsync (keyName As String, key As KeyInfo, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of KeyInfo))" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateFunctionSecretSlotAsync : string * Azure.ResourceManager.AppService.Models.KeyInfo * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.KeyInfo&gt;&gt;&#xA;override this.CreateOrUpdateFunctionSecretSlotAsync : string * Azure.ResourceManager.AppService.Models.KeyInfo * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.KeyInfo&gt;&gt;" Usage="siteSlotFunction.CreateOrUpdateFunctionSecretSlotAsync (keyName, key, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.KeyInfo&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="keyName" Type="System.String" />
+        <Parameter Name="key" Type="Azure.ResourceManager.AppService.Models.KeyInfo" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="keyName"> The name of the key. </param>
+        <param name="key"> The key to create or update. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Add or update a function secret. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="keyName" /> or <paramref name="key" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Data">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.AppService.FunctionEnvelopeData Data { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.AppService.FunctionEnvelopeData Data" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.SiteSlotFunction.Data" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Data As FunctionEnvelopeData" />
+      <MemberSignature Language="F#" Value="member this.Data : Azure.ResourceManager.AppService.FunctionEnvelopeData" Usage="Azure.ResourceManager.AppService.SiteSlotFunction.Data" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.FunctionEnvelopeData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the data representing this Feature. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.InvalidOperationException"> Throws if there is no data loaded in the current instance. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.AppService.Models.WebAppDeleteInstanceFunctionSlotOperation Delete (bool waitForCompletion = true, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.AppService.Models.WebAppDeleteInstanceFunctionSlotOperation Delete(bool waitForCompletion, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotFunction.Delete(System.Boolean,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Delete (Optional waitForCompletion As Boolean = true, Optional cancellationToken As CancellationToken = Nothing) As WebAppDeleteInstanceFunctionSlotOperation" />
+      <MemberSignature Language="F#" Value="abstract member Delete : bool * System.Threading.CancellationToken -&gt; Azure.ResourceManager.AppService.Models.WebAppDeleteInstanceFunctionSlotOperation&#xA;override this.Delete : bool * System.Threading.CancellationToken -&gt; Azure.ResourceManager.AppService.Models.WebAppDeleteInstanceFunctionSlotOperation" Usage="siteSlotFunction.Delete (waitForCompletion, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.Models.WebAppDeleteInstanceFunctionSlotOperation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="waitForCompletion" Type="System.Boolean" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="waitForCompletion"> Waits for the completion of the long running operations. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Delete a function for web site, or a deployment slot. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.WebAppDeleteInstanceFunctionSlotOperation&gt; DeleteAsync (bool waitForCompletion = true, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.AppService.Models.WebAppDeleteInstanceFunctionSlotOperation&gt; DeleteAsync(bool waitForCompletion, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotFunction.DeleteAsync(System.Boolean,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteAsync (Optional waitForCompletion As Boolean = true, Optional cancellationToken As CancellationToken = Nothing) As Task(Of WebAppDeleteInstanceFunctionSlotOperation)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteAsync : bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.WebAppDeleteInstanceFunctionSlotOperation&gt;&#xA;override this.DeleteAsync : bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.WebAppDeleteInstanceFunctionSlotOperation&gt;" Usage="siteSlotFunction.DeleteAsync (waitForCompletion, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.WebAppDeleteInstanceFunctionSlotOperation&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="waitForCompletion" Type="System.Boolean" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="waitForCompletion"> Waits for the completion of the long running operations. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Delete a function for web site, or a deployment slot. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteFunctionSecretSlot">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response DeleteFunctionSecretSlot (string keyName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response DeleteFunctionSecretSlot(string keyName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotFunction.DeleteFunctionSecretSlot(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteFunctionSecretSlot (keyName As String, Optional cancellationToken As CancellationToken = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member DeleteFunctionSecretSlot : string * System.Threading.CancellationToken -&gt; Azure.Response&#xA;override this.DeleteFunctionSecretSlot : string * System.Threading.CancellationToken -&gt; Azure.Response" Usage="siteSlotFunction.DeleteFunctionSecretSlot (keyName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="keyName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="keyName"> The name of the key. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Delete a function secret. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="keyName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteFunctionSecretSlotAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; DeleteFunctionSecretSlotAsync (string keyName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; DeleteFunctionSecretSlotAsync(string keyName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotFunction.DeleteFunctionSecretSlotAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteFunctionSecretSlotAsync (keyName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteFunctionSecretSlotAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.DeleteFunctionSecretSlotAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="siteSlotFunction.DeleteFunctionSecretSlotAsync (keyName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="keyName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="keyName"> The name of the key. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Delete a function secret. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="keyName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotFunction&gt; Get (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.AppService.SiteSlotFunction&gt; Get(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotFunction.Get(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Get (Optional cancellationToken As CancellationToken = Nothing) As Response(Of SiteSlotFunction)" />
+      <MemberSignature Language="F#" Value="abstract member Get : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotFunction&gt;&#xA;override this.Get : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotFunction&gt;" Usage="siteSlotFunction.Get cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotFunction&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get function information by its ID for web site, or a deployment slot. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotFunction&gt;&gt; GetAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppService.SiteSlotFunction&gt;&gt; GetAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotFunction.GetAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of SiteSlotFunction))" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotFunction&gt;&gt;&#xA;override this.GetAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotFunction&gt;&gt;" Usage="siteSlotFunction.GetAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotFunction&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get function information by its ID for web site, or a deployment slot. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvailableLocations">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt; GetAvailableLocations (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.Resources.Models.Location&gt; GetAvailableLocations(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotFunction.GetAvailableLocations(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvailableLocations (Optional cancellationToken As CancellationToken = Nothing) As IEnumerable(Of Location)" />
+      <MemberSignature Language="F#" Value="abstract member GetAvailableLocations : System.Threading.CancellationToken -&gt; seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&#xA;override this.GetAvailableLocations : System.Threading.CancellationToken -&gt; seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;" Usage="siteSlotFunction.GetAvailableLocations cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> A token to allow the caller to cancel the call to the service. The default value is <see cref="P:System.Threading.CancellationToken.None" />. </param>
+        <summary> Lists all available geo-locations. </summary>
+        <returns> A collection of locations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvailableLocationsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt; GetAvailableLocationsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.Resources.Models.Location&gt;&gt; GetAvailableLocationsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotFunction.GetAvailableLocationsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvailableLocationsAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of IEnumerable(Of Location))" />
+      <MemberSignature Language="F#" Value="abstract member GetAvailableLocationsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;&#xA;override this.GetAvailableLocationsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;" Usage="siteSlotFunction.GetAvailableLocationsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> A token to allow the caller to cancel the call to the service. The default value is <see cref="P:System.Threading.CancellationToken.None" />. </param>
+        <summary> Lists all available geo-locations. </summary>
+        <returns> A collection of locations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFunctionKeysSlot">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.AppService.Models.StringDictionary&gt; GetFunctionKeysSlot (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.AppService.Models.StringDictionary&gt; GetFunctionKeysSlot(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotFunction.GetFunctionKeysSlot(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFunctionKeysSlot (Optional cancellationToken As CancellationToken = Nothing) As Response(Of StringDictionary)" />
+      <MemberSignature Language="F#" Value="abstract member GetFunctionKeysSlot : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.Models.StringDictionary&gt;&#xA;override this.GetFunctionKeysSlot : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.Models.StringDictionary&gt;" Usage="siteSlotFunction.GetFunctionKeysSlot cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.Models.StringDictionary&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get function keys for a function in a web site, or a deployment slot. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFunctionKeysSlotAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.StringDictionary&gt;&gt; GetFunctionKeysSlotAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppService.Models.StringDictionary&gt;&gt; GetFunctionKeysSlotAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotFunction.GetFunctionKeysSlotAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFunctionKeysSlotAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of StringDictionary))" />
+      <MemberSignature Language="F#" Value="abstract member GetFunctionKeysSlotAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.StringDictionary&gt;&gt;&#xA;override this.GetFunctionKeysSlotAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.StringDictionary&gt;&gt;" Usage="siteSlotFunction.GetFunctionKeysSlotAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.StringDictionary&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get function keys for a function in a web site, or a deployment slot. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFunctionSecretsSlot">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.AppService.Models.FunctionSecrets&gt; GetFunctionSecretsSlot (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.AppService.Models.FunctionSecrets&gt; GetFunctionSecretsSlot(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotFunction.GetFunctionSecretsSlot(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFunctionSecretsSlot (Optional cancellationToken As CancellationToken = Nothing) As Response(Of FunctionSecrets)" />
+      <MemberSignature Language="F#" Value="abstract member GetFunctionSecretsSlot : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.Models.FunctionSecrets&gt;&#xA;override this.GetFunctionSecretsSlot : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.Models.FunctionSecrets&gt;" Usage="siteSlotFunction.GetFunctionSecretsSlot cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.Models.FunctionSecrets&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get function secrets for a function in a web site, or a deployment slot. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFunctionSecretsSlotAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.FunctionSecrets&gt;&gt; GetFunctionSecretsSlotAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppService.Models.FunctionSecrets&gt;&gt; GetFunctionSecretsSlotAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotFunction.GetFunctionSecretsSlotAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFunctionSecretsSlotAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of FunctionSecrets))" />
+      <MemberSignature Language="F#" Value="abstract member GetFunctionSecretsSlotAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.FunctionSecrets&gt;&gt;&#xA;override this.GetFunctionSecretsSlotAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.FunctionSecrets&gt;&gt;" Usage="siteSlotFunction.GetFunctionSecretsSlotAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.FunctionSecrets&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get function secrets for a function in a web site, or a deployment slot. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasData">
+      <MemberSignature Language="C#" Value="public virtual bool HasData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasData" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.SiteSlotFunction.HasData" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property HasData As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasData : bool" Usage="Azure.ResourceManager.AppService.SiteSlotFunction.HasData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets whether or not the current instance has data. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceType">
+      <MemberSignature Language="C#" Value="public static readonly Azure.ResourceManager.ResourceType ResourceType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Azure.ResourceManager.ResourceType ResourceType" />
+      <MemberSignature Language="DocId" Value="F:Azure.ResourceManager.AppService.SiteSlotFunction.ResourceType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ResourceType As ResourceType " />
+      <MemberSignature Language="F#" Value=" staticval mutable ResourceType : Azure.ResourceManager.ResourceType" Usage="Azure.ResourceManager.AppService.SiteSlotFunction.ResourceType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the resource type for the operations. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidResourceType">
+      <MemberSignature Language="C#" Value="protected override Azure.ResourceManager.ResourceType ValidResourceType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.ResourceType ValidResourceType" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.SiteSlotFunction.ValidResourceType" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property ValidResourceType As ResourceType" />
+      <MemberSignature Language="F#" Value="member this.ValidResourceType : Azure.ResourceManager.ResourceType" Usage="Azure.ResourceManager.AppService.SiteSlotFunction.ValidResourceType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the valid resource type for the operations. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

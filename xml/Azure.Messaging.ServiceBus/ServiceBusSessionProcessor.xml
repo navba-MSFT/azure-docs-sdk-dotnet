@@ -12,6 +12,8 @@
     <AssemblyVersion>7.3.0.0</AssemblyVersion>
     <AssemblyVersion>7.4.0.0</AssemblyVersion>
     <AssemblyVersion>7.5.0.0</AssemblyVersion>
+    <AssemblyVersion>7.5.1.0</AssemblyVersion>
+    <AssemblyVersion>7.6.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -47,6 +49,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -68,6 +72,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="client" Type="Azure.Messaging.ServiceBus.ServiceBusClient" />
@@ -96,6 +102,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="client" Type="Azure.Messaging.ServiceBus.ServiceBusClient" />
@@ -129,6 +137,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -164,6 +174,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -199,6 +211,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
@@ -228,6 +242,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -257,6 +273,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -295,6 +313,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -324,6 +344,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -357,6 +379,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusProcessor</ReturnType>
@@ -385,6 +409,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -414,6 +440,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -444,6 +472,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -474,6 +504,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -503,6 +535,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -528,6 +562,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -559,6 +595,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -590,6 +628,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -621,6 +661,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -653,6 +695,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -683,6 +727,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Func&lt;Azure.Messaging.ServiceBus.ProcessErrorEventArgs,System.Threading.Tasks.Task&gt;</ReturnType>
@@ -713,6 +759,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Func&lt;Azure.Messaging.ServiceBus.ProcessSessionMessageEventArgs,System.Threading.Tasks.Task&gt;</ReturnType>
@@ -742,6 +790,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusReceiveMode</ReturnType>
@@ -770,6 +820,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Func&lt;Azure.Messaging.ServiceBus.ProcessSessionEventArgs,System.Threading.Tasks.Task&gt;</ReturnType>
@@ -800,6 +852,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
@@ -830,6 +884,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Func&lt;Azure.Messaging.ServiceBus.ProcessSessionEventArgs,System.Threading.Tasks.Task&gt;</ReturnType>
@@ -859,6 +915,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -901,6 +959,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -938,6 +998,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -969,6 +1031,8 @@
         <AssemblyVersion>7.3.0.0</AssemblyVersion>
         <AssemblyVersion>7.4.0.0</AssemblyVersion>
         <AssemblyVersion>7.5.0.0</AssemblyVersion>
+        <AssemblyVersion>7.5.1.0</AssemblyVersion>
+        <AssemblyVersion>7.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
