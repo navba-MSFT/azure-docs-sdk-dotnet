@@ -7,11 +7,19 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Runtime.Serialization.DataContract]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataContract&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             Web PubSub service request.
@@ -29,6 +37,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="context" Type="Microsoft.Azure.WebPubSub.Common.WebPubSubConnectionContext" />
@@ -50,8 +60,14 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebPubSub.Common</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.DataMember(Name="connectionContext")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataMember(Name="connectionContext")&gt;]</AttributeName>
+        </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.Text.Json.Serialization.JsonPropertyName("connectionContext")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Text.Json.Serialization.JsonPropertyName("connectionContext")&gt;]</AttributeName>

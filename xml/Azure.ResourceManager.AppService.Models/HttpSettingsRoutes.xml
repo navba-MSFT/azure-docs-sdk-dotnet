@@ -1,0 +1,57 @@
+<Type Name="HttpSettingsRoutes" FullName="Azure.ResourceManager.AppService.Models.HttpSettingsRoutes">
+  <TypeSignature Language="C#" Value="public class HttpSettingsRoutes" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HttpSettingsRoutes extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppService.Models.HttpSettingsRoutes" />
+  <TypeSignature Language="VB.NET" Value="Public Class HttpSettingsRoutes" />
+  <TypeSignature Language="F#" Value="type HttpSettingsRoutes = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> The configuration settings of the paths HTTP requests. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HttpSettingsRoutes ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.Models.HttpSettingsRoutes.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of HttpSettingsRoutes. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApiPrefix">
+      <MemberSignature Language="C#" Value="public string ApiPrefix { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApiPrefix" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.HttpSettingsRoutes.ApiPrefix" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApiPrefix As String" />
+      <MemberSignature Language="F#" Value="member this.ApiPrefix : string with get, set" Usage="Azure.ResourceManager.AppService.Models.HttpSettingsRoutes.ApiPrefix" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The prefix that should precede all the authentication/authorization paths. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
