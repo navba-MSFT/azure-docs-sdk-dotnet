@@ -1,0 +1,445 @@
+<Type Name="ResourceGroupExtensions" FullName="Azure.ResourceManager.AppService.ResourceGroupExtensions">
+  <TypeSignature Language="C#" Value="public static class ResourceGroupExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ResourceGroupExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppService.ResourceGroupExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ResourceGroupExtensions" />
+  <TypeSignature Language="F#" Value="type ResourceGroupExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A class to add extension methods to ResourceGroup. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetAppServiceCertificateOrders">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppService.AppServiceCertificateOrderCollection GetAppServiceCertificateOrders (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppService.AppServiceCertificateOrderCollection GetAppServiceCertificateOrders(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.GetAppServiceCertificateOrders(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAppServiceCertificateOrders (resourceGroup As ResourceGroup) As AppServiceCertificateOrderCollection" />
+      <MemberSignature Language="F#" Value="static member GetAppServiceCertificateOrders : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.AppService.AppServiceCertificateOrderCollection" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.GetAppServiceCertificateOrders resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.AppServiceCertificateOrderCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a AppServiceCertificateOrderCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.AppService.AppServiceCertificateOrderCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAppServiceDomains">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppService.AppServiceDomainCollection GetAppServiceDomains (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppService.AppServiceDomainCollection GetAppServiceDomains(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.GetAppServiceDomains(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAppServiceDomains (resourceGroup As ResourceGroup) As AppServiceDomainCollection" />
+      <MemberSignature Language="F#" Value="static member GetAppServiceDomains : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.AppService.AppServiceDomainCollection" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.GetAppServiceDomains resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.AppServiceDomainCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a AppServiceDomainCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.AppService.AppServiceDomainCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAppServiceEnvironments">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppService.AppServiceEnvironmentCollection GetAppServiceEnvironments (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppService.AppServiceEnvironmentCollection GetAppServiceEnvironments(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.GetAppServiceEnvironments(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAppServiceEnvironments (resourceGroup As ResourceGroup) As AppServiceEnvironmentCollection" />
+      <MemberSignature Language="F#" Value="static member GetAppServiceEnvironments : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.AppService.AppServiceEnvironmentCollection" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.GetAppServiceEnvironments resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.AppServiceEnvironmentCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a AppServiceEnvironmentCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.AppService.AppServiceEnvironmentCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAppServicePlans">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppService.AppServicePlanCollection GetAppServicePlans (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppService.AppServicePlanCollection GetAppServicePlans(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.GetAppServicePlans(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAppServicePlans (resourceGroup As ResourceGroup) As AppServicePlanCollection" />
+      <MemberSignature Language="F#" Value="static member GetAppServicePlans : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.AppService.AppServicePlanCollection" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.GetAppServicePlans resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.AppServicePlanCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a AppServicePlanCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.AppService.AppServicePlanCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCertificates">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppService.CertificateCollection GetCertificates (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppService.CertificateCollection GetCertificates(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.GetCertificates(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetCertificates (resourceGroup As ResourceGroup) As CertificateCollection" />
+      <MemberSignature Language="F#" Value="static member GetCertificates : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.AppService.CertificateCollection" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.GetCertificates resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.CertificateCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a CertificateCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.AppService.CertificateCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetKubeEnvironments">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppService.KubeEnvironmentCollection GetKubeEnvironments (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppService.KubeEnvironmentCollection GetKubeEnvironments(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.GetKubeEnvironments(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetKubeEnvironments (resourceGroup As ResourceGroup) As KubeEnvironmentCollection" />
+      <MemberSignature Language="F#" Value="static member GetKubeEnvironments : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.AppService.KubeEnvironmentCollection" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.GetKubeEnvironments resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.KubeEnvironmentCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a KubeEnvironmentCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.AppService.KubeEnvironmentCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResourceHealthMetadatas">
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.AppService.ResourceHealthMetadataData&gt; GetResourceHealthMetadatas (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.ResourceHealthMetadataData&gt; GetResourceHealthMetadatas(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.GetResourceHealthMetadatas(Azure.ResourceManager.Resources.ResourceGroup,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetResourceHealthMetadatas (resourceGroup As ResourceGroup, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of ResourceHealthMetadataData)" />
+      <MemberSignature Language="F#" Value="static member GetResourceHealthMetadatas : Azure.ResourceManager.Resources.ResourceGroup * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.ResourceHealthMetadataData&gt;" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.GetResourceHealthMetadatas (resourceGroup, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.ResourceHealthMetadataData&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the ResourceHealthMetadataDatas for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResourceHealthMetadatasAsync">
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.ResourceHealthMetadataData&gt; GetResourceHealthMetadatasAsync (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.ResourceHealthMetadataData&gt; GetResourceHealthMetadatasAsync(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.GetResourceHealthMetadatasAsync(Azure.ResourceManager.Resources.ResourceGroup,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetResourceHealthMetadatasAsync (resourceGroup As ResourceGroup, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of ResourceHealthMetadataData)" />
+      <MemberSignature Language="F#" Value="static member GetResourceHealthMetadatasAsync : Azure.ResourceManager.Resources.ResourceGroup * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.ResourceHealthMetadataData&gt;" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.GetResourceHealthMetadatasAsync (resourceGroup, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.ResourceHealthMetadataData&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the ResourceHealthMetadataDatas for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetStaticSiteARMResources">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppService.StaticSiteARMResourceCollection GetStaticSiteARMResources (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppService.StaticSiteARMResourceCollection GetStaticSiteARMResources(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.GetStaticSiteARMResources(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetStaticSiteARMResources (resourceGroup As ResourceGroup) As StaticSiteARMResourceCollection" />
+      <MemberSignature Language="F#" Value="static member GetStaticSiteARMResources : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.AppService.StaticSiteARMResourceCollection" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.GetStaticSiteARMResources resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.StaticSiteARMResourceCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a StaticSiteARMResourceCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.AppService.StaticSiteARMResourceCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWebSites">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppService.WebSiteCollection GetWebSites (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppService.WebSiteCollection GetWebSites(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.GetWebSites(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetWebSites (resourceGroup As ResourceGroup) As WebSiteCollection" />
+      <MemberSignature Language="F#" Value="static member GetWebSites : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.AppService.WebSiteCollection" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.GetWebSites resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.WebSiteCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a WebSiteCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.AppService.WebSiteCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public static Azure.Response Move (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup, Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope moveResourceEnvelope, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response Move(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup, class Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope moveResourceEnvelope, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.Move(Azure.ResourceManager.Resources.ResourceGroup,Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Move (resourceGroup As ResourceGroup, moveResourceEnvelope As CsmMoveResourceEnvelope, Optional cancellationToken As CancellationToken = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="static member Move : Azure.ResourceManager.Resources.ResourceGroup * Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope * System.Threading.CancellationToken -&gt; Azure.Response" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.Move (resourceGroup, moveResourceEnvelope, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+        <Parameter Name="moveResourceEnvelope" Type="Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <param name="moveResourceEnvelope"> Object that represents the resource to move. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Move resources between resource groups. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="moveResourceEnvelope" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&gt; MoveAsync (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup, Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope moveResourceEnvelope, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; MoveAsync(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup, class Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope moveResourceEnvelope, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.MoveAsync(Azure.ResourceManager.Resources.ResourceGroup,Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function MoveAsync (resourceGroup As ResourceGroup, moveResourceEnvelope As CsmMoveResourceEnvelope, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="static member MoveAsync : Azure.ResourceManager.Resources.ResourceGroup * Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.MoveAsync (resourceGroup, moveResourceEnvelope, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+        <Parameter Name="moveResourceEnvelope" Type="Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <param name="moveResourceEnvelope"> Object that represents the resource to move. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Move resources between resource groups. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="moveResourceEnvelope" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.AppService.Models.ValidateResponse&gt; Validate (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup, Azure.ResourceManager.AppService.Models.ValidateRequest validateRequest, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.AppService.Models.ValidateResponse&gt; Validate(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup, class Azure.ResourceManager.AppService.Models.ValidateRequest validateRequest, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.Validate(Azure.ResourceManager.Resources.ResourceGroup,Azure.ResourceManager.AppService.Models.ValidateRequest,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Validate (resourceGroup As ResourceGroup, validateRequest As ValidateRequest, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ValidateResponse)" />
+      <MemberSignature Language="F#" Value="static member Validate : Azure.ResourceManager.Resources.ResourceGroup * Azure.ResourceManager.AppService.Models.ValidateRequest * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.Models.ValidateResponse&gt;" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.Validate (resourceGroup, validateRequest, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.Models.ValidateResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+        <Parameter Name="validateRequest" Type="Azure.ResourceManager.AppService.Models.ValidateRequest" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <param name="validateRequest"> Request with the resources to validate. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Validate if a resource can be created. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="validateRequest" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.ValidateResponse&gt;&gt; ValidateAsync (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup, Azure.ResourceManager.AppService.Models.ValidateRequest validateRequest, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppService.Models.ValidateResponse&gt;&gt; ValidateAsync(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup, class Azure.ResourceManager.AppService.Models.ValidateRequest validateRequest, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.ValidateAsync(Azure.ResourceManager.Resources.ResourceGroup,Azure.ResourceManager.AppService.Models.ValidateRequest,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ValidateAsync (resourceGroup As ResourceGroup, validateRequest As ValidateRequest, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ValidateResponse))" />
+      <MemberSignature Language="F#" Value="static member ValidateAsync : Azure.ResourceManager.Resources.ResourceGroup * Azure.ResourceManager.AppService.Models.ValidateRequest * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.ValidateResponse&gt;&gt;" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.ValidateAsync (resourceGroup, validateRequest, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.ValidateResponse&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+        <Parameter Name="validateRequest" Type="Azure.ResourceManager.AppService.Models.ValidateRequest" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <param name="validateRequest"> Request with the resources to validate. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Validate if a resource can be created. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="validateRequest" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateMove">
+      <MemberSignature Language="C#" Value="public static Azure.Response ValidateMove (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup, Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope moveResourceEnvelope, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response ValidateMove(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup, class Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope moveResourceEnvelope, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.ValidateMove(Azure.ResourceManager.Resources.ResourceGroup,Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ValidateMove (resourceGroup As ResourceGroup, moveResourceEnvelope As CsmMoveResourceEnvelope, Optional cancellationToken As CancellationToken = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="static member ValidateMove : Azure.ResourceManager.Resources.ResourceGroup * Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope * System.Threading.CancellationToken -&gt; Azure.Response" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.ValidateMove (resourceGroup, moveResourceEnvelope, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+        <Parameter Name="moveResourceEnvelope" Type="Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <param name="moveResourceEnvelope"> Object that represents the resource to move. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Validate whether a resource can be moved. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="moveResourceEnvelope" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateMoveAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&gt; ValidateMoveAsync (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup, Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope moveResourceEnvelope, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; ValidateMoveAsync(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup, class Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope moveResourceEnvelope, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.ResourceGroupExtensions.ValidateMoveAsync(Azure.ResourceManager.Resources.ResourceGroup,Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ValidateMoveAsync (resourceGroup As ResourceGroup, moveResourceEnvelope As CsmMoveResourceEnvelope, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="static member ValidateMoveAsync : Azure.ResourceManager.Resources.ResourceGroup * Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="Azure.ResourceManager.AppService.ResourceGroupExtensions.ValidateMoveAsync (resourceGroup, moveResourceEnvelope, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+        <Parameter Name="moveResourceEnvelope" Type="Azure.ResourceManager.AppService.Models.CsmMoveResourceEnvelope" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <param name="moveResourceEnvelope"> Object that represents the resource to move. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Validate whether a resource can be moved. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="moveResourceEnvelope" /> is null. </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
