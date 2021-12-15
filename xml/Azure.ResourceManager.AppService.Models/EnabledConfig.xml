@@ -1,0 +1,57 @@
+<Type Name="EnabledConfig" FullName="Azure.ResourceManager.AppService.Models.EnabledConfig">
+  <TypeSignature Language="C#" Value="public class EnabledConfig" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EnabledConfig extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppService.Models.EnabledConfig" />
+  <TypeSignature Language="VB.NET" Value="Public Class EnabledConfig" />
+  <TypeSignature Language="F#" Value="type EnabledConfig = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Enabled configuration. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EnabledConfig ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.Models.EnabledConfig.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of EnabledConfig. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool? Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Enabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.EnabledConfig.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Enabled : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.AppService.Models.EnabledConfig.Enabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> True if configuration is enabled, false if it is disabled and null if configuration is not set. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

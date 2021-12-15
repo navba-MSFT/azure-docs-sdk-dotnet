@@ -1,0 +1,593 @@
+<Type Name="TenantExtensions" FullName="Azure.ResourceManager.AppService.TenantExtensions">
+  <TypeSignature Language="C#" Value="public static class TenantExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TenantExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppService.TenantExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module TenantExtensions" />
+  <TypeSignature Language="F#" Value="type TenantExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A class to add extension methods to Tenant. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GenerateGithubAccessTokenForAppserviceCLIAsync">
+      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.AppService.Models.AppServiceGithubToken&gt; GenerateGithubAccessTokenForAppserviceCLIAsync (this Azure.ResourceManager.Resources.Tenant tenant, string code, string state, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.AppService.Models.AppServiceGithubToken&gt; GenerateGithubAccessTokenForAppserviceCLIAsync(class Azure.ResourceManager.Resources.Tenant tenant, string code, string state, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GenerateGithubAccessTokenForAppserviceCLIAsync(Azure.ResourceManager.Resources.Tenant,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GenerateGithubAccessTokenForAppserviceCLIAsync (tenant As Tenant, code As String, state As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AppServiceGithubToken)" />
+      <MemberSignature Language="F#" Value="static member GenerateGithubAccessTokenForAppserviceCLIAsync : Azure.ResourceManager.Resources.Tenant * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.Models.AppServiceGithubToken&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GenerateGithubAccessTokenForAppserviceCLIAsync (tenant, code, state, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.Models.AppServiceGithubToken&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="code" Type="System.String" />
+        <Parameter Name="state" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="code"> Code string to exchange for Github Access token. </param>
+        <param name="state"> State string used for verification. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Exchange code for GitHub access token for AppService CLI. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="code" /> or <paramref name="state" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateGithubAccessTokenForAppserviceCLIAsyncAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.AppServiceGithubToken&gt;&gt; GenerateGithubAccessTokenForAppserviceCLIAsyncAsync (this Azure.ResourceManager.Resources.Tenant tenant, string code, string state, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppService.Models.AppServiceGithubToken&gt;&gt; GenerateGithubAccessTokenForAppserviceCLIAsyncAsync(class Azure.ResourceManager.Resources.Tenant tenant, string code, string state, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GenerateGithubAccessTokenForAppserviceCLIAsyncAsync(Azure.ResourceManager.Resources.Tenant,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GenerateGithubAccessTokenForAppserviceCLIAsyncAsync (tenant As Tenant, code As String, state As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AppServiceGithubToken))" />
+      <MemberSignature Language="F#" Value="static member GenerateGithubAccessTokenForAppserviceCLIAsyncAsync : Azure.ResourceManager.Resources.Tenant * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.AppServiceGithubToken&gt;&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GenerateGithubAccessTokenForAppserviceCLIAsyncAsync (tenant, code, state, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.AppServiceGithubToken&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="code" Type="System.String" />
+        <Parameter Name="state" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="code"> Code string to exchange for Github Access token. </param>
+        <param name="state"> State string used for verification. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Exchange code for GitHub access token for AppService CLI. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="code" /> or <paramref name="state" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvailableStacksProviders">
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.ApplicationStackResource&gt; GetAvailableStacksProviders (this Azure.ResourceManager.Resources.Tenant tenant, Azure.ResourceManager.AppService.Models.OsTypeSelected? osTypeSelected = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.ApplicationStackResource&gt; GetAvailableStacksProviders(class Azure.ResourceManager.Resources.Tenant tenant, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.OsTypeSelected&gt; osTypeSelected, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetAvailableStacksProviders(Azure.ResourceManager.Resources.Tenant,System.Nullable{Azure.ResourceManager.AppService.Models.OsTypeSelected},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAvailableStacksProviders (tenant As Tenant, Optional osTypeSelected As Nullable(Of OsTypeSelected) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of ApplicationStackResource)" />
+      <MemberSignature Language="F#" Value="static member GetAvailableStacksProviders : Azure.ResourceManager.Resources.Tenant * Nullable&lt;Azure.ResourceManager.AppService.Models.OsTypeSelected&gt; * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.ApplicationStackResource&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetAvailableStacksProviders (tenant, osTypeSelected, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.ApplicationStackResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="osTypeSelected" Type="System.Nullable&lt;Azure.ResourceManager.AppService.Models.OsTypeSelected&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="osTypeSelected"> The OsTypeSelected to use. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the ApplicationStackResources for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvailableStacksProvidersAsync">
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.ApplicationStackResource&gt; GetAvailableStacksProvidersAsync (this Azure.ResourceManager.Resources.Tenant tenant, Azure.ResourceManager.AppService.Models.OsTypeSelected? osTypeSelected = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.ApplicationStackResource&gt; GetAvailableStacksProvidersAsync(class Azure.ResourceManager.Resources.Tenant tenant, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.OsTypeSelected&gt; osTypeSelected, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetAvailableStacksProvidersAsync(Azure.ResourceManager.Resources.Tenant,System.Nullable{Azure.ResourceManager.AppService.Models.OsTypeSelected},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAvailableStacksProvidersAsync (tenant As Tenant, Optional osTypeSelected As Nullable(Of OsTypeSelected) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of ApplicationStackResource)" />
+      <MemberSignature Language="F#" Value="static member GetAvailableStacksProvidersAsync : Azure.ResourceManager.Resources.Tenant * Nullable&lt;Azure.ResourceManager.AppService.Models.OsTypeSelected&gt; * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.ApplicationStackResource&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetAvailableStacksProvidersAsync (tenant, osTypeSelected, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.ApplicationStackResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="osTypeSelected" Type="System.Nullable&lt;Azure.ResourceManager.AppService.Models.OsTypeSelected&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="osTypeSelected"> The OsTypeSelected to use. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the ApplicationStackResources for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFunctionAppStacksForLocationProviders">
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.FunctionAppStack&gt; GetFunctionAppStacksForLocationProviders (this Azure.ResourceManager.Resources.Tenant tenant, string location, Azure.ResourceManager.AppService.Models.Enum11? stackOsType = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.FunctionAppStack&gt; GetFunctionAppStacksForLocationProviders(class Azure.ResourceManager.Resources.Tenant tenant, string location, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.Enum11&gt; stackOsType, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetFunctionAppStacksForLocationProviders(Azure.ResourceManager.Resources.Tenant,System.String,System.Nullable{Azure.ResourceManager.AppService.Models.Enum11},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFunctionAppStacksForLocationProviders (tenant As Tenant, location As String, Optional stackOsType As Nullable(Of Enum11) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of FunctionAppStack)" />
+      <MemberSignature Language="F#" Value="static member GetFunctionAppStacksForLocationProviders : Azure.ResourceManager.Resources.Tenant * string * Nullable&lt;Azure.ResourceManager.AppService.Models.Enum11&gt; * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.FunctionAppStack&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetFunctionAppStacksForLocationProviders (tenant, location, stackOsType, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.FunctionAppStack&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="location" Type="System.String" />
+        <Parameter Name="stackOsType" Type="System.Nullable&lt;Azure.ResourceManager.AppService.Models.Enum11&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="location"> Function App stack location. </param>
+        <param name="stackOsType"> Stack OS Type. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the FunctionAppStacks for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="location" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFunctionAppStacksForLocationProvidersAsync">
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.FunctionAppStack&gt; GetFunctionAppStacksForLocationProvidersAsync (this Azure.ResourceManager.Resources.Tenant tenant, string location, Azure.ResourceManager.AppService.Models.Enum11? stackOsType = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.FunctionAppStack&gt; GetFunctionAppStacksForLocationProvidersAsync(class Azure.ResourceManager.Resources.Tenant tenant, string location, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.Enum11&gt; stackOsType, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetFunctionAppStacksForLocationProvidersAsync(Azure.ResourceManager.Resources.Tenant,System.String,System.Nullable{Azure.ResourceManager.AppService.Models.Enum11},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFunctionAppStacksForLocationProvidersAsync (tenant As Tenant, location As String, Optional stackOsType As Nullable(Of Enum11) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of FunctionAppStack)" />
+      <MemberSignature Language="F#" Value="static member GetFunctionAppStacksForLocationProvidersAsync : Azure.ResourceManager.Resources.Tenant * string * Nullable&lt;Azure.ResourceManager.AppService.Models.Enum11&gt; * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.FunctionAppStack&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetFunctionAppStacksForLocationProvidersAsync (tenant, location, stackOsType, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.FunctionAppStack&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="location" Type="System.String" />
+        <Parameter Name="stackOsType" Type="System.Nullable&lt;Azure.ResourceManager.AppService.Models.Enum11&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="location"> Function App stack location. </param>
+        <param name="stackOsType"> Stack OS Type. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the FunctionAppStacks for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="location" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFunctionAppStacksProviders">
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.FunctionAppStack&gt; GetFunctionAppStacksProviders (this Azure.ResourceManager.Resources.Tenant tenant, Azure.ResourceManager.AppService.Models.Enum9? stackOsType = default, Azure.ResourceManager.AppService.Models.StackOsType? stackOsType1 = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.FunctionAppStack&gt; GetFunctionAppStacksProviders(class Azure.ResourceManager.Resources.Tenant tenant, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.Enum9&gt; stackOsType, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.StackOsType&gt; stackOsType1, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetFunctionAppStacksProviders(Azure.ResourceManager.Resources.Tenant,System.Nullable{Azure.ResourceManager.AppService.Models.Enum9},System.Nullable{Azure.ResourceManager.AppService.Models.StackOsType},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFunctionAppStacksProviders (tenant As Tenant, Optional stackOsType As Nullable(Of Enum9) = Nothing, Optional stackOsType1 As Nullable(Of StackOsType) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of FunctionAppStack)" />
+      <MemberSignature Language="F#" Value="static member GetFunctionAppStacksProviders : Azure.ResourceManager.Resources.Tenant * Nullable&lt;Azure.ResourceManager.AppService.Models.Enum9&gt; * Nullable&lt;Azure.ResourceManager.AppService.Models.StackOsType&gt; * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.FunctionAppStack&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetFunctionAppStacksProviders (tenant, stackOsType, stackOsType1, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.FunctionAppStack&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="stackOsType" Type="System.Nullable&lt;Azure.ResourceManager.AppService.Models.Enum9&gt;" />
+        <Parameter Name="stackOsType1" Type="System.Nullable&lt;Azure.ResourceManager.AppService.Models.StackOsType&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="stackOsType"> Stack OS Type. </param>
+        <param name="stackOsType1"> Stack OS Type. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the FunctionAppStacks for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFunctionAppStacksProvidersAsync">
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.FunctionAppStack&gt; GetFunctionAppStacksProvidersAsync (this Azure.ResourceManager.Resources.Tenant tenant, Azure.ResourceManager.AppService.Models.Enum9? stackOsType = default, Azure.ResourceManager.AppService.Models.StackOsType? stackOsType1 = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.FunctionAppStack&gt; GetFunctionAppStacksProvidersAsync(class Azure.ResourceManager.Resources.Tenant tenant, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.Enum9&gt; stackOsType, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.StackOsType&gt; stackOsType1, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetFunctionAppStacksProvidersAsync(Azure.ResourceManager.Resources.Tenant,System.Nullable{Azure.ResourceManager.AppService.Models.Enum9},System.Nullable{Azure.ResourceManager.AppService.Models.StackOsType},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFunctionAppStacksProvidersAsync (tenant As Tenant, Optional stackOsType As Nullable(Of Enum9) = Nothing, Optional stackOsType1 As Nullable(Of StackOsType) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of FunctionAppStack)" />
+      <MemberSignature Language="F#" Value="static member GetFunctionAppStacksProvidersAsync : Azure.ResourceManager.Resources.Tenant * Nullable&lt;Azure.ResourceManager.AppService.Models.Enum9&gt; * Nullable&lt;Azure.ResourceManager.AppService.Models.StackOsType&gt; * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.FunctionAppStack&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetFunctionAppStacksProvidersAsync (tenant, stackOsType, stackOsType1, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.FunctionAppStack&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="stackOsType" Type="System.Nullable&lt;Azure.ResourceManager.AppService.Models.Enum9&gt;" />
+        <Parameter Name="stackOsType1" Type="System.Nullable&lt;Azure.ResourceManager.AppService.Models.StackOsType&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="stackOsType"> Stack OS Type. </param>
+        <param name="stackOsType1"> Stack OS Type. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the FunctionAppStacks for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOperationsCertificateRegistrationProviders">
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt; GetOperationsCertificateRegistrationProviders (this Azure.ResourceManager.Resources.Tenant tenant, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt; GetOperationsCertificateRegistrationProviders(class Azure.ResourceManager.Resources.Tenant tenant, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetOperationsCertificateRegistrationProviders(Azure.ResourceManager.Resources.Tenant,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetOperationsCertificateRegistrationProviders (tenant As Tenant, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of CsmOperationDescription)" />
+      <MemberSignature Language="F#" Value="static member GetOperationsCertificateRegistrationProviders : Azure.ResourceManager.Resources.Tenant * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetOperationsCertificateRegistrationProviders (tenant, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the CsmOperationDescriptions for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOperationsCertificateRegistrationProvidersAsync">
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt; GetOperationsCertificateRegistrationProvidersAsync (this Azure.ResourceManager.Resources.Tenant tenant, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt; GetOperationsCertificateRegistrationProvidersAsync(class Azure.ResourceManager.Resources.Tenant tenant, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetOperationsCertificateRegistrationProvidersAsync(Azure.ResourceManager.Resources.Tenant,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetOperationsCertificateRegistrationProvidersAsync (tenant As Tenant, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of CsmOperationDescription)" />
+      <MemberSignature Language="F#" Value="static member GetOperationsCertificateRegistrationProvidersAsync : Azure.ResourceManager.Resources.Tenant * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetOperationsCertificateRegistrationProvidersAsync (tenant, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the CsmOperationDescriptions for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOperationsDomainRegistrationProviders">
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt; GetOperationsDomainRegistrationProviders (this Azure.ResourceManager.Resources.Tenant tenant, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt; GetOperationsDomainRegistrationProviders(class Azure.ResourceManager.Resources.Tenant tenant, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetOperationsDomainRegistrationProviders(Azure.ResourceManager.Resources.Tenant,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetOperationsDomainRegistrationProviders (tenant As Tenant, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of CsmOperationDescription)" />
+      <MemberSignature Language="F#" Value="static member GetOperationsDomainRegistrationProviders : Azure.ResourceManager.Resources.Tenant * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetOperationsDomainRegistrationProviders (tenant, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the CsmOperationDescriptions for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOperationsDomainRegistrationProvidersAsync">
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt; GetOperationsDomainRegistrationProvidersAsync (this Azure.ResourceManager.Resources.Tenant tenant, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt; GetOperationsDomainRegistrationProvidersAsync(class Azure.ResourceManager.Resources.Tenant tenant, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetOperationsDomainRegistrationProvidersAsync(Azure.ResourceManager.Resources.Tenant,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetOperationsDomainRegistrationProvidersAsync (tenant As Tenant, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of CsmOperationDescription)" />
+      <MemberSignature Language="F#" Value="static member GetOperationsDomainRegistrationProvidersAsync : Azure.ResourceManager.Resources.Tenant * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetOperationsDomainRegistrationProvidersAsync (tenant, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the CsmOperationDescriptions for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOperationsProviders">
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt; GetOperationsProviders (this Azure.ResourceManager.Resources.Tenant tenant, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt; GetOperationsProviders(class Azure.ResourceManager.Resources.Tenant tenant, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetOperationsProviders(Azure.ResourceManager.Resources.Tenant,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetOperationsProviders (tenant As Tenant, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of CsmOperationDescription)" />
+      <MemberSignature Language="F#" Value="static member GetOperationsProviders : Azure.ResourceManager.Resources.Tenant * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetOperationsProviders (tenant, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the CsmOperationDescriptions for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOperationsProvidersAsync">
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt; GetOperationsProvidersAsync (this Azure.ResourceManager.Resources.Tenant tenant, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt; GetOperationsProvidersAsync(class Azure.ResourceManager.Resources.Tenant tenant, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetOperationsProvidersAsync(Azure.ResourceManager.Resources.Tenant,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetOperationsProvidersAsync (tenant As Tenant, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of CsmOperationDescription)" />
+      <MemberSignature Language="F#" Value="static member GetOperationsProvidersAsync : Azure.ResourceManager.Resources.Tenant * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetOperationsProvidersAsync (tenant, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.CsmOperationDescription&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the CsmOperationDescriptions for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSourceControls">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppService.SourceControlCollection GetSourceControls (this Azure.ResourceManager.Resources.Tenant tenant);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppService.SourceControlCollection GetSourceControls(class Azure.ResourceManager.Resources.Tenant tenant) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetSourceControls(Azure.ResourceManager.Resources.Tenant)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetSourceControls (tenant As Tenant) As SourceControlCollection" />
+      <MemberSignature Language="F#" Value="static member GetSourceControls : Azure.ResourceManager.Resources.Tenant -&gt; Azure.ResourceManager.AppService.SourceControlCollection" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetSourceControls tenant" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.SourceControlCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a SourceControlCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.AppService.SourceControlCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUser">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AppService.User GetUser (this Azure.ResourceManager.Resources.Tenant tenant);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.AppService.User GetUser(class Azure.ResourceManager.Resources.Tenant tenant) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetUser(Azure.ResourceManager.Resources.Tenant)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetUser (tenant As Tenant) As User" />
+      <MemberSignature Language="F#" Value="static member GetUser : Azure.ResourceManager.Resources.Tenant -&gt; Azure.ResourceManager.AppService.User" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetUser tenant" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.User</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a User along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.AppService.User" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWebAppStacksForLocationProviders">
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.WebAppStack&gt; GetWebAppStacksForLocationProviders (this Azure.ResourceManager.Resources.Tenant tenant, string location, Azure.ResourceManager.AppService.Models.Enum12? stackOsType = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.WebAppStack&gt; GetWebAppStacksForLocationProviders(class Azure.ResourceManager.Resources.Tenant tenant, string location, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.Enum12&gt; stackOsType, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetWebAppStacksForLocationProviders(Azure.ResourceManager.Resources.Tenant,System.String,System.Nullable{Azure.ResourceManager.AppService.Models.Enum12},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetWebAppStacksForLocationProviders (tenant As Tenant, location As String, Optional stackOsType As Nullable(Of Enum12) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of WebAppStack)" />
+      <MemberSignature Language="F#" Value="static member GetWebAppStacksForLocationProviders : Azure.ResourceManager.Resources.Tenant * string * Nullable&lt;Azure.ResourceManager.AppService.Models.Enum12&gt; * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.WebAppStack&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetWebAppStacksForLocationProviders (tenant, location, stackOsType, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.WebAppStack&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="location" Type="System.String" />
+        <Parameter Name="stackOsType" Type="System.Nullable&lt;Azure.ResourceManager.AppService.Models.Enum12&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="location"> Web App stack location. </param>
+        <param name="stackOsType"> Stack OS Type. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the WebAppStacks for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="location" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWebAppStacksForLocationProvidersAsync">
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.WebAppStack&gt; GetWebAppStacksForLocationProvidersAsync (this Azure.ResourceManager.Resources.Tenant tenant, string location, Azure.ResourceManager.AppService.Models.Enum12? stackOsType = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.WebAppStack&gt; GetWebAppStacksForLocationProvidersAsync(class Azure.ResourceManager.Resources.Tenant tenant, string location, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.Enum12&gt; stackOsType, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetWebAppStacksForLocationProvidersAsync(Azure.ResourceManager.Resources.Tenant,System.String,System.Nullable{Azure.ResourceManager.AppService.Models.Enum12},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetWebAppStacksForLocationProvidersAsync (tenant As Tenant, location As String, Optional stackOsType As Nullable(Of Enum12) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of WebAppStack)" />
+      <MemberSignature Language="F#" Value="static member GetWebAppStacksForLocationProvidersAsync : Azure.ResourceManager.Resources.Tenant * string * Nullable&lt;Azure.ResourceManager.AppService.Models.Enum12&gt; * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.WebAppStack&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetWebAppStacksForLocationProvidersAsync (tenant, location, stackOsType, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.WebAppStack&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="location" Type="System.String" />
+        <Parameter Name="stackOsType" Type="System.Nullable&lt;Azure.ResourceManager.AppService.Models.Enum12&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="location"> Web App stack location. </param>
+        <param name="stackOsType"> Stack OS Type. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the WebAppStacks for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="location" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWebAppStacksProviders">
+      <MemberSignature Language="C#" Value="public static Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.WebAppStack&gt; GetWebAppStacksProviders (this Azure.ResourceManager.Resources.Tenant tenant, Azure.ResourceManager.AppService.Models.Enum13? stackOsType = default, Azure.ResourceManager.AppService.Models.StackOsType? stackOsType1 = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.WebAppStack&gt; GetWebAppStacksProviders(class Azure.ResourceManager.Resources.Tenant tenant, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.Enum13&gt; stackOsType, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.StackOsType&gt; stackOsType1, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetWebAppStacksProviders(Azure.ResourceManager.Resources.Tenant,System.Nullable{Azure.ResourceManager.AppService.Models.Enum13},System.Nullable{Azure.ResourceManager.AppService.Models.StackOsType},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetWebAppStacksProviders (tenant As Tenant, Optional stackOsType As Nullable(Of Enum13) = Nothing, Optional stackOsType1 As Nullable(Of StackOsType) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of WebAppStack)" />
+      <MemberSignature Language="F#" Value="static member GetWebAppStacksProviders : Azure.ResourceManager.Resources.Tenant * Nullable&lt;Azure.ResourceManager.AppService.Models.Enum13&gt; * Nullable&lt;Azure.ResourceManager.AppService.Models.StackOsType&gt; * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.WebAppStack&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetWebAppStacksProviders (tenant, stackOsType, stackOsType1, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.WebAppStack&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="stackOsType" Type="System.Nullable&lt;Azure.ResourceManager.AppService.Models.Enum13&gt;" />
+        <Parameter Name="stackOsType1" Type="System.Nullable&lt;Azure.ResourceManager.AppService.Models.StackOsType&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="stackOsType"> Stack OS Type. </param>
+        <param name="stackOsType1"> Stack OS Type. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the WebAppStacks for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWebAppStacksProvidersAsync">
+      <MemberSignature Language="C#" Value="public static Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.WebAppStack&gt; GetWebAppStacksProvidersAsync (this Azure.ResourceManager.Resources.Tenant tenant, Azure.ResourceManager.AppService.Models.Enum13? stackOsType = default, Azure.ResourceManager.AppService.Models.StackOsType? stackOsType1 = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.WebAppStack&gt; GetWebAppStacksProvidersAsync(class Azure.ResourceManager.Resources.Tenant tenant, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.Enum13&gt; stackOsType, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.StackOsType&gt; stackOsType1, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TenantExtensions.GetWebAppStacksProvidersAsync(Azure.ResourceManager.Resources.Tenant,System.Nullable{Azure.ResourceManager.AppService.Models.Enum13},System.Nullable{Azure.ResourceManager.AppService.Models.StackOsType},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetWebAppStacksProvidersAsync (tenant As Tenant, Optional stackOsType As Nullable(Of Enum13) = Nothing, Optional stackOsType1 As Nullable(Of StackOsType) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of WebAppStack)" />
+      <MemberSignature Language="F#" Value="static member GetWebAppStacksProvidersAsync : Azure.ResourceManager.Resources.Tenant * Nullable&lt;Azure.ResourceManager.AppService.Models.Enum13&gt; * Nullable&lt;Azure.ResourceManager.AppService.Models.StackOsType&gt; * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.WebAppStack&gt;" Usage="Azure.ResourceManager.AppService.TenantExtensions.GetWebAppStacksProvidersAsync (tenant, stackOsType, stackOsType1, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.WebAppStack&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tenant" Type="Azure.ResourceManager.Resources.Tenant" RefType="this" />
+        <Parameter Name="stackOsType" Type="System.Nullable&lt;Azure.ResourceManager.AppService.Models.Enum13&gt;" />
+        <Parameter Name="stackOsType1" Type="System.Nullable&lt;Azure.ResourceManager.AppService.Models.StackOsType&gt;" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="tenant"> The <see cref="T:Azure.ResourceManager.Resources.Tenant" /> instance the method will execute against. </param>
+        <param name="stackOsType"> Stack OS Type. </param>
+        <param name="stackOsType1"> Stack OS Type. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Lists the WebAppStacks for this <see cref="T:Azure.ResourceManager.Resources.Tenant" />. </summary>
+        <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
