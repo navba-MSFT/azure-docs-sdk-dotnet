@@ -33,6 +33,66 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="CreateOrUpdate">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Sql.Models.DataMaskingPolicyCreateOrUpdateOperation CreateOrUpdate (Azure.ResourceManager.Sql.DataMaskingPolicyData parameters, bool waitForCompletion = true, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Sql.Models.DataMaskingPolicyCreateOrUpdateOperation CreateOrUpdate(class Azure.ResourceManager.Sql.DataMaskingPolicyData parameters, bool waitForCompletion, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.DataMaskingPolicy.CreateOrUpdate(Azure.ResourceManager.Sql.DataMaskingPolicyData,System.Boolean,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdate (parameters As DataMaskingPolicyData, Optional waitForCompletion As Boolean = true, Optional cancellationToken As CancellationToken = Nothing) As DataMaskingPolicyCreateOrUpdateOperation" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdate : Azure.ResourceManager.Sql.DataMaskingPolicyData * bool * System.Threading.CancellationToken -&gt; Azure.ResourceManager.Sql.Models.DataMaskingPolicyCreateOrUpdateOperation&#xA;override this.CreateOrUpdate : Azure.ResourceManager.Sql.DataMaskingPolicyData * bool * System.Threading.CancellationToken -&gt; Azure.ResourceManager.Sql.Models.DataMaskingPolicyCreateOrUpdateOperation" Usage="dataMaskingPolicy.CreateOrUpdate (parameters, waitForCompletion, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Sql.Models.DataMaskingPolicyCreateOrUpdateOperation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parameters" Type="Azure.ResourceManager.Sql.DataMaskingPolicyData" />
+        <Parameter Name="waitForCompletion" Type="System.Boolean" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="parameters"> Parameters for creating or updating a data masking policy. </param>
+        <param name="waitForCompletion"> Waits for the completion of the long running operations. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Creates or updates a database data masking policy. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="parameters" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.Sql.Models.DataMaskingPolicyCreateOrUpdateOperation&gt; CreateOrUpdateAsync (Azure.ResourceManager.Sql.DataMaskingPolicyData parameters, bool waitForCompletion = true, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.Sql.Models.DataMaskingPolicyCreateOrUpdateOperation&gt; CreateOrUpdateAsync(class Azure.ResourceManager.Sql.DataMaskingPolicyData parameters, bool waitForCompletion, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.DataMaskingPolicy.CreateOrUpdateAsync(Azure.ResourceManager.Sql.DataMaskingPolicyData,System.Boolean,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateAsync (parameters As DataMaskingPolicyData, Optional waitForCompletion As Boolean = true, Optional cancellationToken As CancellationToken = Nothing) As Task(Of DataMaskingPolicyCreateOrUpdateOperation)" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateAsync : Azure.ResourceManager.Sql.DataMaskingPolicyData * bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.Sql.Models.DataMaskingPolicyCreateOrUpdateOperation&gt;&#xA;override this.CreateOrUpdateAsync : Azure.ResourceManager.Sql.DataMaskingPolicyData * bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.Sql.Models.DataMaskingPolicyCreateOrUpdateOperation&gt;" Usage="dataMaskingPolicy.CreateOrUpdateAsync (parameters, waitForCompletion, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.Sql.Models.DataMaskingPolicyCreateOrUpdateOperation&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parameters" Type="Azure.ResourceManager.Sql.DataMaskingPolicyData" />
+        <Parameter Name="waitForCompletion" Type="System.Boolean" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="parameters"> Parameters for creating or updating a data masking policy. </param>
+        <param name="waitForCompletion"> Waits for the completion of the long running operations. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Creates or updates a database data masking policy. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="parameters" /> is null. </exception>
+      </Docs>
+    </Member>
     <Member MemberName="CreateOrUpdateDataMaskingRule">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Sql.Models.DataMaskingRule&gt; CreateOrUpdateDataMaskingRule (string dataMaskingRuleName, Azure.ResourceManager.Sql.Models.DataMaskingRule parameters, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Sql.Models.DataMaskingRule&gt; CreateOrUpdateDataMaskingRule(string dataMaskingRuleName, class Azure.ResourceManager.Sql.Models.DataMaskingRule parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -274,6 +334,26 @@
       </ReturnValue>
       <Docs>
         <summary> Gets whether or not the current instance has data. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Core.ArmResource Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Core.ArmResource Parent" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Sql.DataMaskingPolicy.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As ArmResource" />
+      <MemberSignature Language="F#" Value="member this.Parent : Azure.ResourceManager.Core.ArmResource" Usage="Azure.ResourceManager.Sql.DataMaskingPolicy.Parent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Core.ArmResource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the parent resource of this resource. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

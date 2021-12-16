@@ -1,0 +1,265 @@
+<Type Name="SiteSlotHostNameBinding" FullName="Azure.ResourceManager.AppService.SiteSlotHostNameBinding">
+  <TypeSignature Language="C#" Value="public class SiteSlotHostNameBinding : Azure.ResourceManager.Core.ArmResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SiteSlotHostNameBinding extends Azure.ResourceManager.Core.ArmResource" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppService.SiteSlotHostNameBinding" />
+  <TypeSignature Language="VB.NET" Value="Public Class SiteSlotHostNameBinding&#xA;Inherits ArmResource" />
+  <TypeSignature Language="F#" Value="type SiteSlotHostNameBinding = class&#xA;    inherit ArmResource" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.Core.ArmResource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A Class representing a SiteSlotHostNameBinding along with the instance operations that can be performed on it. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected SiteSlotHostNameBinding ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHostNameBinding.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.AppService.SiteSlotHostNameBinding" /> class for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Data">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.AppService.HostNameBindingData Data { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.AppService.HostNameBindingData Data" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.SiteSlotHostNameBinding.Data" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Data As HostNameBindingData" />
+      <MemberSignature Language="F#" Value="member this.Data : Azure.ResourceManager.AppService.HostNameBindingData" Usage="Azure.ResourceManager.AppService.SiteSlotHostNameBinding.Data" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.HostNameBindingData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the data representing this Feature. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.InvalidOperationException"> Throws if there is no data loaded in the current instance. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.AppService.Models.WebAppDeleteHostNameBindingSlotOperation Delete (bool waitForCompletion = true, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.AppService.Models.WebAppDeleteHostNameBindingSlotOperation Delete(bool waitForCompletion, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHostNameBinding.Delete(System.Boolean,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Delete (Optional waitForCompletion As Boolean = true, Optional cancellationToken As CancellationToken = Nothing) As WebAppDeleteHostNameBindingSlotOperation" />
+      <MemberSignature Language="F#" Value="abstract member Delete : bool * System.Threading.CancellationToken -&gt; Azure.ResourceManager.AppService.Models.WebAppDeleteHostNameBindingSlotOperation&#xA;override this.Delete : bool * System.Threading.CancellationToken -&gt; Azure.ResourceManager.AppService.Models.WebAppDeleteHostNameBindingSlotOperation" Usage="siteSlotHostNameBinding.Delete (waitForCompletion, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.Models.WebAppDeleteHostNameBindingSlotOperation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="waitForCompletion" Type="System.Boolean" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="waitForCompletion"> Waits for the completion of the long running operations. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Deletes a hostname binding for an app. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.WebAppDeleteHostNameBindingSlotOperation&gt; DeleteAsync (bool waitForCompletion = true, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.AppService.Models.WebAppDeleteHostNameBindingSlotOperation&gt; DeleteAsync(bool waitForCompletion, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHostNameBinding.DeleteAsync(System.Boolean,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteAsync (Optional waitForCompletion As Boolean = true, Optional cancellationToken As CancellationToken = Nothing) As Task(Of WebAppDeleteHostNameBindingSlotOperation)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteAsync : bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.WebAppDeleteHostNameBindingSlotOperation&gt;&#xA;override this.DeleteAsync : bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.WebAppDeleteHostNameBindingSlotOperation&gt;" Usage="siteSlotHostNameBinding.DeleteAsync (waitForCompletion, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.WebAppDeleteHostNameBindingSlotOperation&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="waitForCompletion" Type="System.Boolean" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="waitForCompletion"> Waits for the completion of the long running operations. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Deletes a hostname binding for an app. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHostNameBinding&gt; Get (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.AppService.SiteSlotHostNameBinding&gt; Get(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHostNameBinding.Get(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Get (Optional cancellationToken As CancellationToken = Nothing) As Response(Of SiteSlotHostNameBinding)" />
+      <MemberSignature Language="F#" Value="abstract member Get : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHostNameBinding&gt;&#xA;override this.Get : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHostNameBinding&gt;" Usage="siteSlotHostNameBinding.Get cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHostNameBinding&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get the named hostname binding for an app (or deployment slot, if specified). </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHostNameBinding&gt;&gt; GetAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppService.SiteSlotHostNameBinding&gt;&gt; GetAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHostNameBinding.GetAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of SiteSlotHostNameBinding))" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHostNameBinding&gt;&gt;&#xA;override this.GetAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHostNameBinding&gt;&gt;" Usage="siteSlotHostNameBinding.GetAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHostNameBinding&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get the named hostname binding for an app (or deployment slot, if specified). </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvailableLocations">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt; GetAvailableLocations (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.Resources.Models.Location&gt; GetAvailableLocations(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHostNameBinding.GetAvailableLocations(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvailableLocations (Optional cancellationToken As CancellationToken = Nothing) As IEnumerable(Of Location)" />
+      <MemberSignature Language="F#" Value="abstract member GetAvailableLocations : System.Threading.CancellationToken -&gt; seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&#xA;override this.GetAvailableLocations : System.Threading.CancellationToken -&gt; seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;" Usage="siteSlotHostNameBinding.GetAvailableLocations cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> A token to allow the caller to cancel the call to the service. The default value is <see cref="P:System.Threading.CancellationToken.None" />. </param>
+        <summary> Lists all available geo-locations. </summary>
+        <returns> A collection of locations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvailableLocationsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt; GetAvailableLocationsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.Resources.Models.Location&gt;&gt; GetAvailableLocationsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHostNameBinding.GetAvailableLocationsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvailableLocationsAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of IEnumerable(Of Location))" />
+      <MemberSignature Language="F#" Value="abstract member GetAvailableLocationsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;&#xA;override this.GetAvailableLocationsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;" Usage="siteSlotHostNameBinding.GetAvailableLocationsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> A token to allow the caller to cancel the call to the service. The default value is <see cref="P:System.Threading.CancellationToken.None" />. </param>
+        <summary> Lists all available geo-locations. </summary>
+        <returns> A collection of locations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasData">
+      <MemberSignature Language="C#" Value="public virtual bool HasData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasData" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.SiteSlotHostNameBinding.HasData" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property HasData As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasData : bool" Usage="Azure.ResourceManager.AppService.SiteSlotHostNameBinding.HasData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets whether or not the current instance has data. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceType">
+      <MemberSignature Language="C#" Value="public static readonly Azure.ResourceManager.ResourceType ResourceType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Azure.ResourceManager.ResourceType ResourceType" />
+      <MemberSignature Language="DocId" Value="F:Azure.ResourceManager.AppService.SiteSlotHostNameBinding.ResourceType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ResourceType As ResourceType " />
+      <MemberSignature Language="F#" Value=" staticval mutable ResourceType : Azure.ResourceManager.ResourceType" Usage="Azure.ResourceManager.AppService.SiteSlotHostNameBinding.ResourceType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the resource type for the operations. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidResourceType">
+      <MemberSignature Language="C#" Value="protected override Azure.ResourceManager.ResourceType ValidResourceType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.ResourceType ValidResourceType" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.SiteSlotHostNameBinding.ValidResourceType" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property ValidResourceType As ResourceType" />
+      <MemberSignature Language="F#" Value="member this.ValidResourceType : Azure.ResourceManager.ResourceType" Usage="Azure.ResourceManager.AppService.SiteSlotHostNameBinding.ValidResourceType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the valid resource type for the operations. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
