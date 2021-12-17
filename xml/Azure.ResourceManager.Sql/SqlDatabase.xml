@@ -906,24 +906,24 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetDataMaskingPolicies">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.DataMaskingPolicyCollection GetDataMaskingPolicies ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.Sql.DataMaskingPolicyCollection GetDataMaskingPolicies() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.SqlDatabase.GetDataMaskingPolicies" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetDataMaskingPolicies () As DataMaskingPolicyCollection" />
-      <MemberSignature Language="F#" Value="member this.GetDataMaskingPolicies : unit -&gt; Azure.ResourceManager.Sql.DataMaskingPolicyCollection" Usage="sqlDatabase.GetDataMaskingPolicies " />
+    <Member MemberName="GetDataMaskingPolicy">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.DataMaskingPolicy GetDataMaskingPolicy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.Sql.DataMaskingPolicy GetDataMaskingPolicy() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.SqlDatabase.GetDataMaskingPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetDataMaskingPolicy () As DataMaskingPolicy" />
+      <MemberSignature Language="F#" Value="member this.GetDataMaskingPolicy : unit -&gt; Azure.ResourceManager.Sql.DataMaskingPolicy" Usage="sqlDatabase.GetDataMaskingPolicy " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Sql.DataMaskingPolicyCollection</ReturnType>
+        <ReturnType>Azure.ResourceManager.Sql.DataMaskingPolicy</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary> Gets a collection of DataMaskingPolicies in the SqlDatabase. </summary>
-        <returns> An object representing collection of DataMaskingPolicies and their operations over a SqlDatabase. </returns>
+        <summary> Gets an object representing a DataMaskingPolicy along with the instance operations that can be performed on it in the SqlDatabase. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.Sql.DataMaskingPolicy" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

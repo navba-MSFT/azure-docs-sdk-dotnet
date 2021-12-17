@@ -1,0 +1,1267 @@
+<Type Name="AppServiceEnvironment" FullName="Azure.ResourceManager.AppService.AppServiceEnvironment">
+  <TypeSignature Language="C#" Value="public class AppServiceEnvironment : Azure.ResourceManager.Core.ArmResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AppServiceEnvironment extends Azure.ResourceManager.Core.ArmResource" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppService.AppServiceEnvironment" />
+  <TypeSignature Language="VB.NET" Value="Public Class AppServiceEnvironment&#xA;Inherits ArmResource" />
+  <TypeSignature Language="F#" Value="type AppServiceEnvironment = class&#xA;    inherit ArmResource" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.Core.ArmResource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A Class representing a AppServiceEnvironment along with the instance operations that can be performed on it. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected AppServiceEnvironment ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.AppService.AppServiceEnvironment" /> class for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Data">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.AppService.AppServiceEnvironmentData Data { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.AppService.AppServiceEnvironmentData Data" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.AppServiceEnvironment.Data" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Data As AppServiceEnvironmentData" />
+      <MemberSignature Language="F#" Value="member this.Data : Azure.ResourceManager.AppService.AppServiceEnvironmentData" Usage="Azure.ResourceManager.AppService.AppServiceEnvironment.Data" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.AppServiceEnvironmentData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the data representing this Feature. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.InvalidOperationException"> Throws if there is no data loaded in the current instance. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.AppService.Models.AppServiceEnvironmentDeleteOperation Delete (bool? forceDelete = default, bool waitForCompletion = true, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.AppService.Models.AppServiceEnvironmentDeleteOperation Delete(valuetype System.Nullable`1&lt;bool&gt; forceDelete, bool waitForCompletion, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.Delete(System.Nullable{System.Boolean},System.Boolean,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Delete (Optional forceDelete As Nullable(Of Boolean) = Nothing, Optional waitForCompletion As Boolean = true, Optional cancellationToken As CancellationToken = Nothing) As AppServiceEnvironmentDeleteOperation" />
+      <MemberSignature Language="F#" Value="abstract member Delete : Nullable&lt;bool&gt; * bool * System.Threading.CancellationToken -&gt; Azure.ResourceManager.AppService.Models.AppServiceEnvironmentDeleteOperation&#xA;override this.Delete : Nullable&lt;bool&gt; * bool * System.Threading.CancellationToken -&gt; Azure.ResourceManager.AppService.Models.AppServiceEnvironmentDeleteOperation" Usage="appServiceEnvironment.Delete (forceDelete, waitForCompletion, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.Models.AppServiceEnvironmentDeleteOperation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="forceDelete" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="waitForCompletion" Type="System.Boolean" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="forceDelete"> Specify &lt;code&gt;true&lt;/code&gt; to force the deletion even if the App Service Environment contains resources. The default is &lt;code&gt;false&lt;/code&gt;. </param>
+        <param name="waitForCompletion"> Waits for the completion of the long running operations. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Delete an App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.AppServiceEnvironmentDeleteOperation&gt; DeleteAsync (bool? forceDelete = default, bool waitForCompletion = true, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.AppService.Models.AppServiceEnvironmentDeleteOperation&gt; DeleteAsync(valuetype System.Nullable`1&lt;bool&gt; forceDelete, bool waitForCompletion, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.DeleteAsync(System.Nullable{System.Boolean},System.Boolean,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteAsync (Optional forceDelete As Nullable(Of Boolean) = Nothing, Optional waitForCompletion As Boolean = true, Optional cancellationToken As CancellationToken = Nothing) As Task(Of AppServiceEnvironmentDeleteOperation)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteAsync : Nullable&lt;bool&gt; * bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.AppServiceEnvironmentDeleteOperation&gt;&#xA;override this.DeleteAsync : Nullable&lt;bool&gt; * bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.AppServiceEnvironmentDeleteOperation&gt;" Usage="appServiceEnvironment.DeleteAsync (forceDelete, waitForCompletion, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.AppServiceEnvironmentDeleteOperation&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="forceDelete" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="waitForCompletion" Type="System.Boolean" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="forceDelete"> Specify &lt;code&gt;true&lt;/code&gt; to force the deletion even if the App Service Environment contains resources. The default is &lt;code&gt;false&lt;/code&gt;. </param>
+        <param name="waitForCompletion"> Waits for the completion of the long running operations. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Delete an App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableAllForHostingEnvironmentRecommendation">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response DisableAllForHostingEnvironmentRecommendation (string environmentName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response DisableAllForHostingEnvironmentRecommendation(string environmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.DisableAllForHostingEnvironmentRecommendation(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DisableAllForHostingEnvironmentRecommendation (environmentName As String, Optional cancellationToken As CancellationToken = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member DisableAllForHostingEnvironmentRecommendation : string * System.Threading.CancellationToken -&gt; Azure.Response&#xA;override this.DisableAllForHostingEnvironmentRecommendation : string * System.Threading.CancellationToken -&gt; Azure.Response" Usage="appServiceEnvironment.DisableAllForHostingEnvironmentRecommendation (environmentName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="environmentName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="environmentName"> Name of the app. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Disable all recommendations for an app. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="environmentName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableAllForHostingEnvironmentRecommendationAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; DisableAllForHostingEnvironmentRecommendationAsync (string environmentName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; DisableAllForHostingEnvironmentRecommendationAsync(string environmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.DisableAllForHostingEnvironmentRecommendationAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DisableAllForHostingEnvironmentRecommendationAsync (environmentName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member DisableAllForHostingEnvironmentRecommendationAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.DisableAllForHostingEnvironmentRecommendationAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="appServiceEnvironment.DisableAllForHostingEnvironmentRecommendationAsync (environmentName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="environmentName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="environmentName"> Name of the app. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Disable all recommendations for an app. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="environmentName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt; Get (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.AppService.AppServiceEnvironment&gt; Get(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.Get(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Get (Optional cancellationToken As CancellationToken = Nothing) As Response(Of AppServiceEnvironment)" />
+      <MemberSignature Language="F#" Value="abstract member Get : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt;&#xA;override this.Get : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt;" Usage="appServiceEnvironment.Get cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get the properties of an App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAppServicePlans">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.AppService.AppServicePlanData&gt; GetAppServicePlans (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.AppServicePlanData&gt; GetAppServicePlans(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetAppServicePlans(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAppServicePlans (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of AppServicePlanData)" />
+      <MemberSignature Language="F#" Value="abstract member GetAppServicePlans : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.AppServicePlanData&gt;&#xA;override this.GetAppServicePlans : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.AppServicePlanData&gt;" Usage="appServiceEnvironment.GetAppServicePlans cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.AppServicePlanData&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get all App Service plans in an App Service Environment. </summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.AppService.AppServicePlanData" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAppServicePlansAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.AppServicePlanData&gt; GetAppServicePlansAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.AppServicePlanData&gt; GetAppServicePlansAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetAppServicePlansAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAppServicePlansAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of AppServicePlanData)" />
+      <MemberSignature Language="F#" Value="abstract member GetAppServicePlansAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.AppServicePlanData&gt;&#xA;override this.GetAppServicePlansAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.AppServicePlanData&gt;" Usage="appServiceEnvironment.GetAppServicePlansAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.AppServicePlanData&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get all App Service plans in an App Service Environment. </summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.AppService.AppServicePlanData" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAseV3NetworkingConfiguration">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.AseV3NetworkingConfiguration GetAseV3NetworkingConfiguration ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.AppService.AseV3NetworkingConfiguration GetAseV3NetworkingConfiguration() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetAseV3NetworkingConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetAseV3NetworkingConfiguration () As AseV3NetworkingConfiguration" />
+      <MemberSignature Language="F#" Value="member this.GetAseV3NetworkingConfiguration : unit -&gt; Azure.ResourceManager.AppService.AseV3NetworkingConfiguration" Usage="appServiceEnvironment.GetAseV3NetworkingConfiguration " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.AseV3NetworkingConfiguration</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets an object representing a AseV3NetworkingConfiguration along with the instance operations that can be performed on it in the AppServiceEnvironment. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.AppService.AseV3NetworkingConfiguration" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt;&gt; GetAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppService.AppServiceEnvironment&gt;&gt; GetAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AppServiceEnvironment))" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt;&gt;&#xA;override this.GetAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt;&gt;" Usage="appServiceEnvironment.GetAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get the properties of an App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvailableLocations">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt; GetAvailableLocations (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.Resources.Models.Location&gt; GetAvailableLocations(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetAvailableLocations(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvailableLocations (Optional cancellationToken As CancellationToken = Nothing) As IEnumerable(Of Location)" />
+      <MemberSignature Language="F#" Value="abstract member GetAvailableLocations : System.Threading.CancellationToken -&gt; seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&#xA;override this.GetAvailableLocations : System.Threading.CancellationToken -&gt; seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;" Usage="appServiceEnvironment.GetAvailableLocations cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> A token to allow the caller to cancel the call to the service. The default value is <see cref="P:System.Threading.CancellationToken.None" />. </param>
+        <summary> Lists all available geo-locations. </summary>
+        <returns> A collection of locations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvailableLocationsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt; GetAvailableLocationsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.Resources.Models.Location&gt;&gt; GetAvailableLocationsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetAvailableLocationsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvailableLocationsAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of IEnumerable(Of Location))" />
+      <MemberSignature Language="F#" Value="abstract member GetAvailableLocationsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;&#xA;override this.GetAvailableLocationsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;" Usage="appServiceEnvironment.GetAvailableLocationsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> A token to allow the caller to cancel the call to the service. The default value is <see cref="P:System.Threading.CancellationToken.None" />. </param>
+        <summary> Lists all available geo-locations. </summary>
+        <returns> A collection of locations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCapacities">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.StampCapacity&gt; GetCapacities (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.StampCapacity&gt; GetCapacities(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetCapacities(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCapacities (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of StampCapacity)" />
+      <MemberSignature Language="F#" Value="abstract member GetCapacities : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.StampCapacity&gt;&#xA;override this.GetCapacities : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.StampCapacity&gt;" Usage="appServiceEnvironment.GetCapacities cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.StampCapacity&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get the used, available, and total worker capacity an App Service Environment. </summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.AppService.Models.StampCapacity" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCapacitiesAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.StampCapacity&gt; GetCapacitiesAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.StampCapacity&gt; GetCapacitiesAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetCapacitiesAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetCapacitiesAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of StampCapacity)" />
+      <MemberSignature Language="F#" Value="abstract member GetCapacitiesAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.StampCapacity&gt;&#xA;override this.GetCapacitiesAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.StampCapacity&gt;" Usage="appServiceEnvironment.GetCapacitiesAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.StampCapacity&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get the used, available, and total worker capacity an App Service Environment. </summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.AppService.Models.StampCapacity" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDiagnostics">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&gt; GetDiagnostics (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&gt; GetDiagnostics(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetDiagnostics(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDiagnostics (Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of HostingEnvironmentDiagnostics))" />
+      <MemberSignature Language="F#" Value="abstract member GetDiagnostics : System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&gt;&#xA;override this.GetDiagnostics : System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&gt;" Usage="appServiceEnvironment.GetDiagnostics cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get diagnostic information for an App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDiagnosticsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&gt;&gt; GetDiagnosticsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&gt;&gt; GetDiagnosticsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetDiagnosticsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDiagnosticsAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of HostingEnvironmentDiagnostics)))" />
+      <MemberSignature Language="F#" Value="abstract member GetDiagnosticsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&gt;&gt;&#xA;override this.GetDiagnosticsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&gt;&gt;" Usage="appServiceEnvironment.GetDiagnosticsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get diagnostic information for an App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDiagnosticsItem">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt; GetDiagnosticsItem (string diagnosticsName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt; GetDiagnosticsItem(string diagnosticsName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetDiagnosticsItem(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDiagnosticsItem (diagnosticsName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of HostingEnvironmentDiagnostics)" />
+      <MemberSignature Language="F#" Value="abstract member GetDiagnosticsItem : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&#xA;override this.GetDiagnosticsItem : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;" Usage="appServiceEnvironment.GetDiagnosticsItem (diagnosticsName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="diagnosticsName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="diagnosticsName"> Name of the diagnostics item. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get a diagnostics item for an App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="diagnosticsName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDiagnosticsItemAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&gt; GetDiagnosticsItemAsync (string diagnosticsName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&gt; GetDiagnosticsItemAsync(string diagnosticsName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetDiagnosticsItemAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDiagnosticsItemAsync (diagnosticsName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of HostingEnvironmentDiagnostics))" />
+      <MemberSignature Language="F#" Value="abstract member GetDiagnosticsItemAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&gt;&#xA;override this.GetDiagnosticsItemAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&gt;" Usage="appServiceEnvironment.GetDiagnosticsItemAsync (diagnosticsName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.HostingEnvironmentDiagnostics&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="diagnosticsName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="diagnosticsName"> Name of the diagnostics item. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get a diagnostics item for an App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="diagnosticsName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHistoryForHostingEnvironmentRecommendations">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt; GetHistoryForHostingEnvironmentRecommendations (bool? expiredOnly = default, string filter = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt; GetHistoryForHostingEnvironmentRecommendations(valuetype System.Nullable`1&lt;bool&gt; expiredOnly, string filter, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetHistoryForHostingEnvironmentRecommendations(System.Nullable{System.Boolean},System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetHistoryForHostingEnvironmentRecommendations (Optional expiredOnly As Nullable(Of Boolean) = Nothing, Optional filter As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of AppServiceRecommendation)" />
+      <MemberSignature Language="F#" Value="abstract member GetHistoryForHostingEnvironmentRecommendations : Nullable&lt;bool&gt; * string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt;&#xA;override this.GetHistoryForHostingEnvironmentRecommendations : Nullable&lt;bool&gt; * string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt;" Usage="appServiceEnvironment.GetHistoryForHostingEnvironmentRecommendations (expiredOnly, filter, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="expiredOnly" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="filter" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="expiredOnly"> Specify &lt;code&gt;false&lt;/code&gt; to return all recommendations. The default is &lt;code&gt;true&lt;/code&gt;, which returns only expired recommendations. </param>
+        <param name="filter"> Filter is specified by using OData syntax. Example: $filter=channel eq 'Api' or channel eq 'Notification' and startTime eq 2014-01-01T00:00:00Z and endTime eq 2014-12-31T23:59:59Z and timeGrain eq duration'[PT1H|PT1M|P1D]. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get past recommendations for an app, optionally specified by the time range. </summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.AppService.Models.AppServiceRecommendation" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHistoryForHostingEnvironmentRecommendationsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt; GetHistoryForHostingEnvironmentRecommendationsAsync (bool? expiredOnly = default, string filter = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt; GetHistoryForHostingEnvironmentRecommendationsAsync(valuetype System.Nullable`1&lt;bool&gt; expiredOnly, string filter, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetHistoryForHostingEnvironmentRecommendationsAsync(System.Nullable{System.Boolean},System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetHistoryForHostingEnvironmentRecommendationsAsync (Optional expiredOnly As Nullable(Of Boolean) = Nothing, Optional filter As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of AppServiceRecommendation)" />
+      <MemberSignature Language="F#" Value="abstract member GetHistoryForHostingEnvironmentRecommendationsAsync : Nullable&lt;bool&gt; * string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt;&#xA;override this.GetHistoryForHostingEnvironmentRecommendationsAsync : Nullable&lt;bool&gt; * string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt;" Usage="appServiceEnvironment.GetHistoryForHostingEnvironmentRecommendationsAsync (expiredOnly, filter, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="expiredOnly" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="filter" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="expiredOnly"> Specify &lt;code&gt;false&lt;/code&gt; to return all recommendations. The default is &lt;code&gt;true&lt;/code&gt;, which returns only expired recommendations. </param>
+        <param name="filter"> Filter is specified by using OData syntax. Example: $filter=channel eq 'Api' or channel eq 'Notification' and startTime eq 2014-01-01T00:00:00Z and endTime eq 2014-12-31T23:59:59Z and timeGrain eq duration'[PT1H|PT1M|P1D]. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get past recommendations for an app, optionally specified by the time range. </summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.AppService.Models.AppServiceRecommendation" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHostingEnvironmentDetectors">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.HostingEnvironmentDetectorCollection GetHostingEnvironmentDetectors ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.AppService.HostingEnvironmentDetectorCollection GetHostingEnvironmentDetectors() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetHostingEnvironmentDetectors" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetHostingEnvironmentDetectors () As HostingEnvironmentDetectorCollection" />
+      <MemberSignature Language="F#" Value="member this.GetHostingEnvironmentDetectors : unit -&gt; Azure.ResourceManager.AppService.HostingEnvironmentDetectorCollection" Usage="appServiceEnvironment.GetHostingEnvironmentDetectors " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.HostingEnvironmentDetectorCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets a collection of HostingEnvironmentDetectors in the AppServiceEnvironment. </summary>
+        <returns> An object representing collection of HostingEnvironmentDetectors and their operations over a AppServiceEnvironment. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHostingEnvironmentMultiRolePool">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.HostingEnvironmentMultiRolePool GetHostingEnvironmentMultiRolePool ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.AppService.HostingEnvironmentMultiRolePool GetHostingEnvironmentMultiRolePool() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetHostingEnvironmentMultiRolePool" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetHostingEnvironmentMultiRolePool () As HostingEnvironmentMultiRolePool" />
+      <MemberSignature Language="F#" Value="member this.GetHostingEnvironmentMultiRolePool : unit -&gt; Azure.ResourceManager.AppService.HostingEnvironmentMultiRolePool" Usage="appServiceEnvironment.GetHostingEnvironmentMultiRolePool " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.HostingEnvironmentMultiRolePool</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets an object representing a HostingEnvironmentMultiRolePool along with the instance operations that can be performed on it in the AppServiceEnvironment. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.AppService.HostingEnvironmentMultiRolePool" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHostingEnvironmentPrivateEndpointConnections">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.HostingEnvironmentPrivateEndpointConnectionCollection GetHostingEnvironmentPrivateEndpointConnections ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.AppService.HostingEnvironmentPrivateEndpointConnectionCollection GetHostingEnvironmentPrivateEndpointConnections() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetHostingEnvironmentPrivateEndpointConnections" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetHostingEnvironmentPrivateEndpointConnections () As HostingEnvironmentPrivateEndpointConnectionCollection" />
+      <MemberSignature Language="F#" Value="member this.GetHostingEnvironmentPrivateEndpointConnections : unit -&gt; Azure.ResourceManager.AppService.HostingEnvironmentPrivateEndpointConnectionCollection" Usage="appServiceEnvironment.GetHostingEnvironmentPrivateEndpointConnections " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.HostingEnvironmentPrivateEndpointConnectionCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets a collection of HostingEnvironmentPrivateEndpointConnections in the AppServiceEnvironment. </summary>
+        <returns> An object representing collection of HostingEnvironmentPrivateEndpointConnections and their operations over a AppServiceEnvironment. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHostingEnvironmentRecommendations">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.HostingEnvironmentRecommendationCollection GetHostingEnvironmentRecommendations ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.AppService.HostingEnvironmentRecommendationCollection GetHostingEnvironmentRecommendations() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetHostingEnvironmentRecommendations" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetHostingEnvironmentRecommendations () As HostingEnvironmentRecommendationCollection" />
+      <MemberSignature Language="F#" Value="member this.GetHostingEnvironmentRecommendations : unit -&gt; Azure.ResourceManager.AppService.HostingEnvironmentRecommendationCollection" Usage="appServiceEnvironment.GetHostingEnvironmentRecommendations " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.HostingEnvironmentRecommendationCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets a collection of HostingEnvironmentRecommendations in the AppServiceEnvironment. </summary>
+        <returns> An object representing collection of HostingEnvironmentRecommendations and their operations over a AppServiceEnvironment. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHostingEnvironmentWorkerPools">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.HostingEnvironmentWorkerPoolCollection GetHostingEnvironmentWorkerPools ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.AppService.HostingEnvironmentWorkerPoolCollection GetHostingEnvironmentWorkerPools() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetHostingEnvironmentWorkerPools" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetHostingEnvironmentWorkerPools () As HostingEnvironmentWorkerPoolCollection" />
+      <MemberSignature Language="F#" Value="member this.GetHostingEnvironmentWorkerPools : unit -&gt; Azure.ResourceManager.AppService.HostingEnvironmentWorkerPoolCollection" Usage="appServiceEnvironment.GetHostingEnvironmentWorkerPools " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.HostingEnvironmentWorkerPoolCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets a collection of HostingEnvironmentWorkerPools in the AppServiceEnvironment. </summary>
+        <returns> An object representing collection of HostingEnvironmentWorkerPools and their operations over a AppServiceEnvironment. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetInboundNetworkDependenciesEndpoints">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.InboundEnvironmentEndpoint&gt; GetInboundNetworkDependenciesEndpoints (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.InboundEnvironmentEndpoint&gt; GetInboundNetworkDependenciesEndpoints(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetInboundNetworkDependenciesEndpoints(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetInboundNetworkDependenciesEndpoints (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of InboundEnvironmentEndpoint)" />
+      <MemberSignature Language="F#" Value="abstract member GetInboundNetworkDependenciesEndpoints : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.InboundEnvironmentEndpoint&gt;&#xA;override this.GetInboundNetworkDependenciesEndpoints : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.InboundEnvironmentEndpoint&gt;" Usage="appServiceEnvironment.GetInboundNetworkDependenciesEndpoints cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.InboundEnvironmentEndpoint&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get the network endpoints of all inbound dependencies of an App Service Environment. </summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.AppService.Models.InboundEnvironmentEndpoint" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetInboundNetworkDependenciesEndpointsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.InboundEnvironmentEndpoint&gt; GetInboundNetworkDependenciesEndpointsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.InboundEnvironmentEndpoint&gt; GetInboundNetworkDependenciesEndpointsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetInboundNetworkDependenciesEndpointsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetInboundNetworkDependenciesEndpointsAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of InboundEnvironmentEndpoint)" />
+      <MemberSignature Language="F#" Value="abstract member GetInboundNetworkDependenciesEndpointsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.InboundEnvironmentEndpoint&gt;&#xA;override this.GetInboundNetworkDependenciesEndpointsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.InboundEnvironmentEndpoint&gt;" Usage="appServiceEnvironment.GetInboundNetworkDependenciesEndpointsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.InboundEnvironmentEndpoint&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get the network endpoints of all inbound dependencies of an App Service Environment. </summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.AppService.Models.InboundEnvironmentEndpoint" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOperations">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.OperationInformation&gt;&gt; GetOperations (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.AppService.Models.OperationInformation&gt;&gt; GetOperations(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetOperations(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetOperations (Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of OperationInformation))" />
+      <MemberSignature Language="F#" Value="abstract member GetOperations : System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.OperationInformation&gt;&gt;&#xA;override this.GetOperations : System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.OperationInformation&gt;&gt;" Usage="appServiceEnvironment.GetOperations cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.OperationInformation&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for List all currently running operations on the App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOperationsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.OperationInformation&gt;&gt;&gt; GetOperationsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.AppService.Models.OperationInformation&gt;&gt;&gt; GetOperationsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetOperationsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetOperationsAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of OperationInformation)))" />
+      <MemberSignature Language="F#" Value="abstract member GetOperationsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.OperationInformation&gt;&gt;&gt;&#xA;override this.GetOperationsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.OperationInformation&gt;&gt;&gt;" Usage="appServiceEnvironment.GetOperationsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.OperationInformation&gt;&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for List all currently running operations on the App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOutboundNetworkDependenciesEndpoints">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.OutboundEnvironmentEndpoint&gt; GetOutboundNetworkDependenciesEndpoints (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.OutboundEnvironmentEndpoint&gt; GetOutboundNetworkDependenciesEndpoints(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetOutboundNetworkDependenciesEndpoints(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetOutboundNetworkDependenciesEndpoints (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of OutboundEnvironmentEndpoint)" />
+      <MemberSignature Language="F#" Value="abstract member GetOutboundNetworkDependenciesEndpoints : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.OutboundEnvironmentEndpoint&gt;&#xA;override this.GetOutboundNetworkDependenciesEndpoints : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.OutboundEnvironmentEndpoint&gt;" Usage="appServiceEnvironment.GetOutboundNetworkDependenciesEndpoints cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.OutboundEnvironmentEndpoint&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get the network endpoints of all outbound dependencies of an App Service Environment. </summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.AppService.Models.OutboundEnvironmentEndpoint" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOutboundNetworkDependenciesEndpointsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.OutboundEnvironmentEndpoint&gt; GetOutboundNetworkDependenciesEndpointsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.OutboundEnvironmentEndpoint&gt; GetOutboundNetworkDependenciesEndpointsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetOutboundNetworkDependenciesEndpointsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetOutboundNetworkDependenciesEndpointsAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of OutboundEnvironmentEndpoint)" />
+      <MemberSignature Language="F#" Value="abstract member GetOutboundNetworkDependenciesEndpointsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.OutboundEnvironmentEndpoint&gt;&#xA;override this.GetOutboundNetworkDependenciesEndpointsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.OutboundEnvironmentEndpoint&gt;" Usage="appServiceEnvironment.GetOutboundNetworkDependenciesEndpointsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.OutboundEnvironmentEndpoint&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get the network endpoints of all outbound dependencies of an App Service Environment. </summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.AppService.Models.OutboundEnvironmentEndpoint" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPrivateLinkResources">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.PrivateLinkResource&gt;&gt; GetPrivateLinkResources (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.AppService.Models.PrivateLinkResource&gt;&gt; GetPrivateLinkResources(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetPrivateLinkResources(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPrivateLinkResources (Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of PrivateLinkResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetPrivateLinkResources : System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.PrivateLinkResource&gt;&gt;&#xA;override this.GetPrivateLinkResources : System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.PrivateLinkResource&gt;&gt;" Usage="appServiceEnvironment.GetPrivateLinkResources cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.PrivateLinkResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Gets the private link resources. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPrivateLinkResourcesAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.PrivateLinkResource&gt;&gt;&gt; GetPrivateLinkResourcesAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.AppService.Models.PrivateLinkResource&gt;&gt;&gt; GetPrivateLinkResourcesAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetPrivateLinkResourcesAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPrivateLinkResourcesAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of PrivateLinkResource)))" />
+      <MemberSignature Language="F#" Value="abstract member GetPrivateLinkResourcesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.PrivateLinkResource&gt;&gt;&gt;&#xA;override this.GetPrivateLinkResourcesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.PrivateLinkResource&gt;&gt;&gt;" Usage="appServiceEnvironment.GetPrivateLinkResourcesAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.PrivateLinkResource&gt;&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Gets the private link resources. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRecommendedRulesForHostingEnvironmentRecommendations">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt; GetRecommendedRulesForHostingEnvironmentRecommendations (bool? featured = default, string filter = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt; GetRecommendedRulesForHostingEnvironmentRecommendations(valuetype System.Nullable`1&lt;bool&gt; featured, string filter, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetRecommendedRulesForHostingEnvironmentRecommendations(System.Nullable{System.Boolean},System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRecommendedRulesForHostingEnvironmentRecommendations (Optional featured As Nullable(Of Boolean) = Nothing, Optional filter As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of AppServiceRecommendation)" />
+      <MemberSignature Language="F#" Value="abstract member GetRecommendedRulesForHostingEnvironmentRecommendations : Nullable&lt;bool&gt; * string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt;&#xA;override this.GetRecommendedRulesForHostingEnvironmentRecommendations : Nullable&lt;bool&gt; * string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt;" Usage="appServiceEnvironment.GetRecommendedRulesForHostingEnvironmentRecommendations (featured, filter, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="featured" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="filter" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="featured"> Specify &lt;code&gt;true&lt;/code&gt; to return only the most critical recommendations. The default is &lt;code&gt;false&lt;/code&gt;, which returns all recommendations. </param>
+        <param name="filter"> Return only channels specified in the filter. Filter is specified by using OData syntax. Example: $filter=channel eq 'Api' or channel eq 'Notification'. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get all recommendations for a hosting environment. </summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.AppService.Models.AppServiceRecommendation" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRecommendedRulesForHostingEnvironmentRecommendationsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt; GetRecommendedRulesForHostingEnvironmentRecommendationsAsync (bool? featured = default, string filter = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt; GetRecommendedRulesForHostingEnvironmentRecommendationsAsync(valuetype System.Nullable`1&lt;bool&gt; featured, string filter, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetRecommendedRulesForHostingEnvironmentRecommendationsAsync(System.Nullable{System.Boolean},System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRecommendedRulesForHostingEnvironmentRecommendationsAsync (Optional featured As Nullable(Of Boolean) = Nothing, Optional filter As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of AppServiceRecommendation)" />
+      <MemberSignature Language="F#" Value="abstract member GetRecommendedRulesForHostingEnvironmentRecommendationsAsync : Nullable&lt;bool&gt; * string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt;&#xA;override this.GetRecommendedRulesForHostingEnvironmentRecommendationsAsync : Nullable&lt;bool&gt; * string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt;" Usage="appServiceEnvironment.GetRecommendedRulesForHostingEnvironmentRecommendationsAsync (featured, filter, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.AppServiceRecommendation&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="featured" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="filter" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="featured"> Specify &lt;code&gt;true&lt;/code&gt; to return only the most critical recommendations. The default is &lt;code&gt;false&lt;/code&gt;, which returns all recommendations. </param>
+        <param name="filter"> Return only channels specified in the filter. Filter is specified by using OData syntax. Example: $filter=channel eq 'Api' or channel eq 'Notification'. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get all recommendations for a hosting environment. </summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.AppService.Models.AppServiceRecommendation" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUsages">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.CsmUsageQuota&gt; GetUsages (string filter = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.CsmUsageQuota&gt; GetUsages(string filter, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetUsages(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetUsages (Optional filter As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of CsmUsageQuota)" />
+      <MemberSignature Language="F#" Value="abstract member GetUsages : string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.CsmUsageQuota&gt;&#xA;override this.GetUsages : string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.CsmUsageQuota&gt;" Usage="appServiceEnvironment.GetUsages (filter, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.CsmUsageQuota&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filter" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="filter"> Return only usages/metrics specified in the filter. Filter conforms to odata syntax. Example: $filter=(name.value eq 'Metric1' or name.value eq 'Metric2') and startTime eq 2014-01-01T00:00:00Z and endTime eq 2014-12-31T23:59:59Z and timeGrain eq duration'[Hour|Minute|Day]'. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get global usage metrics of an App Service Environment. </summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.AppService.Models.CsmUsageQuota" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUsagesAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.CsmUsageQuota&gt; GetUsagesAsync (string filter = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.CsmUsageQuota&gt; GetUsagesAsync(string filter, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetUsagesAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetUsagesAsync (Optional filter As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of CsmUsageQuota)" />
+      <MemberSignature Language="F#" Value="abstract member GetUsagesAsync : string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.CsmUsageQuota&gt;&#xA;override this.GetUsagesAsync : string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.CsmUsageQuota&gt;" Usage="appServiceEnvironment.GetUsagesAsync (filter, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.CsmUsageQuota&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filter" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="filter"> Return only usages/metrics specified in the filter. Filter conforms to odata syntax. Example: $filter=(name.value eq 'Metric1' or name.value eq 'Metric2') and startTime eq 2014-01-01T00:00:00Z and endTime eq 2014-12-31T23:59:59Z and timeGrain eq duration'[Hour|Minute|Day]'. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get global usage metrics of an App Service Environment. </summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.AppService.Models.CsmUsageQuota" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVipInfo">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.AppService.Models.AddressResponse&gt; GetVipInfo (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.AppService.Models.AddressResponse&gt; GetVipInfo(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetVipInfo(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetVipInfo (Optional cancellationToken As CancellationToken = Nothing) As Response(Of AddressResponse)" />
+      <MemberSignature Language="F#" Value="abstract member GetVipInfo : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.Models.AddressResponse&gt;&#xA;override this.GetVipInfo : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.Models.AddressResponse&gt;" Usage="appServiceEnvironment.GetVipInfo cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.Models.AddressResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get IP addresses assigned to an App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVipInfoAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.AddressResponse&gt;&gt; GetVipInfoAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppService.Models.AddressResponse&gt;&gt; GetVipInfoAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetVipInfoAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetVipInfoAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AddressResponse))" />
+      <MemberSignature Language="F#" Value="abstract member GetVipInfoAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.AddressResponse&gt;&gt;&#xA;override this.GetVipInfoAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.AddressResponse&gt;&gt;" Usage="appServiceEnvironment.GetVipInfoAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.Models.AddressResponse&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get IP addresses assigned to an App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWebApps">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.AppService.WebSiteData&gt; GetWebApps (string propertiesToInclude = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.WebSiteData&gt; GetWebApps(string propertiesToInclude, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetWebApps(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWebApps (Optional propertiesToInclude As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of WebSiteData)" />
+      <MemberSignature Language="F#" Value="abstract member GetWebApps : string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.WebSiteData&gt;&#xA;override this.GetWebApps : string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.WebSiteData&gt;" Usage="appServiceEnvironment.GetWebApps (propertiesToInclude, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.WebSiteData&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertiesToInclude" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="propertiesToInclude"> Comma separated list of app properties to include. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get all apps in an App Service Environment. </summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.AppService.WebSiteData" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWebAppsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.WebSiteData&gt; GetWebAppsAsync (string propertiesToInclude = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.WebSiteData&gt; GetWebAppsAsync(string propertiesToInclude, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.GetWebAppsAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWebAppsAsync (Optional propertiesToInclude As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of WebSiteData)" />
+      <MemberSignature Language="F#" Value="abstract member GetWebAppsAsync : string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.WebSiteData&gt;&#xA;override this.GetWebAppsAsync : string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.WebSiteData&gt;" Usage="appServiceEnvironment.GetWebAppsAsync (propertiesToInclude, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.WebSiteData&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertiesToInclude" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="propertiesToInclude"> Comma separated list of app properties to include. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get all apps in an App Service Environment. </summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.AppService.WebSiteData" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasData">
+      <MemberSignature Language="C#" Value="public virtual bool HasData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasData" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.AppServiceEnvironment.HasData" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property HasData As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasData : bool" Usage="Azure.ResourceManager.AppService.AppServiceEnvironment.HasData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets whether or not the current instance has data. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reboot">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response Reboot (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response Reboot(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.Reboot(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Reboot (Optional cancellationToken As CancellationToken = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member Reboot : System.Threading.CancellationToken -&gt; Azure.Response&#xA;override this.Reboot : System.Threading.CancellationToken -&gt; Azure.Response" Usage="appServiceEnvironment.Reboot cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Reboot all machines in an App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RebootAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; RebootAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; RebootAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.RebootAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function RebootAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member RebootAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.RebootAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="appServiceEnvironment.RebootAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Reboot all machines in an App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetAllFiltersForHostingEnvironmentRecommendation">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response ResetAllFiltersForHostingEnvironmentRecommendation (string environmentName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response ResetAllFiltersForHostingEnvironmentRecommendation(string environmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.ResetAllFiltersForHostingEnvironmentRecommendation(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ResetAllFiltersForHostingEnvironmentRecommendation (environmentName As String, Optional cancellationToken As CancellationToken = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member ResetAllFiltersForHostingEnvironmentRecommendation : string * System.Threading.CancellationToken -&gt; Azure.Response&#xA;override this.ResetAllFiltersForHostingEnvironmentRecommendation : string * System.Threading.CancellationToken -&gt; Azure.Response" Usage="appServiceEnvironment.ResetAllFiltersForHostingEnvironmentRecommendation (environmentName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="environmentName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="environmentName"> Name of the app. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Reset all recommendation opt-out settings for an app. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="environmentName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetAllFiltersForHostingEnvironmentRecommendationAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; ResetAllFiltersForHostingEnvironmentRecommendationAsync (string environmentName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; ResetAllFiltersForHostingEnvironmentRecommendationAsync(string environmentName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.ResetAllFiltersForHostingEnvironmentRecommendationAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ResetAllFiltersForHostingEnvironmentRecommendationAsync (environmentName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member ResetAllFiltersForHostingEnvironmentRecommendationAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.ResetAllFiltersForHostingEnvironmentRecommendationAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="appServiceEnvironment.ResetAllFiltersForHostingEnvironmentRecommendationAsync (environmentName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="environmentName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="environmentName"> Name of the app. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Reset all recommendation opt-out settings for an app. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="environmentName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceType">
+      <MemberSignature Language="C#" Value="public static readonly Azure.ResourceManager.ResourceType ResourceType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Azure.ResourceManager.ResourceType ResourceType" />
+      <MemberSignature Language="DocId" Value="F:Azure.ResourceManager.AppService.AppServiceEnvironment.ResourceType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ResourceType As ResourceType " />
+      <MemberSignature Language="F#" Value=" staticval mutable ResourceType : Azure.ResourceManager.ResourceType" Usage="Azure.ResourceManager.AppService.AppServiceEnvironment.ResourceType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the resource type for the operations. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt; Update (Azure.ResourceManager.AppService.Models.AppServiceEnvironmentPatchOptions hostingEnvironmentEnvelope, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.AppService.AppServiceEnvironment&gt; Update(class Azure.ResourceManager.AppService.Models.AppServiceEnvironmentPatchOptions hostingEnvironmentEnvelope, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.Update(Azure.ResourceManager.AppService.Models.AppServiceEnvironmentPatchOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Update (hostingEnvironmentEnvelope As AppServiceEnvironmentPatchOptions, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AppServiceEnvironment)" />
+      <MemberSignature Language="F#" Value="abstract member Update : Azure.ResourceManager.AppService.Models.AppServiceEnvironmentPatchOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt;&#xA;override this.Update : Azure.ResourceManager.AppService.Models.AppServiceEnvironmentPatchOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt;" Usage="appServiceEnvironment.Update (hostingEnvironmentEnvelope, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hostingEnvironmentEnvelope" Type="Azure.ResourceManager.AppService.Models.AppServiceEnvironmentPatchOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="hostingEnvironmentEnvelope"> Configuration details of the App Service Environment. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Create or update an App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="hostingEnvironmentEnvelope" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt;&gt; UpdateAsync (Azure.ResourceManager.AppService.Models.AppServiceEnvironmentPatchOptions hostingEnvironmentEnvelope, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppService.AppServiceEnvironment&gt;&gt; UpdateAsync(class Azure.ResourceManager.AppService.Models.AppServiceEnvironmentPatchOptions hostingEnvironmentEnvelope, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AppServiceEnvironment.UpdateAsync(Azure.ResourceManager.AppService.Models.AppServiceEnvironmentPatchOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateAsync (hostingEnvironmentEnvelope As AppServiceEnvironmentPatchOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AppServiceEnvironment))" />
+      <MemberSignature Language="F#" Value="abstract member UpdateAsync : Azure.ResourceManager.AppService.Models.AppServiceEnvironmentPatchOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt;&gt;&#xA;override this.UpdateAsync : Azure.ResourceManager.AppService.Models.AppServiceEnvironmentPatchOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt;&gt;" Usage="appServiceEnvironment.UpdateAsync (hostingEnvironmentEnvelope, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.AppServiceEnvironment&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hostingEnvironmentEnvelope" Type="Azure.ResourceManager.AppService.Models.AppServiceEnvironmentPatchOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="hostingEnvironmentEnvelope"> Configuration details of the App Service Environment. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Create or update an App Service Environment. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="hostingEnvironmentEnvelope" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidResourceType">
+      <MemberSignature Language="C#" Value="protected override Azure.ResourceManager.ResourceType ValidResourceType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.ResourceType ValidResourceType" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.AppServiceEnvironment.ValidResourceType" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property ValidResourceType As ResourceType" />
+      <MemberSignature Language="F#" Value="member this.ValidResourceType : Azure.ResourceManager.ResourceType" Usage="Azure.ResourceManager.AppService.AppServiceEnvironment.ValidResourceType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the valid resource type for the operations. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

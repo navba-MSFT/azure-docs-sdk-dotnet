@@ -346,7 +346,7 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="forceDeletion"> Optional parameter to force delete virtual machines.(Feature in Preview). </param>
+        <param name="forceDeletion"> Optional parameter to force delete virtual machines. </param>
         <param name="waitForCompletion"> Waits for the completion of the long running operations. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary> The operation to delete a virtual machine. </summary>
@@ -374,7 +374,7 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="forceDeletion"> Optional parameter to force delete virtual machines.(Feature in Preview). </param>
+        <param name="forceDeletion"> Optional parameter to force delete virtual machines. </param>
         <param name="waitForCompletion"> Waits for the completion of the long running operations. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary> The operation to delete a virtual machine. </summary>
