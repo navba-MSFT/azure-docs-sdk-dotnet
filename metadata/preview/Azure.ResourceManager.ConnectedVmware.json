@@ -1,0 +1,14 @@
+{
+  "Name": "Azure.ResourceManager.ConnectedVmware",
+  "Version": "1.0.0-alpha.20211221.1",
+  "DevVersion": "1.0.0-alpha.20211221.1",
+  "DirectoryPath": "sdk/connectedvmware/Azure.ResourceManager.ConnectedVmware",
+  "ServiceDirectory": "connectedvmware",
+  "ReadMePath": "sdk/connectedvmware/Azure.ResourceManager.ConnectedVmware/README.md",
+  "ChangeLogPath": "sdk/connectedvmware/Azure.ResourceManager.ConnectedVmware/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.ResourceManager.ConnectedVmware",
+  "ReleaseStatus": "Unreleased"
+}
