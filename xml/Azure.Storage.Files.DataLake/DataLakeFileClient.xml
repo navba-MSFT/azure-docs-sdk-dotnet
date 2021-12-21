@@ -3057,7 +3057,7 @@
             notifications that the operation should be cancelled.
             </param>
         <summary>
-            Schedules the file for deletation.
+            Schedules the file for deletion.
             </summary>
         <returns>
             A <see cref="T:Azure.Response`1" /> describing the file.
@@ -3099,7 +3099,7 @@
             notifications that the operation should be cancelled.
             </param>
         <summary>
-            Schedules the file for deletation.
+            Schedules the file for deletion.
             </summary>
         <returns>
             A <see cref="T:Azure.Response`1" /> describing the file.

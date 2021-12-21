@@ -1,0 +1,213 @@
+<Type Name="ResourceGroupExtensions" FullName="Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions">
+  <TypeSignature Language="C#" Value="public static class ResourceGroupExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ResourceGroupExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ResourceGroupExtensions" />
+  <TypeSignature Language="F#" Value="type ResourceGroupExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A class to add extension methods to ResourceGroup. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetResourcePools">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.ResourcePoolCollection GetResourcePools (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.ResourcePoolCollection GetResourcePools(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetResourcePools(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetResourcePools (resourceGroup As ResourceGroup) As ResourcePoolCollection" />
+      <MemberSignature Language="F#" Value="static member GetResourcePools : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.ConnectedVmware.ResourcePoolCollection" Usage="Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetResourcePools resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.ResourcePoolCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a ResourcePoolCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.ResourcePoolCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVCenters">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.VCenterCollection GetVCenters (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.VCenterCollection GetVCenters(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetVCenters(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVCenters (resourceGroup As ResourceGroup) As VCenterCollection" />
+      <MemberSignature Language="F#" Value="static member GetVCenters : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.ConnectedVmware.VCenterCollection" Usage="Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetVCenters resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.VCenterCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a VCenterCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.VCenterCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVirtualMachines">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.VirtualMachineCollection GetVirtualMachines (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.VirtualMachineCollection GetVirtualMachines(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetVirtualMachines(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVirtualMachines (resourceGroup As ResourceGroup) As VirtualMachineCollection" />
+      <MemberSignature Language="F#" Value="static member GetVirtualMachines : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.ConnectedVmware.VirtualMachineCollection" Usage="Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetVirtualMachines resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.VirtualMachineCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a VirtualMachineCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.VirtualMachineCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVirtualMachineTemplates">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.VirtualMachineTemplateCollection GetVirtualMachineTemplates (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.VirtualMachineTemplateCollection GetVirtualMachineTemplates(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetVirtualMachineTemplates(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVirtualMachineTemplates (resourceGroup As ResourceGroup) As VirtualMachineTemplateCollection" />
+      <MemberSignature Language="F#" Value="static member GetVirtualMachineTemplates : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.ConnectedVmware.VirtualMachineTemplateCollection" Usage="Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetVirtualMachineTemplates resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.VirtualMachineTemplateCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a VirtualMachineTemplateCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.VirtualMachineTemplateCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVirtualNetworks">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.VirtualNetworkCollection GetVirtualNetworks (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.VirtualNetworkCollection GetVirtualNetworks(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetVirtualNetworks(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVirtualNetworks (resourceGroup As ResourceGroup) As VirtualNetworkCollection" />
+      <MemberSignature Language="F#" Value="static member GetVirtualNetworks : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.ConnectedVmware.VirtualNetworkCollection" Usage="Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetVirtualNetworks resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.VirtualNetworkCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a VirtualNetworkCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.VirtualNetworkCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVmwareClusters">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.VmwareClusterCollection GetVmwareClusters (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.VmwareClusterCollection GetVmwareClusters(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetVmwareClusters(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVmwareClusters (resourceGroup As ResourceGroup) As VmwareClusterCollection" />
+      <MemberSignature Language="F#" Value="static member GetVmwareClusters : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.ConnectedVmware.VmwareClusterCollection" Usage="Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetVmwareClusters resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.VmwareClusterCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a VmwareClusterCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.VmwareClusterCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVmwareDatastores">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.VmwareDatastoreCollection GetVmwareDatastores (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.VmwareDatastoreCollection GetVmwareDatastores(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetVmwareDatastores(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVmwareDatastores (resourceGroup As ResourceGroup) As VmwareDatastoreCollection" />
+      <MemberSignature Language="F#" Value="static member GetVmwareDatastores : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.ConnectedVmware.VmwareDatastoreCollection" Usage="Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetVmwareDatastores resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.VmwareDatastoreCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a VmwareDatastoreCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.VmwareDatastoreCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVmwareHosts">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.VmwareHostCollection GetVmwareHosts (this Azure.ResourceManager.Resources.ResourceGroup resourceGroup);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.VmwareHostCollection GetVmwareHosts(class Azure.ResourceManager.Resources.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetVmwareHosts(Azure.ResourceManager.Resources.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVmwareHosts (resourceGroup As ResourceGroup) As VmwareHostCollection" />
+      <MemberSignature Language="F#" Value="static member GetVmwareHosts : Azure.ResourceManager.Resources.ResourceGroup -&gt; Azure.ResourceManager.ConnectedVmware.VmwareHostCollection" Usage="Azure.ResourceManager.ConnectedVmware.ResourceGroupExtensions.GetVmwareHosts resourceGroup" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.VmwareHostCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroup" Type="Azure.ResourceManager.Resources.ResourceGroup" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroup"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" /> instance the method will execute against. </param>
+        <summary> Gets an object representing a VmwareHostCollection along with the instance operations that can be performed on it. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.VmwareHostCollection" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
