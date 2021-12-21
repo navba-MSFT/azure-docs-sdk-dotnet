@@ -1,16 +1,15 @@
 ---
 title: 
-keywords: Azure, .net, SDK, API, System.Memory.Data, 
-author: ramya-rao-a
-ms.author: ramyar
-ms.date: 11/04/2020
+keywords: Azure, dotnet, SDK, API, System.Memory.Data, core
+author: pakrym
+ms.author: pakrym
+ms.date: 12/21/2021
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
-ms.devlang: .net
-ms.service: 
+ms.devlang: dotnet
+ms.service: core
 ---
-
 #  System.Memory.Data library for .NET
 
 ## Binary Data
