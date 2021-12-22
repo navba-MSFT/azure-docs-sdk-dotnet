@@ -1,0 +1,117 @@
+<Type Name="Google" FullName="Azure.ResourceManager.AppService.Models.Google">
+  <TypeSignature Language="C#" Value="public class Google" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Google extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppService.Models.Google" />
+  <TypeSignature Language="VB.NET" Value="Public Class Google" />
+  <TypeSignature Language="F#" Value="type Google = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> The configuration settings of the Google provider. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Google ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.Models.Google.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of Google. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool? Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Enabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.Google.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Enabled : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.AppService.Models.Google.Enabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> &lt;code&gt;false&lt;/code&gt; if the Google provider should not be enabled despite the set registration; otherwise, &lt;code&gt;true&lt;/code&gt;. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Login">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.Models.LoginScopes Login { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.AppService.Models.LoginScopes Login" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.Google.Login" />
+      <MemberSignature Language="VB.NET" Value="Public Property Login As LoginScopes" />
+      <MemberSignature Language="F#" Value="member this.Login : Azure.ResourceManager.AppService.Models.LoginScopes with get, set" Usage="Azure.ResourceManager.AppService.Models.Google.Login" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.Models.LoginScopes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The configuration settings of the login flow. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Registration">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.Models.ClientRegistration Registration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.AppService.Models.ClientRegistration Registration" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.Google.Registration" />
+      <MemberSignature Language="VB.NET" Value="Public Property Registration As ClientRegistration" />
+      <MemberSignature Language="F#" Value="member this.Registration : Azure.ResourceManager.AppService.Models.ClientRegistration with get, set" Usage="Azure.ResourceManager.AppService.Models.Google.Registration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.Models.ClientRegistration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The configuration settings of the app registration for the Google provider. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validation">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.Models.AllowedAudiencesValidation Validation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.AppService.Models.AllowedAudiencesValidation Validation" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.Google.Validation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Validation As AllowedAudiencesValidation" />
+      <MemberSignature Language="F#" Value="member this.Validation : Azure.ResourceManager.AppService.Models.AllowedAudiencesValidation with get, set" Usage="Azure.ResourceManager.AppService.Models.Google.Validation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.Models.AllowedAudiencesValidation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The configuration settings of the Azure Active Directory token validation flow. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

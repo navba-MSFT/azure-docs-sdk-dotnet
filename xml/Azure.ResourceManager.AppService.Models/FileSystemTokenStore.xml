@@ -1,0 +1,57 @@
+<Type Name="FileSystemTokenStore" FullName="Azure.ResourceManager.AppService.Models.FileSystemTokenStore">
+  <TypeSignature Language="C#" Value="public class FileSystemTokenStore" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FileSystemTokenStore extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppService.Models.FileSystemTokenStore" />
+  <TypeSignature Language="VB.NET" Value="Public Class FileSystemTokenStore" />
+  <TypeSignature Language="F#" Value="type FileSystemTokenStore = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> The configuration settings of the storage of the tokens if a file system is used. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FileSystemTokenStore ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.Models.FileSystemTokenStore.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of FileSystemTokenStore. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Directory">
+      <MemberSignature Language="C#" Value="public string Directory { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Directory" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.FileSystemTokenStore.Directory" />
+      <MemberSignature Language="VB.NET" Value="Public Property Directory As String" />
+      <MemberSignature Language="F#" Value="member this.Directory : string with get, set" Usage="Azure.ResourceManager.AppService.Models.FileSystemTokenStore.Directory" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The directory in which the tokens will be stored. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

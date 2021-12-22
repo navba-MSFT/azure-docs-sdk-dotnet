@@ -1,0 +1,465 @@
+<Type Name="HostingEnvironmentWorkerPool" FullName="Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool">
+  <TypeSignature Language="C#" Value="public class HostingEnvironmentWorkerPool : Azure.ResourceManager.Core.ArmResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HostingEnvironmentWorkerPool extends Azure.ResourceManager.Core.ArmResource" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool" />
+  <TypeSignature Language="VB.NET" Value="Public Class HostingEnvironmentWorkerPool&#xA;Inherits ArmResource" />
+  <TypeSignature Language="F#" Value="type HostingEnvironmentWorkerPool = class&#xA;    inherit ArmResource" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.Core.ArmResource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A Class representing a HostingEnvironmentWorkerPool along with the instance operations that can be performed on it. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected HostingEnvironmentWorkerPool ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool" /> class for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Data">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.AppService.WorkerPoolResourceData Data { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.AppService.WorkerPoolResourceData Data" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.Data" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Data As WorkerPoolResourceData" />
+      <MemberSignature Language="F#" Value="member this.Data : Azure.ResourceManager.AppService.WorkerPoolResourceData" Usage="Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.Data" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.WorkerPoolResourceData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the data representing this Feature. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.InvalidOperationException"> Throws if there is no data loaded in the current instance. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt; Get (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt; Get(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.Get(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Get (Optional cancellationToken As CancellationToken = Nothing) As Response(Of HostingEnvironmentWorkerPool)" />
+      <MemberSignature Language="F#" Value="abstract member Get : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;&#xA;override this.Get : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;" Usage="hostingEnvironmentWorkerPool.Get cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get properties of a worker pool. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;&gt; GetAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;&gt; GetAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.GetAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of HostingEnvironmentWorkerPool))" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;&gt;&#xA;override this.GetAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;&gt;" Usage="hostingEnvironmentWorkerPool.GetAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get properties of a worker pool. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvailableLocations">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt; GetAvailableLocations (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.ResourceManager.Resources.Models.Location&gt; GetAvailableLocations(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.GetAvailableLocations(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvailableLocations (Optional cancellationToken As CancellationToken = Nothing) As IEnumerable(Of Location)" />
+      <MemberSignature Language="F#" Value="abstract member GetAvailableLocations : System.Threading.CancellationToken -&gt; seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&#xA;override this.GetAvailableLocations : System.Threading.CancellationToken -&gt; seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;" Usage="hostingEnvironmentWorkerPool.GetAvailableLocations cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> A token to allow the caller to cancel the call to the service. The default value is <see cref="P:System.Threading.CancellationToken.None" />. </param>
+        <summary> Lists all available geo-locations. </summary>
+        <returns> A collection of locations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAvailableLocationsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt; GetAvailableLocationsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.ResourceManager.Resources.Models.Location&gt;&gt; GetAvailableLocationsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.GetAvailableLocationsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvailableLocationsAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of IEnumerable(Of Location))" />
+      <MemberSignature Language="F#" Value="abstract member GetAvailableLocationsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;&#xA;override this.GetAvailableLocationsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;" Usage="hostingEnvironmentWorkerPool.GetAvailableLocationsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> A token to allow the caller to cancel the call to the service. The default value is <see cref="P:System.Threading.CancellationToken.None" />. </param>
+        <summary> Lists all available geo-locations. </summary>
+        <returns> A collection of locations that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWebWorkerMetricDefinitions">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt; GetWebWorkerMetricDefinitions (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt; GetWebWorkerMetricDefinitions(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.GetWebWorkerMetricDefinitions(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWebWorkerMetricDefinitions (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of ResourceMetricDefinition)" />
+      <MemberSignature Language="F#" Value="abstract member GetWebWorkerMetricDefinitions : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt;&#xA;override this.GetWebWorkerMetricDefinitions : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt;" Usage="hostingEnvironmentWorkerPool.GetWebWorkerMetricDefinitions cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get metric definitions for a worker pool of an App Service Environment. </summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.AppService.Models.ResourceMetricDefinition" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWebWorkerMetricDefinitionsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt; GetWebWorkerMetricDefinitionsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt; GetWebWorkerMetricDefinitionsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.GetWebWorkerMetricDefinitionsAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWebWorkerMetricDefinitionsAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of ResourceMetricDefinition)" />
+      <MemberSignature Language="F#" Value="abstract member GetWebWorkerMetricDefinitionsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt;&#xA;override this.GetWebWorkerMetricDefinitionsAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt;" Usage="hostingEnvironmentWorkerPool.GetWebWorkerMetricDefinitionsAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get metric definitions for a worker pool of an App Service Environment. </summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.AppService.Models.ResourceMetricDefinition" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWebWorkerUsages">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.Usage&gt; GetWebWorkerUsages (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.Usage&gt; GetWebWorkerUsages(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.GetWebWorkerUsages(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWebWorkerUsages (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of Usage)" />
+      <MemberSignature Language="F#" Value="abstract member GetWebWorkerUsages : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.Usage&gt;&#xA;override this.GetWebWorkerUsages : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.Usage&gt;" Usage="hostingEnvironmentWorkerPool.GetWebWorkerUsages cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.Usage&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get usage metrics for a worker pool of an App Service Environment. </summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.AppService.Models.Usage" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWebWorkerUsagesAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.Usage&gt; GetWebWorkerUsagesAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.Usage&gt; GetWebWorkerUsagesAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.GetWebWorkerUsagesAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWebWorkerUsagesAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of Usage)" />
+      <MemberSignature Language="F#" Value="abstract member GetWebWorkerUsagesAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.Usage&gt;&#xA;override this.GetWebWorkerUsagesAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.Usage&gt;" Usage="hostingEnvironmentWorkerPool.GetWebWorkerUsagesAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.Usage&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get usage metrics for a worker pool of an App Service Environment. </summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.AppService.Models.Usage" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWorkerPoolInstanceMetricDefinitions">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt; GetWorkerPoolInstanceMetricDefinitions (string instance, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt; GetWorkerPoolInstanceMetricDefinitions(string instance, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.GetWorkerPoolInstanceMetricDefinitions(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWorkerPoolInstanceMetricDefinitions (instance As String, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of ResourceMetricDefinition)" />
+      <MemberSignature Language="F#" Value="abstract member GetWorkerPoolInstanceMetricDefinitions : string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt;&#xA;override this.GetWorkerPoolInstanceMetricDefinitions : string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt;" Usage="hostingEnvironmentWorkerPool.GetWorkerPoolInstanceMetricDefinitions (instance, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="instance" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="instance"> Name of the instance in the worker pool. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get metric definitions for a specific instance of a worker pool of an App Service Environment. </summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.AppService.Models.ResourceMetricDefinition" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWorkerPoolInstanceMetricDefinitionsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt; GetWorkerPoolInstanceMetricDefinitionsAsync (string instance, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt; GetWorkerPoolInstanceMetricDefinitionsAsync(string instance, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.GetWorkerPoolInstanceMetricDefinitionsAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWorkerPoolInstanceMetricDefinitionsAsync (instance As String, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of ResourceMetricDefinition)" />
+      <MemberSignature Language="F#" Value="abstract member GetWorkerPoolInstanceMetricDefinitionsAsync : string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt;&#xA;override this.GetWorkerPoolInstanceMetricDefinitionsAsync : string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt;" Usage="hostingEnvironmentWorkerPool.GetWorkerPoolInstanceMetricDefinitionsAsync (instance, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.ResourceMetricDefinition&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="instance" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="instance"> Name of the instance in the worker pool. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get metric definitions for a specific instance of a worker pool of an App Service Environment. </summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.AppService.Models.ResourceMetricDefinition" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWorkerPoolSkus">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.SkuInfo&gt; GetWorkerPoolSkus (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.AppService.Models.SkuInfo&gt; GetWorkerPoolSkus(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.GetWorkerPoolSkus(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWorkerPoolSkus (Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of SkuInfo)" />
+      <MemberSignature Language="F#" Value="abstract member GetWorkerPoolSkus : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.SkuInfo&gt;&#xA;override this.GetWorkerPoolSkus : System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.SkuInfo&gt;" Usage="hostingEnvironmentWorkerPool.GetWorkerPoolSkus cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppService.Models.SkuInfo&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get available SKUs for scaling a worker pool. </summary>
+        <returns> A collection of <see cref="T:Azure.ResourceManager.AppService.Models.SkuInfo" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWorkerPoolSkusAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.SkuInfo&gt; GetWorkerPoolSkusAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.AppService.Models.SkuInfo&gt; GetWorkerPoolSkusAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.GetWorkerPoolSkusAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWorkerPoolSkusAsync (Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of SkuInfo)" />
+      <MemberSignature Language="F#" Value="abstract member GetWorkerPoolSkusAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.SkuInfo&gt;&#xA;override this.GetWorkerPoolSkusAsync : System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.SkuInfo&gt;" Usage="hostingEnvironmentWorkerPool.GetWorkerPoolSkusAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppService.Models.SkuInfo&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Get available SKUs for scaling a worker pool. </summary>
+        <returns> An async collection of <see cref="T:Azure.ResourceManager.AppService.Models.SkuInfo" /> that may take multiple service requests to iterate over. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasData">
+      <MemberSignature Language="C#" Value="public virtual bool HasData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasData" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.HasData" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property HasData As Boolean" />
+      <MemberSignature Language="F#" Value="member this.HasData : bool" Usage="Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.HasData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets whether or not the current instance has data. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceType">
+      <MemberSignature Language="C#" Value="public static readonly Azure.ResourceManager.ResourceType ResourceType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Azure.ResourceManager.ResourceType ResourceType" />
+      <MemberSignature Language="DocId" Value="F:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.ResourceType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ResourceType As ResourceType " />
+      <MemberSignature Language="F#" Value=" staticval mutable ResourceType : Azure.ResourceManager.ResourceType" Usage="Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.ResourceType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the resource type for the operations. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt; Update (Azure.ResourceManager.AppService.WorkerPoolResourceData workerPoolEnvelope, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt; Update(class Azure.ResourceManager.AppService.WorkerPoolResourceData workerPoolEnvelope, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.Update(Azure.ResourceManager.AppService.WorkerPoolResourceData,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Update (workerPoolEnvelope As WorkerPoolResourceData, Optional cancellationToken As CancellationToken = Nothing) As Response(Of HostingEnvironmentWorkerPool)" />
+      <MemberSignature Language="F#" Value="abstract member Update : Azure.ResourceManager.AppService.WorkerPoolResourceData * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;&#xA;override this.Update : Azure.ResourceManager.AppService.WorkerPoolResourceData * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;" Usage="hostingEnvironmentWorkerPool.Update (workerPoolEnvelope, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="workerPoolEnvelope" Type="Azure.ResourceManager.AppService.WorkerPoolResourceData" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="workerPoolEnvelope"> Properties of the worker pool. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Create or update a worker pool. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="workerPoolEnvelope" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;&gt; UpdateAsync (Azure.ResourceManager.AppService.WorkerPoolResourceData workerPoolEnvelope, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;&gt; UpdateAsync(class Azure.ResourceManager.AppService.WorkerPoolResourceData workerPoolEnvelope, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.UpdateAsync(Azure.ResourceManager.AppService.WorkerPoolResourceData,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateAsync (workerPoolEnvelope As WorkerPoolResourceData, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of HostingEnvironmentWorkerPool))" />
+      <MemberSignature Language="F#" Value="abstract member UpdateAsync : Azure.ResourceManager.AppService.WorkerPoolResourceData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;&gt;&#xA;override this.UpdateAsync : Azure.ResourceManager.AppService.WorkerPoolResourceData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;&gt;" Usage="hostingEnvironmentWorkerPool.UpdateAsync (workerPoolEnvelope, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="workerPoolEnvelope" Type="Azure.ResourceManager.AppService.WorkerPoolResourceData" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="workerPoolEnvelope"> Properties of the worker pool. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Create or update a worker pool. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="workerPoolEnvelope" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidResourceType">
+      <MemberSignature Language="C#" Value="protected override Azure.ResourceManager.ResourceType ValidResourceType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.ResourceType ValidResourceType" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.ValidResourceType" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property ValidResourceType As ResourceType" />
+      <MemberSignature Language="F#" Value="member this.ValidResourceType : Azure.ResourceManager.ResourceType" Usage="Azure.ResourceManager.AppService.HostingEnvironmentWorkerPool.ValidResourceType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the valid resource type for the operations. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
