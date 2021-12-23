@@ -1,0 +1,261 @@
+<Type Name="VmwareDatastoreData" FullName="Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData">
+  <TypeSignature Language="C#" Value="public class VmwareDatastoreData : Azure.ResourceManager.Models.TrackedResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VmwareDatastoreData extends Azure.ResourceManager.Models.TrackedResource" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData" />
+  <TypeSignature Language="VB.NET" Value="Public Class VmwareDatastoreData&#xA;Inherits TrackedResource" />
+  <TypeSignature Language="F#" Value="type VmwareDatastoreData = class&#xA;    inherit TrackedResource" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.Models.TrackedResource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A class representing the VmwareDatastore data model. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public VmwareDatastoreData (Azure.ResourceManager.Resources.Models.Location location);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.ResourceManager.Resources.Models.Location location) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.#ctor(Azure.ResourceManager.Resources.Models.Location)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (location As Location)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData : Azure.ResourceManager.Resources.Models.Location -&gt; Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData" Usage="new Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData location" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="location" Type="Azure.ResourceManager.Resources.Models.Location" />
+      </Parameters>
+      <Docs>
+        <param name="location"> The location. </param>
+        <summary> Initializes a new instance of VmwareDatastoreData. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomResourceName">
+      <MemberSignature Language="C#" Value="public string CustomResourceName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CustomResourceName" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.CustomResourceName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CustomResourceName As String" />
+      <MemberSignature Language="F#" Value="member this.CustomResourceName : string" Usage="Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.CustomResourceName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the name of the corresponding resource in Kubernetes. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedLocation">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Models.CheckNameAvailabilityRequest ExtendedLocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Models.CheckNameAvailabilityRequest ExtendedLocation" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.ExtendedLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtendedLocation As CheckNameAvailabilityRequest" />
+      <MemberSignature Language="F#" Value="member this.ExtendedLocation : Azure.ResourceManager.Models.CheckNameAvailabilityRequest with get, set" Usage="Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.ExtendedLocation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Models.CheckNameAvailabilityRequest</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets or sets the extended location. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InventoryItemId">
+      <MemberSignature Language="C#" Value="public string InventoryItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InventoryItemId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.InventoryItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property InventoryItemId As String" />
+      <MemberSignature Language="F#" Value="member this.InventoryItemId : string with get, set" Usage="Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.InventoryItemId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets or sets the inventory Item ID for the datastore. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kind">
+      <MemberSignature Language="C#" Value="public string Kind { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Kind" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.Kind" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kind As String" />
+      <MemberSignature Language="F#" Value="member this.Kind : string with get, set" Usage="Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.Kind" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Metadata used by portal/tooling/etc to render different UX experiences for resources of the same type; e.g. ApiApps are a kind of Microsoft.Web/sites type.  If supported, the resource provider must validate and persist this value. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoName">
+      <MemberSignature Language="C#" Value="public string MoName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MoName" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.MoName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MoName As String" />
+      <MemberSignature Language="F#" Value="member this.MoName : string" Usage="Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.MoName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets or sets the vCenter Managed Object name for the datastore. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoRefId">
+      <MemberSignature Language="C#" Value="public string MoRefId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MoRefId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.MoRefId" />
+      <MemberSignature Language="VB.NET" Value="Public Property MoRefId As String" />
+      <MemberSignature Language="F#" Value="member this.MoRefId : string with get, set" Usage="Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.MoRefId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets or sets the vCenter MoRef (Managed Object Reference) ID for the datastore. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisioningState">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.ConnectedVmware.Models.ProvisioningState? ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ConnectedVmware.Models.ProvisioningState&gt; ProvisioningState" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of ProvisioningState)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.ConnectedVmware.Models.ProvisioningState&gt;" Usage="Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.ProvisioningState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.ConnectedVmware.Models.ProvisioningState&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Provisioning state of the resource. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Statuses">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.ConnectedVmware.Models.ResourceStatus&gt; Statuses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.ConnectedVmware.Models.ResourceStatus&gt; Statuses" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.Statuses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Statuses As IReadOnlyList(Of ResourceStatus)" />
+      <MemberSignature Language="F#" Value="member this.Statuses : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.ConnectedVmware.Models.ResourceStatus&gt;" Usage="Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.Statuses" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.ConnectedVmware.Models.ResourceStatus&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The resource status information. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SystemData">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Models.SystemData SystemData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Models.SystemData SystemData" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.SystemData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SystemData As SystemData" />
+      <MemberSignature Language="F#" Value="member this.SystemData : Azure.ResourceManager.Models.SystemData" Usage="Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.SystemData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Models.SystemData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The system data. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uuid">
+      <MemberSignature Language="C#" Value="public string Uuid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Uuid" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.Uuid" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Uuid As String" />
+      <MemberSignature Language="F#" Value="member this.Uuid : string" Usage="Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.Uuid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets or sets a unique identifier for this resource. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VCenterId">
+      <MemberSignature Language="C#" Value="public string VCenterId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string VCenterId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.VCenterId" />
+      <MemberSignature Language="VB.NET" Value="Public Property VCenterId As String" />
+      <MemberSignature Language="F#" Value="member this.VCenterId : string with get, set" Usage="Azure.ResourceManager.ConnectedVmware.VmwareDatastoreData.VCenterId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets or sets the ARM Id of the vCenter resource in which this datastore resides. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

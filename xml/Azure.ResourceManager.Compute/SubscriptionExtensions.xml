@@ -3136,7 +3136,7 @@
         <param name="subscription"> The <see cref="T:Azure.ResourceManager.Resources.Subscription" /> instance the method will execute against. </param>
         <param name="location"> The location for which virtual machines under the subscription are queried. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary> Lists the VirtualMachineDatas for this <see cref="T:Azure.ResourceManager.Resources.Subscription" />. </summary>
+        <summary> Lists the VirtualMachineData for this <see cref="T:Azure.ResourceManager.Resources.Subscription" />. </summary>
         <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -3166,7 +3166,7 @@
         <param name="subscription"> The <see cref="T:Azure.ResourceManager.Resources.Subscription" /> instance the method will execute against. </param>
         <param name="location"> The location for which virtual machines under the subscription are queried. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary> Lists the VirtualMachineDatas for this <see cref="T:Azure.ResourceManager.Resources.Subscription" />. </summary>
+        <summary> Lists the VirtualMachineData for this <see cref="T:Azure.ResourceManager.Resources.Subscription" />. </summary>
         <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -3312,7 +3312,7 @@
         <param name="subscription"> The <see cref="T:Azure.ResourceManager.Resources.Subscription" /> instance the method will execute against. </param>
         <param name="location"> The location for which VM scale sets under the subscription are queried. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary> Lists the VirtualMachineScaleSetDatas for this <see cref="T:Azure.ResourceManager.Resources.Subscription" />. </summary>
+        <summary> Lists the VirtualMachineScaleSetData for this <see cref="T:Azure.ResourceManager.Resources.Subscription" />. </summary>
         <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -3342,7 +3342,7 @@
         <param name="subscription"> The <see cref="T:Azure.ResourceManager.Resources.Subscription" /> instance the method will execute against. </param>
         <param name="location"> The location for which VM scale sets under the subscription are queried. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary> Lists the VirtualMachineScaleSetDatas for this <see cref="T:Azure.ResourceManager.Resources.Subscription" />. </summary>
+        <summary> Lists the VirtualMachineScaleSetData for this <see cref="T:Azure.ResourceManager.Resources.Subscription" />. </summary>
         <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
