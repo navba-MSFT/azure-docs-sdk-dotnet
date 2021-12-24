@@ -92,7 +92,7 @@
         <param name="onlyLatestPerDatabase"> Whether or not to only get the latest backup for each database. </param>
         <param name="databaseState"> Whether to query against just live databases, just deleted databases, or all databases. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary> Lists the LongTermRetentionBackupDatas for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
+        <summary> Lists the LongTermRetentionBackupData for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
         <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -126,7 +126,7 @@
         <param name="onlyLatestPerDatabase"> Whether or not to only get the latest backup for each database. </param>
         <param name="databaseState"> Whether to query against just live databases, just deleted databases, or all databases. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary> Lists the LongTermRetentionBackupDatas for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
+        <summary> Lists the LongTermRetentionBackupData for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
         <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -162,7 +162,7 @@
         <param name="onlyLatestPerDatabase"> Whether or not to only get the latest backup for each database. </param>
         <param name="databaseState"> Whether to query against just live databases, just deleted databases, or all databases. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary> Lists the LongTermRetentionBackupDatas for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
+        <summary> Lists the LongTermRetentionBackupData for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
         <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -198,7 +198,7 @@
         <param name="onlyLatestPerDatabase"> Whether or not to only get the latest backup for each database. </param>
         <param name="databaseState"> Whether to query against just live databases, just deleted databases, or all databases. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary> Lists the LongTermRetentionBackupDatas for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
+        <summary> Lists the LongTermRetentionBackupData for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
         <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -234,7 +234,7 @@
         <param name="onlyLatestPerDatabase"> Whether or not to only get the latest backup for each database. </param>
         <param name="databaseState"> Whether to query against just live databases, just deleted databases, or all databases. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary> Lists the ManagedInstanceLongTermRetentionBackupDatas for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
+        <summary> Lists the ManagedInstanceLongTermRetentionBackupData for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
         <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -270,7 +270,7 @@
         <param name="onlyLatestPerDatabase"> Whether or not to only get the latest backup for each database. </param>
         <param name="databaseState"> Whether to query against just live databases, just deleted databases, or all databases. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary> Lists the ManagedInstanceLongTermRetentionBackupDatas for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
+        <summary> Lists the ManagedInstanceLongTermRetentionBackupData for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
         <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -304,7 +304,7 @@
         <param name="onlyLatestPerDatabase"> Whether or not to only get the latest backup for each database. </param>
         <param name="databaseState"> Whether to query against just live databases, just deleted databases, or all databases. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary> Lists the ManagedInstanceLongTermRetentionBackupDatas for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
+        <summary> Lists the ManagedInstanceLongTermRetentionBackupData for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
         <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -338,7 +338,7 @@
         <param name="onlyLatestPerDatabase"> Whether or not to only get the latest backup for each database. </param>
         <param name="databaseState"> Whether to query against just live databases, just deleted databases, or all databases. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary> Lists the ManagedInstanceLongTermRetentionBackupDatas for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
+        <summary> Lists the ManagedInstanceLongTermRetentionBackupData for this <see cref="T:Azure.ResourceManager.Resources.ResourceGroup" />. </summary>
         <returns> A collection of resource operations that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

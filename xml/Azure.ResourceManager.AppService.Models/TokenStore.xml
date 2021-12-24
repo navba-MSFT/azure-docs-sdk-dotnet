@@ -1,0 +1,123 @@
+<Type Name="TokenStore" FullName="Azure.ResourceManager.AppService.Models.TokenStore">
+  <TypeSignature Language="C#" Value="public class TokenStore" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TokenStore extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppService.Models.TokenStore" />
+  <TypeSignature Language="VB.NET" Value="Public Class TokenStore" />
+  <TypeSignature Language="F#" Value="type TokenStore = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> The configuration settings of the token store. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TokenStore ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.Models.TokenStore.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of TokenStore. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AzureBlobStorage">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.Models.BlobStorageTokenStore AzureBlobStorage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.AppService.Models.BlobStorageTokenStore AzureBlobStorage" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.TokenStore.AzureBlobStorage" />
+      <MemberSignature Language="VB.NET" Value="Public Property AzureBlobStorage As BlobStorageTokenStore" />
+      <MemberSignature Language="F#" Value="member this.AzureBlobStorage : Azure.ResourceManager.AppService.Models.BlobStorageTokenStore with get, set" Usage="Azure.ResourceManager.AppService.Models.TokenStore.AzureBlobStorage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.Models.BlobStorageTokenStore</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The configuration settings of the storage of the tokens if blob storage is used. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool? Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Enabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.TokenStore.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Enabled : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.AppService.Models.TokenStore.Enabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            &lt;code&gt;true&lt;/code&gt; to durably store platform-specific security tokens that are obtained during login flows; otherwise, &lt;code&gt;false&lt;/code&gt;.
+             The default is &lt;code&gt;false&lt;/code&gt;.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileSystem">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.Models.FileSystemTokenStore FileSystem { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.AppService.Models.FileSystemTokenStore FileSystem" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.TokenStore.FileSystem" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileSystem As FileSystemTokenStore" />
+      <MemberSignature Language="F#" Value="member this.FileSystem : Azure.ResourceManager.AppService.Models.FileSystemTokenStore with get, set" Usage="Azure.ResourceManager.AppService.Models.TokenStore.FileSystem" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.Models.FileSystemTokenStore</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The configuration settings of the storage of the tokens if a file system is used. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TokenRefreshExtensionHours">
+      <MemberSignature Language="C#" Value="public double? TokenRefreshExtensionHours { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; TokenRefreshExtensionHours" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.TokenStore.TokenRefreshExtensionHours" />
+      <MemberSignature Language="VB.NET" Value="Public Property TokenRefreshExtensionHours As Nullable(Of Double)" />
+      <MemberSignature Language="F#" Value="member this.TokenRefreshExtensionHours : Nullable&lt;double&gt; with get, set" Usage="Azure.ResourceManager.AppService.Models.TokenStore.TokenRefreshExtensionHours" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The number of hours after session token expiration that a session token can be used to
+            call the token refresh API. The default is 72 hours.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

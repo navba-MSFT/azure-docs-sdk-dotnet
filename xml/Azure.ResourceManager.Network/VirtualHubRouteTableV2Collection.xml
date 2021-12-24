@@ -100,18 +100,18 @@
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdate">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2CreateOrUpdateOperation CreateOrUpdate (string routeTableName, Azure.ResourceManager.Network.VirtualHubRouteTableV2Data virtualHubRouteTableV2Parameters, bool waitForCompletion = true, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2CreateOrUpdateOperation CreateOrUpdate(string routeTableName, class Azure.ResourceManager.Network.VirtualHubRouteTableV2Data virtualHubRouteTableV2Parameters, bool waitForCompletion, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2SCreateOrUpdateOperation CreateOrUpdate (string routeTableName, Azure.ResourceManager.Network.VirtualHubRouteTableV2Data virtualHubRouteTableV2Parameters, bool waitForCompletion = true, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2SCreateOrUpdateOperation CreateOrUpdate(string routeTableName, class Azure.ResourceManager.Network.VirtualHubRouteTableV2Data virtualHubRouteTableV2Parameters, bool waitForCompletion, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Network.VirtualHubRouteTableV2Collection.CreateOrUpdate(System.String,Azure.ResourceManager.Network.VirtualHubRouteTableV2Data,System.Boolean,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdate (routeTableName As String, virtualHubRouteTableV2Parameters As VirtualHubRouteTableV2Data, Optional waitForCompletion As Boolean = true, Optional cancellationToken As CancellationToken = Nothing) As VirtualHubRouteTableV2CreateOrUpdateOperation" />
-      <MemberSignature Language="F#" Value="abstract member CreateOrUpdate : string * Azure.ResourceManager.Network.VirtualHubRouteTableV2Data * bool * System.Threading.CancellationToken -&gt; Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2CreateOrUpdateOperation&#xA;override this.CreateOrUpdate : string * Azure.ResourceManager.Network.VirtualHubRouteTableV2Data * bool * System.Threading.CancellationToken -&gt; Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2CreateOrUpdateOperation" Usage="virtualHubRouteTableV2Collection.CreateOrUpdate (routeTableName, virtualHubRouteTableV2Parameters, waitForCompletion, cancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdate (routeTableName As String, virtualHubRouteTableV2Parameters As VirtualHubRouteTableV2Data, Optional waitForCompletion As Boolean = true, Optional cancellationToken As CancellationToken = Nothing) As VirtualHubRouteTableV2SCreateOrUpdateOperation" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdate : string * Azure.ResourceManager.Network.VirtualHubRouteTableV2Data * bool * System.Threading.CancellationToken -&gt; Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2SCreateOrUpdateOperation&#xA;override this.CreateOrUpdate : string * Azure.ResourceManager.Network.VirtualHubRouteTableV2Data * bool * System.Threading.CancellationToken -&gt; Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2SCreateOrUpdateOperation" Usage="virtualHubRouteTableV2Collection.CreateOrUpdate (routeTableName, virtualHubRouteTableV2Parameters, waitForCompletion, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2CreateOrUpdateOperation</ReturnType>
+        <ReturnType>Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2SCreateOrUpdateOperation</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="routeTableName" Type="System.String" />
@@ -132,18 +132,18 @@
       </Docs>
     </Member>
     <Member MemberName="CreateOrUpdateAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2CreateOrUpdateOperation&gt; CreateOrUpdateAsync (string routeTableName, Azure.ResourceManager.Network.VirtualHubRouteTableV2Data virtualHubRouteTableV2Parameters, bool waitForCompletion = true, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2CreateOrUpdateOperation&gt; CreateOrUpdateAsync(string routeTableName, class Azure.ResourceManager.Network.VirtualHubRouteTableV2Data virtualHubRouteTableV2Parameters, bool waitForCompletion, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2SCreateOrUpdateOperation&gt; CreateOrUpdateAsync (string routeTableName, Azure.ResourceManager.Network.VirtualHubRouteTableV2Data virtualHubRouteTableV2Parameters, bool waitForCompletion = true, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2SCreateOrUpdateOperation&gt; CreateOrUpdateAsync(string routeTableName, class Azure.ResourceManager.Network.VirtualHubRouteTableV2Data virtualHubRouteTableV2Parameters, bool waitForCompletion, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Network.VirtualHubRouteTableV2Collection.CreateOrUpdateAsync(System.String,Azure.ResourceManager.Network.VirtualHubRouteTableV2Data,System.Boolean,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateAsync (routeTableName As String, virtualHubRouteTableV2Parameters As VirtualHubRouteTableV2Data, Optional waitForCompletion As Boolean = true, Optional cancellationToken As CancellationToken = Nothing) As Task(Of VirtualHubRouteTableV2CreateOrUpdateOperation)" />
-      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateAsync : string * Azure.ResourceManager.Network.VirtualHubRouteTableV2Data * bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2CreateOrUpdateOperation&gt;&#xA;override this.CreateOrUpdateAsync : string * Azure.ResourceManager.Network.VirtualHubRouteTableV2Data * bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2CreateOrUpdateOperation&gt;" Usage="virtualHubRouteTableV2Collection.CreateOrUpdateAsync (routeTableName, virtualHubRouteTableV2Parameters, waitForCompletion, cancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateAsync (routeTableName As String, virtualHubRouteTableV2Parameters As VirtualHubRouteTableV2Data, Optional waitForCompletion As Boolean = true, Optional cancellationToken As CancellationToken = Nothing) As Task(Of VirtualHubRouteTableV2SCreateOrUpdateOperation)" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateAsync : string * Azure.ResourceManager.Network.VirtualHubRouteTableV2Data * bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2SCreateOrUpdateOperation&gt;&#xA;override this.CreateOrUpdateAsync : string * Azure.ResourceManager.Network.VirtualHubRouteTableV2Data * bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2SCreateOrUpdateOperation&gt;" Usage="virtualHubRouteTableV2Collection.CreateOrUpdateAsync (routeTableName, virtualHubRouteTableV2Parameters, waitForCompletion, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2CreateOrUpdateOperation&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.Network.Models.VirtualHubRouteTableV2SCreateOrUpdateOperation&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="routeTableName" Type="System.String" />

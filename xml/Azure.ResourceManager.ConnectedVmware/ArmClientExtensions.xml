@@ -1,0 +1,333 @@
+<Type Name="ArmClientExtensions" FullName="Azure.ResourceManager.ConnectedVmware.ArmClientExtensions">
+  <TypeSignature Language="C#" Value="public static class ArmClientExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ArmClientExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.ConnectedVmware.ArmClientExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ArmClientExtensions" />
+  <TypeSignature Language="F#" Value="type ArmClientExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A class to add extension methods to ArmClient. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetGuestAgent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.GuestAgent GetGuestAgent (this Azure.ResourceManager.ArmClient armClient, Azure.ResourceManager.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.GuestAgent GetGuestAgent(class Azure.ResourceManager.ArmClient armClient, class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetGuestAgent(Azure.ResourceManager.ArmClient,Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetGuestAgent (armClient As ArmClient, id As ResourceIdentifier) As GuestAgent" />
+      <MemberSignature Language="F#" Value="static member GetGuestAgent : Azure.ResourceManager.ArmClient * Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVmware.GuestAgent" Usage="Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetGuestAgent (armClient, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.GuestAgent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="armClient" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="armClient"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary> Gets an object representing a GuestAgent along with the instance operations that can be performed on it but with no data. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.GuestAgent" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHybridIdentityMetadata">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.HybridIdentityMetadata GetHybridIdentityMetadata (this Azure.ResourceManager.ArmClient armClient, Azure.ResourceManager.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.HybridIdentityMetadata GetHybridIdentityMetadata(class Azure.ResourceManager.ArmClient armClient, class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetHybridIdentityMetadata(Azure.ResourceManager.ArmClient,Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetHybridIdentityMetadata (armClient As ArmClient, id As ResourceIdentifier) As HybridIdentityMetadata" />
+      <MemberSignature Language="F#" Value="static member GetHybridIdentityMetadata : Azure.ResourceManager.ArmClient * Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVmware.HybridIdentityMetadata" Usage="Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetHybridIdentityMetadata (armClient, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.HybridIdentityMetadata</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="armClient" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="armClient"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary> Gets an object representing a HybridIdentityMetadata along with the instance operations that can be performed on it but with no data. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.HybridIdentityMetadata" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetInventoryItem">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.InventoryItem GetInventoryItem (this Azure.ResourceManager.ArmClient armClient, Azure.ResourceManager.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.InventoryItem GetInventoryItem(class Azure.ResourceManager.ArmClient armClient, class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetInventoryItem(Azure.ResourceManager.ArmClient,Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetInventoryItem (armClient As ArmClient, id As ResourceIdentifier) As InventoryItem" />
+      <MemberSignature Language="F#" Value="static member GetInventoryItem : Azure.ResourceManager.ArmClient * Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVmware.InventoryItem" Usage="Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetInventoryItem (armClient, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.InventoryItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="armClient" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="armClient"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary> Gets an object representing a InventoryItem along with the instance operations that can be performed on it but with no data. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.InventoryItem" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMachineExtension">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.MachineExtension GetMachineExtension (this Azure.ResourceManager.ArmClient armClient, Azure.ResourceManager.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.MachineExtension GetMachineExtension(class Azure.ResourceManager.ArmClient armClient, class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetMachineExtension(Azure.ResourceManager.ArmClient,Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetMachineExtension (armClient As ArmClient, id As ResourceIdentifier) As MachineExtension" />
+      <MemberSignature Language="F#" Value="static member GetMachineExtension : Azure.ResourceManager.ArmClient * Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVmware.MachineExtension" Usage="Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetMachineExtension (armClient, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.MachineExtension</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="armClient" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="armClient"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary> Gets an object representing a MachineExtension along with the instance operations that can be performed on it but with no data. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.MachineExtension" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResourcePool">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.ResourcePool GetResourcePool (this Azure.ResourceManager.ArmClient armClient, Azure.ResourceManager.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.ResourcePool GetResourcePool(class Azure.ResourceManager.ArmClient armClient, class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetResourcePool(Azure.ResourceManager.ArmClient,Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetResourcePool (armClient As ArmClient, id As ResourceIdentifier) As ResourcePool" />
+      <MemberSignature Language="F#" Value="static member GetResourcePool : Azure.ResourceManager.ArmClient * Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVmware.ResourcePool" Usage="Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetResourcePool (armClient, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.ResourcePool</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="armClient" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="armClient"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary> Gets an object representing a ResourcePool along with the instance operations that can be performed on it but with no data. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.ResourcePool" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVCenter">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.VCenter GetVCenter (this Azure.ResourceManager.ArmClient armClient, Azure.ResourceManager.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.VCenter GetVCenter(class Azure.ResourceManager.ArmClient armClient, class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetVCenter(Azure.ResourceManager.ArmClient,Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVCenter (armClient As ArmClient, id As ResourceIdentifier) As VCenter" />
+      <MemberSignature Language="F#" Value="static member GetVCenter : Azure.ResourceManager.ArmClient * Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVmware.VCenter" Usage="Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetVCenter (armClient, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.VCenter</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="armClient" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="armClient"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary> Gets an object representing a VCenter along with the instance operations that can be performed on it but with no data. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.VCenter" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVirtualMachine">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.VirtualMachine GetVirtualMachine (this Azure.ResourceManager.ArmClient armClient, Azure.ResourceManager.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.VirtualMachine GetVirtualMachine(class Azure.ResourceManager.ArmClient armClient, class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetVirtualMachine(Azure.ResourceManager.ArmClient,Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVirtualMachine (armClient As ArmClient, id As ResourceIdentifier) As VirtualMachine" />
+      <MemberSignature Language="F#" Value="static member GetVirtualMachine : Azure.ResourceManager.ArmClient * Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVmware.VirtualMachine" Usage="Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetVirtualMachine (armClient, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.VirtualMachine</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="armClient" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="armClient"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary> Gets an object representing a VirtualMachine along with the instance operations that can be performed on it but with no data. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.VirtualMachine" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVirtualMachineTemplate">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.VirtualMachineTemplate GetVirtualMachineTemplate (this Azure.ResourceManager.ArmClient armClient, Azure.ResourceManager.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.VirtualMachineTemplate GetVirtualMachineTemplate(class Azure.ResourceManager.ArmClient armClient, class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetVirtualMachineTemplate(Azure.ResourceManager.ArmClient,Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVirtualMachineTemplate (armClient As ArmClient, id As ResourceIdentifier) As VirtualMachineTemplate" />
+      <MemberSignature Language="F#" Value="static member GetVirtualMachineTemplate : Azure.ResourceManager.ArmClient * Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVmware.VirtualMachineTemplate" Usage="Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetVirtualMachineTemplate (armClient, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.VirtualMachineTemplate</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="armClient" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="armClient"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary> Gets an object representing a VirtualMachineTemplate along with the instance operations that can be performed on it but with no data. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.VirtualMachineTemplate" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVirtualNetwork">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.VirtualNetwork GetVirtualNetwork (this Azure.ResourceManager.ArmClient armClient, Azure.ResourceManager.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.VirtualNetwork GetVirtualNetwork(class Azure.ResourceManager.ArmClient armClient, class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetVirtualNetwork(Azure.ResourceManager.ArmClient,Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVirtualNetwork (armClient As ArmClient, id As ResourceIdentifier) As VirtualNetwork" />
+      <MemberSignature Language="F#" Value="static member GetVirtualNetwork : Azure.ResourceManager.ArmClient * Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVmware.VirtualNetwork" Usage="Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetVirtualNetwork (armClient, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.VirtualNetwork</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="armClient" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="armClient"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary> Gets an object representing a VirtualNetwork along with the instance operations that can be performed on it but with no data. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.VirtualNetwork" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVmwareCluster">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.VmwareCluster GetVmwareCluster (this Azure.ResourceManager.ArmClient armClient, Azure.ResourceManager.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.VmwareCluster GetVmwareCluster(class Azure.ResourceManager.ArmClient armClient, class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetVmwareCluster(Azure.ResourceManager.ArmClient,Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVmwareCluster (armClient As ArmClient, id As ResourceIdentifier) As VmwareCluster" />
+      <MemberSignature Language="F#" Value="static member GetVmwareCluster : Azure.ResourceManager.ArmClient * Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVmware.VmwareCluster" Usage="Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetVmwareCluster (armClient, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.VmwareCluster</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="armClient" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="armClient"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary> Gets an object representing a VmwareCluster along with the instance operations that can be performed on it but with no data. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.VmwareCluster" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVmwareDatastore">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.VmwareDatastore GetVmwareDatastore (this Azure.ResourceManager.ArmClient armClient, Azure.ResourceManager.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.VmwareDatastore GetVmwareDatastore(class Azure.ResourceManager.ArmClient armClient, class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetVmwareDatastore(Azure.ResourceManager.ArmClient,Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVmwareDatastore (armClient As ArmClient, id As ResourceIdentifier) As VmwareDatastore" />
+      <MemberSignature Language="F#" Value="static member GetVmwareDatastore : Azure.ResourceManager.ArmClient * Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVmware.VmwareDatastore" Usage="Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetVmwareDatastore (armClient, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.VmwareDatastore</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="armClient" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="armClient"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary> Gets an object representing a VmwareDatastore along with the instance operations that can be performed on it but with no data. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.VmwareDatastore" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVmwareHost">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVmware.VmwareHost GetVmwareHost (this Azure.ResourceManager.ArmClient armClient, Azure.ResourceManager.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ConnectedVmware.VmwareHost GetVmwareHost(class Azure.ResourceManager.ArmClient armClient, class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetVmwareHost(Azure.ResourceManager.ArmClient,Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetVmwareHost (armClient As ArmClient, id As ResourceIdentifier) As VmwareHost" />
+      <MemberSignature Language="F#" Value="static member GetVmwareHost : Azure.ResourceManager.ArmClient * Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVmware.VmwareHost" Usage="Azure.ResourceManager.ConnectedVmware.ArmClientExtensions.GetVmwareHost (armClient, id)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVmware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVmware.VmwareHost</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="armClient" Type="Azure.ResourceManager.ArmClient" RefType="this" />
+        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="armClient"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary> Gets an object representing a VmwareHost along with the instance operations that can be performed on it but with no data. </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVmware.VmwareHost" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
