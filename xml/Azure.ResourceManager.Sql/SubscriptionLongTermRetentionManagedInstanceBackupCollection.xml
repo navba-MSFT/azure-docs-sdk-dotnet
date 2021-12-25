@@ -33,12 +33,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="CheckIfExists">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;bool&gt; CheckIfExists (string locationName, string managedInstanceName, string databaseName, string backupName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;bool&gt; CheckIfExists(string locationName, string managedInstanceName, string databaseName, string backupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.SubscriptionLongTermRetentionManagedInstanceBackupCollection.CheckIfExists(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CheckIfExists (locationName As String, managedInstanceName As String, databaseName As String, backupName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of Boolean)" />
-      <MemberSignature Language="F#" Value="abstract member CheckIfExists : string * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;bool&gt;&#xA;override this.CheckIfExists : string * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;bool&gt;" Usage="subscriptionLongTermRetentionManagedInstanceBackupCollection.CheckIfExists (locationName, managedInstanceName, databaseName, backupName, cancellationToken)" />
+    <Member MemberName="Exists">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;bool&gt; Exists (string locationName, string managedInstanceName, string databaseName, string backupName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;bool&gt; Exists(string locationName, string managedInstanceName, string databaseName, string backupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.SubscriptionLongTermRetentionManagedInstanceBackupCollection.Exists(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Exists (locationName As String, managedInstanceName As String, databaseName As String, backupName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Exists : string * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;bool&gt;&#xA;override this.Exists : string * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;bool&gt;" Usage="subscriptionLongTermRetentionManagedInstanceBackupCollection.Exists (locationName, managedInstanceName, databaseName, backupName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
@@ -67,12 +67,12 @@
           <paramref name="locationName" />, <paramref name="managedInstanceName" />, <paramref name="databaseName" />, or <paramref name="backupName" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="CheckIfExistsAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt; CheckIfExistsAsync (string locationName, string managedInstanceName, string databaseName, string backupName, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;bool&gt;&gt; CheckIfExistsAsync(string locationName, string managedInstanceName, string databaseName, string backupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.SubscriptionLongTermRetentionManagedInstanceBackupCollection.CheckIfExistsAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CheckIfExistsAsync (locationName As String, managedInstanceName As String, databaseName As String, backupName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of Boolean))" />
-      <MemberSignature Language="F#" Value="abstract member CheckIfExistsAsync : string * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt;&#xA;override this.CheckIfExistsAsync : string * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt;" Usage="subscriptionLongTermRetentionManagedInstanceBackupCollection.CheckIfExistsAsync (locationName, managedInstanceName, databaseName, backupName, cancellationToken)" />
+    <Member MemberName="ExistsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt; ExistsAsync (string locationName, string managedInstanceName, string databaseName, string backupName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;bool&gt;&gt; ExistsAsync(string locationName, string managedInstanceName, string databaseName, string backupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.SubscriptionLongTermRetentionManagedInstanceBackupCollection.ExistsAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ExistsAsync (locationName As String, managedInstanceName As String, databaseName As String, backupName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of Boolean))" />
+      <MemberSignature Language="F#" Value="abstract member ExistsAsync : string * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt;&#xA;override this.ExistsAsync : string * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt;" Usage="subscriptionLongTermRetentionManagedInstanceBackupCollection.ExistsAsync (locationName, managedInstanceName, databaseName, backupName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
