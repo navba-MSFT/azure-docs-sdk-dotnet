@@ -1,0 +1,290 @@
+<Type Name="StatusTypes" FullName="Azure.ResourceManager.ConnectedVMware.Models.StatusTypes">
+  <TypeSignature Language="C#" Value="public struct StatusTypes : IEquatable&lt;Azure.ResourceManager.ConnectedVMware.Models.StatusTypes&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit StatusTypes extends System.ValueType implements class System.IEquatable`1&lt;valuetype Azure.ResourceManager.ConnectedVMware.Models.StatusTypes&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" />
+  <TypeSignature Language="VB.NET" Value="Public Structure StatusTypes&#xA;Implements IEquatable(Of StatusTypes)" />
+  <TypeSignature Language="F#" Value="type StatusTypes = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.ConnectedVMware</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Azure.ResourceManager.ConnectedVMware.Models.StatusTypes&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary> The status of the hybrid machine agent. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StatusTypes (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As String)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.ConnectedVMware.Models.StatusTypes : string -&gt; Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" Usage="new Azure.ResourceManager.ConnectedVMware.Models.StatusTypes value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" />. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="value" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Connected">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVMware.Models.StatusTypes Connected { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ConnectedVMware.Models.StatusTypes Connected" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.Connected" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Connected As StatusTypes" />
+      <MemberSignature Language="F#" Value="member this.Connected : Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" Usage="Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.Connected" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMware.Models.StatusTypes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Connected. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Disconnected">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVMware.Models.StatusTypes Disconnected { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ConnectedVMware.Models.StatusTypes Disconnected" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.Disconnected" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Disconnected As StatusTypes" />
+      <MemberSignature Language="F#" Value="member this.Disconnected : Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" Usage="Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.Disconnected" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMware.Models.StatusTypes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Disconnected. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Azure.ResourceManager.ConnectedVMware.Models.StatusTypes other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Azure.ResourceManager.ConnectedVMware.Models.StatusTypes other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.Equals(Azure.ResourceManager.ConnectedVMware.Models.StatusTypes)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As StatusTypes) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Azure.ResourceManager.ConnectedVMware.Models.StatusTypes -&gt; bool" Usage="statusTypes.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" />
+      </Parameters>
+      <Docs>
+        <param name="other">An object to compare with this object.</param>
+        <summary>Indicates whether the current object is equal to another object of the same type.</summary>
+        <returns>
+          <see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="statusTypes.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to compare with the current instance.</param>
+        <summary>Indicates whether this instance and a specified object are equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ConnectedVMware.Models.StatusTypes Error { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.ConnectedVMware.Models.StatusTypes Error" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.Error" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Error As StatusTypes" />
+      <MemberSignature Language="F#" Value="member this.Error : Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" Usage="Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.Error" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMware.Models.StatusTypes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Error. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="statusTypes.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the hash code for this instance.</summary>
+        <returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Azure.ResourceManager.ConnectedVMware.Models.StatusTypes left, Azure.ResourceManager.ConnectedVMware.Models.StatusTypes right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Azure.ResourceManager.ConnectedVMware.Models.StatusTypes left, valuetype Azure.ResourceManager.ConnectedVMware.Models.StatusTypes right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.op_Equality(Azure.ResourceManager.ConnectedVMware.Models.StatusTypes,Azure.ResourceManager.ConnectedVMware.Models.StatusTypes)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As StatusTypes, right As StatusTypes) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Azure.ResourceManager.ConnectedVMware.Models.StatusTypes * Azure.ResourceManager.ConnectedVMware.Models.StatusTypes -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" />
+        <Parameter Name="right" Type="Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" /> values are the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.ResourceManager.ConnectedVMware.Models.StatusTypes (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Azure.ResourceManager.ConnectedVMware.Models.StatusTypes op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.op_Implicit(System.String)~Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As StatusTypes" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" Usage="Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMware.Models.StatusTypes</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Converts a string to a <see cref="T:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Azure.ResourceManager.ConnectedVMware.Models.StatusTypes left, Azure.ResourceManager.ConnectedVMware.Models.StatusTypes right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Azure.ResourceManager.ConnectedVMware.Models.StatusTypes left, valuetype Azure.ResourceManager.ConnectedVMware.Models.StatusTypes right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.op_Inequality(Azure.ResourceManager.ConnectedVMware.Models.StatusTypes,Azure.ResourceManager.ConnectedVMware.Models.StatusTypes)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As StatusTypes, right As StatusTypes) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Azure.ResourceManager.ConnectedVMware.Models.StatusTypes * Azure.ResourceManager.ConnectedVMware.Models.StatusTypes -&gt; bool" Usage="Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" />
+        <Parameter Name="right" Type="Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes" /> values are not the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMware.Models.StatusTypes.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="statusTypes.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMware</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the fully qualified type name of this instance.</summary>
+        <returns>The fully qualified type name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

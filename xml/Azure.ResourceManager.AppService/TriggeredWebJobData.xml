@@ -1,0 +1,237 @@
+<Type Name="TriggeredWebJobData" FullName="Azure.ResourceManager.AppService.TriggeredWebJobData">
+  <TypeSignature Language="C#" Value="public class TriggeredWebJobData : Azure.ResourceManager.AppService.Models.ProxyOnlyResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TriggeredWebJobData extends Azure.ResourceManager.AppService.Models.ProxyOnlyResource" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppService.TriggeredWebJobData" />
+  <TypeSignature Language="VB.NET" Value="Public Class TriggeredWebJobData&#xA;Inherits ProxyOnlyResource" />
+  <TypeSignature Language="F#" Value="type TriggeredWebJobData = class&#xA;    inherit ProxyOnlyResource" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.AppService.Models.ProxyOnlyResource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A class representing the TriggeredWebJob data model. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TriggeredWebJobData ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.TriggeredWebJobData.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of TriggeredWebJobData. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="public string Error { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Error" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.TriggeredWebJobData.Error" />
+      <MemberSignature Language="VB.NET" Value="Public Property Error As String" />
+      <MemberSignature Language="F#" Value="member this.Error : string with get, set" Usage="Azure.ResourceManager.AppService.TriggeredWebJobData.Error" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Error information. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtraInfoUrl">
+      <MemberSignature Language="C#" Value="public string ExtraInfoUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExtraInfoUrl" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.TriggeredWebJobData.ExtraInfoUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtraInfoUrl As String" />
+      <MemberSignature Language="F#" Value="member this.ExtraInfoUrl : string with get, set" Usage="Azure.ResourceManager.AppService.TriggeredWebJobData.ExtraInfoUrl" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Extra Info URL. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HistoryUrl">
+      <MemberSignature Language="C#" Value="public string HistoryUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HistoryUrl" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.TriggeredWebJobData.HistoryUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property HistoryUrl As String" />
+      <MemberSignature Language="F#" Value="member this.HistoryUrl : string with get, set" Usage="Azure.ResourceManager.AppService.TriggeredWebJobData.HistoryUrl" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> History URL. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LatestRun">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.Models.TriggeredJobRun LatestRun { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.AppService.Models.TriggeredJobRun LatestRun" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.TriggeredWebJobData.LatestRun" />
+      <MemberSignature Language="VB.NET" Value="Public Property LatestRun As TriggeredJobRun" />
+      <MemberSignature Language="F#" Value="member this.LatestRun : Azure.ResourceManager.AppService.Models.TriggeredJobRun with get, set" Usage="Azure.ResourceManager.AppService.TriggeredWebJobData.LatestRun" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.Models.TriggeredJobRun</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Latest job run information. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RunCommand">
+      <MemberSignature Language="C#" Value="public string RunCommand { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RunCommand" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.TriggeredWebJobData.RunCommand" />
+      <MemberSignature Language="VB.NET" Value="Public Property RunCommand As String" />
+      <MemberSignature Language="F#" Value="member this.RunCommand : string with get, set" Usage="Azure.ResourceManager.AppService.TriggeredWebJobData.RunCommand" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Run command. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SchedulerLogsUrl">
+      <MemberSignature Language="C#" Value="public string SchedulerLogsUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SchedulerLogsUrl" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.TriggeredWebJobData.SchedulerLogsUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property SchedulerLogsUrl As String" />
+      <MemberSignature Language="F#" Value="member this.SchedulerLogsUrl : string with get, set" Usage="Azure.ResourceManager.AppService.TriggeredWebJobData.SchedulerLogsUrl" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Scheduler Logs URL. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Settings">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; Settings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; Settings" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.TriggeredWebJobData.Settings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Settings As IDictionary(Of String, Object)" />
+      <MemberSignature Language="F#" Value="member this.Settings : System.Collections.Generic.IDictionary&lt;string, obj&gt;" Usage="Azure.ResourceManager.AppService.TriggeredWebJobData.Settings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Job settings. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Url">
+      <MemberSignature Language="C#" Value="public string Url { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Url" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.TriggeredWebJobData.Url" />
+      <MemberSignature Language="VB.NET" Value="Public Property Url As String" />
+      <MemberSignature Language="F#" Value="member this.Url : string with get, set" Usage="Azure.ResourceManager.AppService.TriggeredWebJobData.Url" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Job URL. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsingSdk">
+      <MemberSignature Language="C#" Value="public bool? UsingSdk { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; UsingSdk" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.TriggeredWebJobData.UsingSdk" />
+      <MemberSignature Language="VB.NET" Value="Public Property UsingSdk As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.UsingSdk : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.AppService.TriggeredWebJobData.UsingSdk" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Using SDK?. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebJobType">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.Models.WebJobType? WebJobType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.WebJobType&gt; WebJobType" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.TriggeredWebJobData.WebJobType" />
+      <MemberSignature Language="VB.NET" Value="Public Property WebJobType As Nullable(Of WebJobType)" />
+      <MemberSignature Language="F#" Value="member this.WebJobType : Nullable&lt;Azure.ResourceManager.AppService.Models.WebJobType&gt; with get, set" Usage="Azure.ResourceManager.AppService.TriggeredWebJobData.WebJobType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.AppService.Models.WebJobType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Job type. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
