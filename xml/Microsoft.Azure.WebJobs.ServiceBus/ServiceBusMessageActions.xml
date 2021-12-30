@@ -9,6 +9,7 @@
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
     <AssemblyVersion>5.1.0.0</AssemblyVersion>
     <AssemblyVersion>5.2.0.0</AssemblyVersion>
+    <AssemblyVersion>5.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -30,6 +31,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -54,6 +56,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -95,6 +98,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -133,6 +137,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -177,6 +182,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -223,6 +229,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>

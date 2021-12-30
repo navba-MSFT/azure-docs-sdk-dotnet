@@ -1,0 +1,353 @@
+<Type Name="TemplateServiceClient" FullName="Azure.Template.Generated.TemplateServiceClient">
+  <TypeSignature Language="C#" Value="public class TemplateServiceClient" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TemplateServiceClient extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Template.Generated.TemplateServiceClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class TemplateServiceClient" />
+  <TypeSignature Language="F#" Value="type TemplateServiceClient = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Template.Generated</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> The TemplateService service client. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected TemplateServiceClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.Generated.TemplateServiceClient.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template.Generated</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of TemplateServiceClient for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TemplateServiceClient (Uri endpoint, Azure.Core.TokenCredential credential, Azure.Template.Generated.TemplateServiceClientOptions options = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.Core.TokenCredential credential, class Azure.Template.Generated.TemplateServiceClientOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.Generated.TemplateServiceClient.#ctor(System.Uri,Azure.Core.TokenCredential,Azure.Template.Generated.TemplateServiceClientOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (endpoint As Uri, credential As TokenCredential, Optional options As TemplateServiceClientOptions = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.Template.Generated.TemplateServiceClient : Uri * Azure.Core.TokenCredential * Azure.Template.Generated.TemplateServiceClientOptions -&gt; Azure.Template.Generated.TemplateServiceClient" Usage="new Azure.Template.Generated.TemplateServiceClient (endpoint, credential, options)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template.Generated</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="endpoint" Type="System.Uri" />
+        <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
+        <Parameter Name="options" Type="Azure.Template.Generated.TemplateServiceClientOptions" />
+      </Parameters>
+      <Docs>
+        <param name="endpoint"> The endpoint of your template service. </param>
+        <param name="credential"> A credential used to authenticate to an Azure Service. </param>
+        <param name="options"> The options for configuring the client. </param>
+        <summary> Initializes a new instance of TemplateServiceClient. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="endpoint" /> or <paramref name="credential" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response Create (Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response Create(class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.Generated.TemplateServiceClient.Create(Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Create (content As RequestContent, Optional context As RequestContext = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member Create : Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Response&#xA;override this.Create : Azure.Core.RequestContent * Azure.RequestContext -&gt; Azure.Response" Usage="templateServiceClient.Create (content, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template.Generated</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="content"> The content to send as the body of the request. </param>
+        <param name="context"> The request context, which can override default behaviors on the request on a per-call basis. </param>
+        <summary> Create or update resource. </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Schema for <c>Request Body</c>:
+            <code>{
+              name: string,
+              id: string
+            }
+            </code>
+            Schema for <c>Response Body</c>:
+            <code>{
+              name: string,
+              id: string
+            }
+            </code></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; CreateAsync (Azure.Core.RequestContent content, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; CreateAsync(class Azure.Core.RequestContent content, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.Generated.TemplateServiceClient.CreateAsync(Azure.Core.RequestContent,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateAsync (content As RequestContent, Optional context As RequestContext = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member CreateAsync : Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.CreateAsync : Azure.Core.RequestContent * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="templateServiceClient.CreateAsync (content, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template.Generated</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="content" Type="Azure.Core.RequestContent" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="content"> The content to send as the body of the request. </param>
+        <param name="context"> The request context, which can override default behaviors on the request on a per-call basis. </param>
+        <summary> Create or update resource. </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Schema for <c>Request Body</c>:
+            <code>{
+              name: string,
+              id: string
+            }
+            </code>
+            Schema for <c>Response Body</c>:
+            <code>{
+              name: string,
+              id: string
+            }
+            </code></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response Delete (string resourceId, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response Delete(string resourceId, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.Generated.TemplateServiceClient.Delete(System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Delete (resourceId As String, Optional context As RequestContext = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member Delete : string * Azure.RequestContext -&gt; Azure.Response&#xA;override this.Delete : string * Azure.RequestContext -&gt; Azure.Response" Usage="templateServiceClient.Delete (resourceId, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template.Generated</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceId" Type="System.String" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="resourceId"> The id of the resource. </param>
+        <param name="context"> The request context, which can override default behaviors on the request on a per-call basis. </param>
+        <summary> Delete resource. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceId" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; DeleteAsync (string resourceId, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; DeleteAsync(string resourceId, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.Generated.TemplateServiceClient.DeleteAsync(System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteAsync (resourceId As String, Optional context As RequestContext = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteAsync : string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.DeleteAsync : string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="templateServiceClient.DeleteAsync (resourceId, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template.Generated</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceId" Type="System.String" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="resourceId"> The id of the resource. </param>
+        <param name="context"> The request context, which can override default behaviors on the request on a per-call basis. </param>
+        <summary> Delete resource. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceId" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response GetResource (string resourceId, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response GetResource(string resourceId, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.Generated.TemplateServiceClient.GetResource(System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetResource (resourceId As String, Optional context As RequestContext = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member GetResource : string * Azure.RequestContext -&gt; Azure.Response&#xA;override this.GetResource : string * Azure.RequestContext -&gt; Azure.Response" Usage="templateServiceClient.GetResource (resourceId, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template.Generated</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceId" Type="System.String" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="resourceId"> The id of the resource. </param>
+        <param name="context"> The request context, which can override default behaviors on the request on a per-call basis. </param>
+        <summary> Retrieves information about the resource. </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Schema for <c>Response Body</c>:
+            <code>{
+              name: string,
+              id: string
+            }
+            </code></remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceId" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResourceAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; GetResourceAsync (string resourceId, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; GetResourceAsync(string resourceId, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.Generated.TemplateServiceClient.GetResourceAsync(System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetResourceAsync (resourceId As String, Optional context As RequestContext = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member GetResourceAsync : string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.GetResourceAsync : string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="templateServiceClient.GetResourceAsync (resourceId, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template.Generated</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceId" Type="System.String" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="resourceId"> The id of the resource. </param>
+        <param name="context"> The request context, which can override default behaviors on the request on a per-call basis. </param>
+        <summary> Retrieves information about the resource. </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Schema for <c>Response Body</c>:
+            <code>{
+              name: string,
+              id: string
+            }
+            </code></remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="resourceId" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResources">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;BinaryData&gt; GetResources (Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class System.BinaryData&gt; GetResources(class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.Generated.TemplateServiceClient.GetResources(Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetResources (Optional context As RequestContext = Nothing) As Pageable(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member GetResources : Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;&#xA;override this.GetResources : Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;" Usage="templateServiceClient.GetResources context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template.Generated</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;System.BinaryData&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="context"> The request context, which can override default behaviors on the request on a per-call basis. </param>
+        <summary> Retrieves the list of resources. </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Schema for <c>Response Body</c>:
+            <code>{
+              value: [
+                {
+                  name: string,
+                  id: string
+                }
+              ],
+              nextLink: string
+            }
+            </code></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResourcesAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;BinaryData&gt; GetResourcesAsync (Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class System.BinaryData&gt; GetResourcesAsync(class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Template.Generated.TemplateServiceClient.GetResourcesAsync(Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetResourcesAsync (Optional context As RequestContext = Nothing) As AsyncPageable(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member GetResourcesAsync : Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;&#xA;override this.GetResourcesAsync : Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;" Usage="templateServiceClient.GetResourcesAsync context" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template.Generated</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;System.BinaryData&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="context"> The request context, which can override default behaviors on the request on a per-call basis. </param>
+        <summary> Retrieves the list of resources. </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Schema for <c>Response Body</c>:
+            <code>{
+              value: [
+                {
+                  name: string,
+                  id: string
+                }
+              ],
+              nextLink: string
+            }
+            </code></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pipeline">
+      <MemberSignature Language="C#" Value="public virtual Azure.Core.Pipeline.HttpPipeline Pipeline { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.Pipeline.HttpPipeline Pipeline" />
+      <MemberSignature Language="DocId" Value="P:Azure.Template.Generated.TemplateServiceClient.Pipeline" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Pipeline As HttpPipeline" />
+      <MemberSignature Language="F#" Value="member this.Pipeline : Azure.Core.Pipeline.HttpPipeline" Usage="Azure.Template.Generated.TemplateServiceClient.Pipeline" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Template.Generated</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Pipeline.HttpPipeline</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The HTTP pipeline for sending and receiving REST requests and responses. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
