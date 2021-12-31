@@ -8,6 +8,7 @@
     <AssemblyName>Azure.Monitor.Query</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Monitor.Query.Models.LogsQueryResult</ReturnType>
@@ -44,9 +46,39 @@
         <param name="statistics"> Any object. </param>
         <param name="visualization"> Any object. </param>
         <param name="error"> Any object. </param>
-        <summary> Initializes a new instance of LogsQueryResult. </summary>
+        <summary> Enables the user to create an instance of a <see cref="M:Azure.Monitor.Query.Models.MonitorQueryModelFactory.LogsQueryResult(System.Collections.Generic.IReadOnlyList{Azure.Monitor.Query.Models.LogsTable},System.BinaryData,System.BinaryData,System.BinaryData)" />. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LogsTable">
+      <MemberSignature Language="C#" Value="public static Azure.Monitor.Query.Models.LogsTable LogsTable (string name, System.Collections.Generic.IEnumerable&lt;Azure.Monitor.Query.Models.LogsTableColumn&gt; columns, System.Collections.Generic.IEnumerable&lt;Azure.Monitor.Query.Models.LogsTableRow&gt; rows);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Monitor.Query.Models.LogsTable LogsTable(string name, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Monitor.Query.Models.LogsTableColumn&gt; columns, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Monitor.Query.Models.LogsTableRow&gt; rows) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Monitor.Query.Models.MonitorQueryModelFactory.LogsTable(System.String,System.Collections.Generic.IEnumerable{Azure.Monitor.Query.Models.LogsTableColumn},System.Collections.Generic.IEnumerable{Azure.Monitor.Query.Models.LogsTableRow})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function LogsTable (name As String, columns As IEnumerable(Of LogsTableColumn), rows As IEnumerable(Of LogsTableRow)) As LogsTable" />
+      <MemberSignature Language="F#" Value="static member LogsTable : string * seq&lt;Azure.Monitor.Query.Models.LogsTableColumn&gt; * seq&lt;Azure.Monitor.Query.Models.LogsTableRow&gt; -&gt; Azure.Monitor.Query.Models.LogsTable" Usage="Azure.Monitor.Query.Models.MonitorQueryModelFactory.LogsTable (name, columns, rows)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.Query</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Monitor.Query.Models.LogsTable</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="columns" Type="System.Collections.Generic.IEnumerable&lt;Azure.Monitor.Query.Models.LogsTableColumn&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="rows" Type="System.Collections.Generic.IEnumerable&lt;Azure.Monitor.Query.Models.LogsTableRow&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="name"> The name of the table. </param>
+        <param name="columns"> The list of columns. </param>
+        <param name="rows"> The list of rows. </param>
+        <summary> Enables the user to create an instance of a <see cref="M:Azure.Monitor.Query.Models.MonitorQueryModelFactory.LogsTable(System.String,System.Collections.Generic.IEnumerable{Azure.Monitor.Query.Models.LogsTableColumn},System.Collections.Generic.IEnumerable{Azure.Monitor.Query.Models.LogsTableRow})" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="name" /> or <paramref name="rows" /> is <c>null</c>. </exception>
       </Docs>
     </Member>
     <Member MemberName="LogsTableColumn">
@@ -60,6 +92,7 @@
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Monitor.Query.Models.LogsTableColumn</ReturnType>
@@ -76,6 +109,32 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="LogsTableRow">
+      <MemberSignature Language="C#" Value="public static Azure.Monitor.Query.Models.LogsTableRow LogsTableRow (System.Collections.Generic.IEnumerable&lt;Azure.Monitor.Query.Models.LogsTableColumn&gt; columns, System.Collections.Generic.IEnumerable&lt;object&gt; values);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Monitor.Query.Models.LogsTableRow LogsTableRow(class System.Collections.Generic.IEnumerable`1&lt;class Azure.Monitor.Query.Models.LogsTableColumn&gt; columns, class System.Collections.Generic.IEnumerable`1&lt;object&gt; values) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Monitor.Query.Models.MonitorQueryModelFactory.LogsTableRow(System.Collections.Generic.IEnumerable{Azure.Monitor.Query.Models.LogsTableColumn},System.Collections.Generic.IEnumerable{System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function LogsTableRow (columns As IEnumerable(Of LogsTableColumn), values As IEnumerable(Of Object)) As LogsTableRow" />
+      <MemberSignature Language="F#" Value="static member LogsTableRow : seq&lt;Azure.Monitor.Query.Models.LogsTableColumn&gt; * seq&lt;obj&gt; -&gt; Azure.Monitor.Query.Models.LogsTableRow" Usage="Azure.Monitor.Query.Models.MonitorQueryModelFactory.LogsTableRow (columns, values)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.Query</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Monitor.Query.Models.LogsTableRow</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="columns" Type="System.Collections.Generic.IEnumerable&lt;Azure.Monitor.Query.Models.LogsTableColumn&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="values" Type="System.Collections.Generic.IEnumerable&lt;System.Object&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="columns"> The list of columns. </param>
+        <param name="values"> An object array representing the rows of the table. </param>
+        <summary> Enables the user to create an instance of a <see cref="M:Azure.Monitor.Query.Models.MonitorQueryModelFactory.LogsTableRow(System.Collections.Generic.IEnumerable{Azure.Monitor.Query.Models.LogsTableColumn},System.Collections.Generic.IEnumerable{System.Object})" />. </summary>
+        <returns> A new <see cref="T:Azure.Monitor.Query.Models.LogsTableRow" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="MetricAvailability">
       <MemberSignature Language="C#" Value="public static Azure.Monitor.Query.Models.MetricAvailability MetricAvailability (TimeSpan? granularity = default, TimeSpan? retention = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Monitor.Query.Models.MetricAvailability MetricAvailability(valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; granularity, valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; retention) cil managed" />
@@ -87,6 +146,7 @@
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Monitor.Query.Models.MetricAvailability</ReturnType>
@@ -114,6 +174,7 @@
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Monitor.Query.Models.MetricsQueryResult</ReturnType>
@@ -133,7 +194,7 @@
         <param name="namespace"> The namespace of the metrics being queried. </param>
         <param name="resourceRegion"> The region of the resource being queried for metrics. </param>
         <param name="metrics"> the value of the collection. </param>
-        <summary> Initializes a new instance of MetricsQueryResult. </summary>
+        <summary> Enables the user to create an instance of a <see cref="M:Azure.Monitor.Query.Models.MonitorQueryModelFactory.MetricsQueryResult(System.Nullable{System.Int32},System.String,System.Nullable{System.TimeSpan},System.String,System.String,System.Collections.Generic.IReadOnlyList{Azure.Monitor.Query.Models.MetricResult})" />. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -149,6 +210,7 @@
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Monitor.Query.Models.MetricValue</ReturnType>

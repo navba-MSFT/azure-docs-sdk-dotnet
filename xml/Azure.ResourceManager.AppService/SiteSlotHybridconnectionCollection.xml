@@ -1,0 +1,289 @@
+<Type Name="SiteSlotHybridconnectionCollection" FullName="Azure.ResourceManager.AppService.SiteSlotHybridconnectionCollection">
+  <TypeSignature Language="C#" Value="public class SiteSlotHybridconnectionCollection : Azure.ResourceManager.Core.ArmCollection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SiteSlotHybridconnectionCollection extends Azure.ResourceManager.Core.ArmCollection" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppService.SiteSlotHybridconnectionCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Class SiteSlotHybridconnectionCollection&#xA;Inherits ArmCollection" />
+  <TypeSignature Language="F#" Value="type SiteSlotHybridconnectionCollection = class&#xA;    inherit ArmCollection" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.Core.ArmCollection</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A class representing collection of RelayServiceConnectionEntity and their operations over its parent. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected SiteSlotHybridconnectionCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHybridconnectionCollection.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.AppService.SiteSlotHybridconnectionCollection" /> class for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdate">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.AppService.Models.WebAppCreateOrUpdateRelayServiceConnectionSlotOperation CreateOrUpdate (string entityName, Azure.ResourceManager.AppService.RelayServiceConnectionEntityData connectionEnvelope, bool waitForCompletion = true, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.AppService.Models.WebAppCreateOrUpdateRelayServiceConnectionSlotOperation CreateOrUpdate(string entityName, class Azure.ResourceManager.AppService.RelayServiceConnectionEntityData connectionEnvelope, bool waitForCompletion, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHybridconnectionCollection.CreateOrUpdate(System.String,Azure.ResourceManager.AppService.RelayServiceConnectionEntityData,System.Boolean,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdate (entityName As String, connectionEnvelope As RelayServiceConnectionEntityData, Optional waitForCompletion As Boolean = true, Optional cancellationToken As CancellationToken = Nothing) As WebAppCreateOrUpdateRelayServiceConnectionSlotOperation" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdate : string * Azure.ResourceManager.AppService.RelayServiceConnectionEntityData * bool * System.Threading.CancellationToken -&gt; Azure.ResourceManager.AppService.Models.WebAppCreateOrUpdateRelayServiceConnectionSlotOperation&#xA;override this.CreateOrUpdate : string * Azure.ResourceManager.AppService.RelayServiceConnectionEntityData * bool * System.Threading.CancellationToken -&gt; Azure.ResourceManager.AppService.Models.WebAppCreateOrUpdateRelayServiceConnectionSlotOperation" Usage="siteSlotHybridconnectionCollection.CreateOrUpdate (entityName, connectionEnvelope, waitForCompletion, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.AppService.Models.WebAppCreateOrUpdateRelayServiceConnectionSlotOperation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entityName" Type="System.String" />
+        <Parameter Name="connectionEnvelope" Type="Azure.ResourceManager.AppService.RelayServiceConnectionEntityData" />
+        <Parameter Name="waitForCompletion" Type="System.Boolean" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="entityName"> Name of the hybrid connection configuration. </param>
+        <param name="connectionEnvelope"> Details of the hybrid connection configuration. </param>
+        <param name="waitForCompletion"> Waits for the completion of the long running operations. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Creates a new hybrid connection configuration (PUT), or updates an existing one (PATCH). </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="entityName" /> or <paramref name="connectionEnvelope" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.WebAppCreateOrUpdateRelayServiceConnectionSlotOperation&gt; CreateOrUpdateAsync (string entityName, Azure.ResourceManager.AppService.RelayServiceConnectionEntityData connectionEnvelope, bool waitForCompletion = true, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.AppService.Models.WebAppCreateOrUpdateRelayServiceConnectionSlotOperation&gt; CreateOrUpdateAsync(string entityName, class Azure.ResourceManager.AppService.RelayServiceConnectionEntityData connectionEnvelope, bool waitForCompletion, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHybridconnectionCollection.CreateOrUpdateAsync(System.String,Azure.ResourceManager.AppService.RelayServiceConnectionEntityData,System.Boolean,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateOrUpdateAsync (entityName As String, connectionEnvelope As RelayServiceConnectionEntityData, Optional waitForCompletion As Boolean = true, Optional cancellationToken As CancellationToken = Nothing) As Task(Of WebAppCreateOrUpdateRelayServiceConnectionSlotOperation)" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateAsync : string * Azure.ResourceManager.AppService.RelayServiceConnectionEntityData * bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.WebAppCreateOrUpdateRelayServiceConnectionSlotOperation&gt;&#xA;override this.CreateOrUpdateAsync : string * Azure.ResourceManager.AppService.RelayServiceConnectionEntityData * bool * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.WebAppCreateOrUpdateRelayServiceConnectionSlotOperation&gt;" Usage="siteSlotHybridconnectionCollection.CreateOrUpdateAsync (entityName, connectionEnvelope, waitForCompletion, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.AppService.Models.WebAppCreateOrUpdateRelayServiceConnectionSlotOperation&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entityName" Type="System.String" />
+        <Parameter Name="connectionEnvelope" Type="Azure.ResourceManager.AppService.RelayServiceConnectionEntityData" />
+        <Parameter Name="waitForCompletion" Type="System.Boolean" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="entityName"> Name of the hybrid connection configuration. </param>
+        <param name="connectionEnvelope"> Details of the hybrid connection configuration. </param>
+        <param name="waitForCompletion"> Waits for the completion of the long running operations. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Creates a new hybrid connection configuration (PUT), or updates an existing one (PATCH). </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="entityName" /> or <paramref name="connectionEnvelope" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Exists">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;bool&gt; Exists (string entityName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;bool&gt; Exists(string entityName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHybridconnectionCollection.Exists(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Exists (entityName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Exists : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;bool&gt;&#xA;override this.Exists : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;bool&gt;" Usage="siteSlotHybridconnectionCollection.Exists (entityName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entityName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="entityName"> Name of the hybrid connection. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Tries to get details for this resource from the service. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="entityName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ExistsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt; ExistsAsync (string entityName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;bool&gt;&gt; ExistsAsync(string entityName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHybridconnectionCollection.ExistsAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ExistsAsync (entityName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of Boolean))" />
+      <MemberSignature Language="F#" Value="abstract member ExistsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt;&#xA;override this.ExistsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;bool&gt;&gt;" Usage="siteSlotHybridconnectionCollection.ExistsAsync (entityName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Boolean&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entityName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="entityName"> Name of the hybrid connection. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Tries to get details for this resource from the service. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="entityName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt; Get (string entityName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt; Get(string entityName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHybridconnectionCollection.Get(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Get (entityName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of SiteSlotHybridconnection)" />
+      <MemberSignature Language="F#" Value="abstract member Get : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;&#xA;override this.Get : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;" Usage="siteSlotHybridconnectionCollection.Get (entityName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entityName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="entityName"> Name of the hybrid connection. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Gets a hybrid connection configuration by its name. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="entityName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;&gt; GetAsync (string entityName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;&gt; GetAsync(string entityName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHybridconnectionCollection.GetAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAsync (entityName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of SiteSlotHybridconnection))" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;&gt;&#xA;override this.GetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;&gt;" Usage="siteSlotHybridconnectionCollection.GetAsync (entityName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entityName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="entityName"> Name of the hybrid connection. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Description for Gets a hybrid connection configuration by its name. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="entityName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIfExists">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt; GetIfExists (string entityName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt; GetIfExists(string entityName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHybridconnectionCollection.GetIfExists(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIfExists (entityName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of SiteSlotHybridconnection)" />
+      <MemberSignature Language="F#" Value="abstract member GetIfExists : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;&#xA;override this.GetIfExists : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;" Usage="siteSlotHybridconnectionCollection.GetIfExists (entityName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entityName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="entityName"> Name of the hybrid connection. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Tries to get details for this resource from the service. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="entityName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIfExistsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;&gt; GetIfExistsAsync (string entityName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;&gt; GetIfExistsAsync(string entityName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.SiteSlotHybridconnectionCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIfExistsAsync (entityName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of SiteSlotHybridconnection))" />
+      <MemberSignature Language="F#" Value="abstract member GetIfExistsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;&gt;&#xA;override this.GetIfExistsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;&gt;" Usage="siteSlotHybridconnectionCollection.GetIfExistsAsync (entityName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppService.SiteSlotHybridconnection&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="entityName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="entityName"> Name of the hybrid connection. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Tries to get details for this resource from the service. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="entityName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidResourceType">
+      <MemberSignature Language="C#" Value="protected override Azure.ResourceManager.ResourceType ValidResourceType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.ResourceType ValidResourceType" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.SiteSlotHybridconnectionCollection.ValidResourceType" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property ValidResourceType As ResourceType" />
+      <MemberSignature Language="F#" Value="member this.ValidResourceType : Azure.ResourceManager.ResourceType" Usage="Azure.ResourceManager.AppService.SiteSlotHybridconnectionCollection.ValidResourceType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ResourceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the valid resource type for this object. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
