@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Core",
-  "Version": "1.22.0-alpha.20220104.1",
-  "DevVersion": "1.22.0-alpha.20220104.1",
+  "Version": "1.22.0-alpha.20220104.5",
+  "DevVersion": "1.22.0-alpha.20220104.5",
   "DirectoryPath": "sdk/core/Azure.Core",
   "ServiceDirectory": "core",
   "ReadMePath": "sdk/core/Azure.Core/README.md",
