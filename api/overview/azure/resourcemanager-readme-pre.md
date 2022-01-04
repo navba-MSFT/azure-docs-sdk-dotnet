@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: azureresourcemanager
 ---
-# Azure ResourceManager client library for .NET - Version 1.0.0-alpha.20220103.1 
+# Azure ResourceManager client library for .NET - Version 1.0.0-alpha.20220104.4 
 
 
 This package follows the [new Azure SDK guidelines](https://azure.github.io/azure-sdk/general_introduction.html), which provide core capabilities that are shared amongst all Azure SDKs, including:
@@ -283,7 +283,7 @@ ResourceGroupCollection rgCollection = subscription.GetResourceGroups();
 
 // With the collection, we can create a new resource group with an specific name
 string rgName = "myRgName";
-Location location = Location.WestUS2;
+AzureLocation location = AzureLocation.WestUS2;
 ResourceGroupData rgData = new ResourceGroupData(location);
 ResourceGroupCreateOrUpdateOperation operation = await rgCollection.CreateOrUpdateAsync(rgName, rgData);
 ResourceGroup resourceGroup = operation.Value;
