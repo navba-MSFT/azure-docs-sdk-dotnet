@@ -2,7 +2,7 @@
   <TypeSignature Language="C#" Value="public static class ResourceGroupExtensions" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ResourceGroupExtensions extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Resources.ResourceGroupExtensions" />
-  <TypeSignature Language="VB.NET" Value="Public Class ResourceGroupExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ResourceGroupExtensions" />
   <TypeSignature Language="F#" Value="type ResourceGroupExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
