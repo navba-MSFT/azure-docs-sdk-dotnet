@@ -1,0 +1,14 @@
+{
+  "Name": "Azure.Template.Generated",
+  "Version": "1.0.0-alpha.20220104.1",
+  "DevVersion": "1.0.0-alpha.20220104.1",
+  "DirectoryPath": "sdk/template-dpg/Azure.Template.Generated",
+  "ServiceDirectory": "template-dpg",
+  "ReadMePath": "sdk/template-dpg/Azure.Template.Generated/README.md",
+  "ChangeLogPath": "sdk/template-dpg/Azure.Template.Generated/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.Template.Generated",
+  "ReleaseStatus": "yyyy-mm-dd"
+}
