@@ -1,8 +1,8 @@
 ---
 title: Azure Communication Common client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Communication.Common, communication
-author: maggiepint
-ms.author: magpint
+author: acsdevx-msft
+ms.author: acsdevx-msft
 ms.date: 01/06/2022
 ms.topic: reference
 ms.prod: azure
@@ -10,8 +10,7 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: communication
 ---
-
-# Azure Communication Common client library for .NET - Version 1.1.0-alpha.20220105.3 
+# Azure Communication Common client library for .NET - Version 1.1.0-alpha.20220106.3 
 
 
 This package contains common code for Azure Communication Service libraries.

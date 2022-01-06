@@ -1,8 +1,8 @@
 ---
 title: Azure Communication Identity client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Communication.Identity, communication
-author: maggiepint
-ms.author: magpint
+author: ramya-rao-a
+ms.author: ramyar
 ms.date: 01/06/2022
 ms.topic: reference
 ms.prod: azure
@@ -10,8 +10,7 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: communication
 ---
-
-# Azure Communication Identity client library for .NET - Version 1.1.0-alpha.20220105.3 
+# Azure Communication Identity client library for .NET - Version 1.1.0-alpha.20220106.3 
 
 
 Azure Communication Identity is managing tokens for Azure Communication Services.
