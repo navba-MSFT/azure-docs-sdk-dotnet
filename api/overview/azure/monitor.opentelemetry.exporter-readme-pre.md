@@ -1,17 +1,16 @@
 ---
 title: Azure Monitor Exporter client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Monitor.OpenTelemetry.Exporter, monitor
-author: ramya-rao-a
-ms.author: ramyar
-ms.date: 10/05/2021
+author: SameergMS
+ms.author: SameergMS
+ms.date: 01/06/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: monitor
 ---
-
-# Azure Monitor Exporter client library for .NET - Version 1.0.0-beta.3 
+# Azure Monitor Exporter client library for .NET - Version 1.0.0-alpha.20220106.1 
 
 
 
@@ -49,7 +48,7 @@ This exporter sends traces to the configured Azure Monitor Resource using HTTPS.
 
 ## Examples
 
-Refer to [`DemoTrace.cs`](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.OpenTelemetry.Exporter_1.0.0-beta.3/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/tests/Azure.Monitor.OpenTelemetry.Exporter.Demo.Tracing/DemoTrace.cs) for a complete demo.
+Refer to [`DemoTrace.cs`](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/monitor/Azure.Monitor.OpenTelemetry.Exporter/tests/Azure.Monitor.OpenTelemetry.Exporter.Demo.Tracing/DemoTrace.cs) for a complete demo.
 
 ```csharp
 using Azure.Monitor.OpenTelemetry.Exporter;
@@ -73,7 +72,7 @@ For more information on Azure SDK, please refer to [this website](https://azure.
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.OpenTelemetry.Exporter_1.0.0-beta.3/CONTRIBUTING.md) for details on contribution process.
+See [CONTRIBUTING.md](https://github.com/Azure/azure-sdk-for-net/blob/main/CONTRIBUTING.md) for details on contribution process.
 
 ## Release Schedule
 
