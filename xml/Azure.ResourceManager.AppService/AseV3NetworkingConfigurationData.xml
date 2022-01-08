@@ -1,0 +1,137 @@
+<Type Name="AseV3NetworkingConfigurationData" FullName="Azure.ResourceManager.AppService.AseV3NetworkingConfigurationData">
+  <TypeSignature Language="C#" Value="public class AseV3NetworkingConfigurationData : Azure.ResourceManager.AppService.Models.ProxyOnlyResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AseV3NetworkingConfigurationData extends Azure.ResourceManager.AppService.Models.ProxyOnlyResource" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.AppService.AseV3NetworkingConfigurationData" />
+  <TypeSignature Language="VB.NET" Value="Public Class AseV3NetworkingConfigurationData&#xA;Inherits ProxyOnlyResource" />
+  <TypeSignature Language="F#" Value="type AseV3NetworkingConfigurationData = class&#xA;    inherit ProxyOnlyResource" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.AppService.Models.ProxyOnlyResource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A class representing the AseV3NetworkingConfiguration data model. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AseV3NetworkingConfigurationData ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AppService.AseV3NetworkingConfigurationData.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of AseV3NetworkingConfigurationData. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowNewPrivateEndpointConnections">
+      <MemberSignature Language="C#" Value="public bool? AllowNewPrivateEndpointConnections { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; AllowNewPrivateEndpointConnections" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.AseV3NetworkingConfigurationData.AllowNewPrivateEndpointConnections" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowNewPrivateEndpointConnections As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.AllowNewPrivateEndpointConnections : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.AppService.AseV3NetworkingConfigurationData.AllowNewPrivateEndpointConnections" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Property to enable and disable new private endpoint connection creation on ASE. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalInboundIpAddresses">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;string&gt; ExternalInboundIpAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; ExternalInboundIpAddresses" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.AseV3NetworkingConfigurationData.ExternalInboundIpAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExternalInboundIpAddresses As IReadOnlyList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.ExternalInboundIpAddresses : System.Collections.Generic.IReadOnlyList&lt;string&gt;" Usage="Azure.ResourceManager.AppService.AseV3NetworkingConfigurationData.ExternalInboundIpAddresses" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the external inbound ip addresses. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalInboundIpAddresses">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;string&gt; InternalInboundIpAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; InternalInboundIpAddresses" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.AseV3NetworkingConfigurationData.InternalInboundIpAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternalInboundIpAddresses As IReadOnlyList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.InternalInboundIpAddresses : System.Collections.Generic.IReadOnlyList&lt;string&gt;" Usage="Azure.ResourceManager.AppService.AseV3NetworkingConfigurationData.InternalInboundIpAddresses" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the internal inbound ip addresses. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LinuxOutboundIpAddresses">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;string&gt; LinuxOutboundIpAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; LinuxOutboundIpAddresses" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.AseV3NetworkingConfigurationData.LinuxOutboundIpAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LinuxOutboundIpAddresses As IReadOnlyList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.LinuxOutboundIpAddresses : System.Collections.Generic.IReadOnlyList&lt;string&gt;" Usage="Azure.ResourceManager.AppService.AseV3NetworkingConfigurationData.LinuxOutboundIpAddresses" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the linux outbound ip addresses. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowsOutboundIpAddresses">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;string&gt; WindowsOutboundIpAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; WindowsOutboundIpAddresses" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.AseV3NetworkingConfigurationData.WindowsOutboundIpAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WindowsOutboundIpAddresses As IReadOnlyList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.WindowsOutboundIpAddresses : System.Collections.Generic.IReadOnlyList&lt;string&gt;" Usage="Azure.ResourceManager.AppService.AseV3NetworkingConfigurationData.WindowsOutboundIpAddresses" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the windows outbound ip addresses. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
