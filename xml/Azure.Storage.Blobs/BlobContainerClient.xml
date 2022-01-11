@@ -1544,6 +1544,102 @@
             </remarks>
       </Docs>
     </Member>
+    <Member MemberName="FindBlobsByTags">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.Storage.Blobs.Models.TaggedBlobItem&gt; FindBlobsByTags (string tagFilterSqlExpression, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.Storage.Blobs.Models.TaggedBlobItem&gt; FindBlobsByTags(string tagFilterSqlExpression, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.Blobs.BlobContainerClient.FindBlobsByTags(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function FindBlobsByTags (tagFilterSqlExpression As String, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of TaggedBlobItem)" />
+      <MemberSignature Language="F#" Value="abstract member FindBlobsByTags : string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.Storage.Blobs.Models.TaggedBlobItem&gt;&#xA;override this.FindBlobsByTags : string * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.Storage.Blobs.Models.TaggedBlobItem&gt;" Usage="blobContainerClient.FindBlobsByTags (tagFilterSqlExpression, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Blobs</AssemblyName>
+        <AssemblyVersion>12.11.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.Storage.Blobs.Models.TaggedBlobItem&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tagFilterSqlExpression" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="tagFilterSqlExpression">
+             The where parameter finds blobs in the storage account whose tags match a given expression.
+             The expression must evaluate to true for a blob to be returned in the result set.
+             The storage service supports a subset of the ANSI SQL WHERE clause grammar for the value of the where=expression query parameter.
+             The following operators are supported: =, &gt;, &gt;=, &lt;, &lt;=, AND. and @container.
+             Example expression: "tagKey"='tagValue'.
+             </param>
+        <param name="cancellationToken">
+             Optional <see cref="T:System.Threading.CancellationToken" /> to propagate
+             notifications that the operation should be cancelled.
+             </param>
+        <summary>
+             The Filter Blobs operation enables callers to list blobs across all containers whose tags
+             match a given search expression. Filter blobs searches across all containers within a
+             storage account but can be scoped within the expression to a single container.
+            
+             For more information, see
+             <see href="https://docs.microsoft.com/en-us/rest/api/storageservices/find-blobs-by-tags">
+             Find Blobs by Tags</see>.
+             </summary>
+        <returns>
+             An <see cref="T:Azure.AsyncPageable`1" /> describing the blobs.
+             </returns>
+        <remarks>
+             A <see cref="T:Azure.RequestFailedException" /> will be thrown if
+             a failure occurs.
+             </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindBlobsByTagsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.Storage.Blobs.Models.TaggedBlobItem&gt; FindBlobsByTagsAsync (string tagFilterSqlExpression, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.Storage.Blobs.Models.TaggedBlobItem&gt; FindBlobsByTagsAsync(string tagFilterSqlExpression, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.Blobs.BlobContainerClient.FindBlobsByTagsAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function FindBlobsByTagsAsync (tagFilterSqlExpression As String, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of TaggedBlobItem)" />
+      <MemberSignature Language="F#" Value="abstract member FindBlobsByTagsAsync : string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.Storage.Blobs.Models.TaggedBlobItem&gt;&#xA;override this.FindBlobsByTagsAsync : string * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.Storage.Blobs.Models.TaggedBlobItem&gt;" Usage="blobContainerClient.FindBlobsByTagsAsync (tagFilterSqlExpression, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Blobs</AssemblyName>
+        <AssemblyVersion>12.11.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.Storage.Blobs.Models.TaggedBlobItem&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tagFilterSqlExpression" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="tagFilterSqlExpression">
+             The where parameter finds blobs in the storage account whose tags match a given expression.
+             The expression must evaluate to true for a blob to be returned in the result set.
+             The storage service supports a subset of the ANSI SQL WHERE clause grammar for the value of the where=expression query parameter.
+             The following operators are supported: =, &gt;, &gt;=, &lt;, &lt;=, AND. and @container.
+             Example expression: "tagKey"='tagValue'.
+             </param>
+        <param name="cancellationToken">
+             Optional <see cref="T:System.Threading.CancellationToken" /> to propagate
+             notifications that the operation should be cancelled.
+             </param>
+        <summary>
+             The Filter Blobs operation enables callers to list blobs across all containers whose tags
+             match a given search expression. Filter blobs searches across all containers within a
+             storage account but can be scoped within the expression to a single container.
+            
+             For more information, see
+             <see href="https://docs.microsoft.com/en-us/rest/api/storageservices/find-blobs-by-tags">
+             Find Blobs by Tags</see>.
+             </summary>
+        <returns>
+             An <see cref="T:Azure.AsyncPageable`1" /> describing the blobs.
+             </returns>
+        <remarks>
+             A <see cref="T:Azure.RequestFailedException" /> will be thrown if
+             a failure occurs.
+             </remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GenerateSasUri">
       <MemberSignature Language="C#" Value="public virtual Uri GenerateSasUri (Azure.Storage.Sas.BlobSasBuilder builder);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Uri GenerateSasUri(class Azure.Storage.Sas.BlobSasBuilder builder) cil managed" />
