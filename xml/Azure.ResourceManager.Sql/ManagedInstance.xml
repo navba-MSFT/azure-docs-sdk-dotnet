@@ -150,18 +150,18 @@
       </Docs>
     </Member>
     <Member MemberName="CreateResourceIdentifier">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string managedInstanceName);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string managedInstanceName) cil managed" />
+      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string managedInstanceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string managedInstanceName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.CreateResourceIdentifier(System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, managedInstanceName As String) As ResourceIdentifier" />
-      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string -&gt; Azure.ResourceManager.ResourceIdentifier" Usage="Azure.ResourceManager.Sql.ManagedInstance.CreateResourceIdentifier (subscriptionId, resourceGroupName, managedInstanceName)" />
+      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Sql.ManagedInstance.CreateResourceIdentifier (subscriptionId, resourceGroupName, managedInstanceName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.ResourceIdentifier</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="subscriptionId" Type="System.String" />
@@ -359,18 +359,18 @@
       </Docs>
     </Member>
     <Member MemberName="GetAvailableLocations">
-      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt; GetAvailableLocations (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.ResourceManager.Resources.Models.Location&gt; GetAvailableLocations(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IEnumerable&lt;Azure.Core.AzureLocation&gt; GetAvailableLocations (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.Core.AzureLocation&gt; GetAvailableLocations(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.GetAvailableLocations(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvailableLocations (Optional cancellationToken As CancellationToken = Nothing) As IEnumerable(Of Location)" />
-      <MemberSignature Language="F#" Value="abstract member GetAvailableLocations : System.Threading.CancellationToken -&gt; seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&#xA;override this.GetAvailableLocations : System.Threading.CancellationToken -&gt; seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;" Usage="managedInstance.GetAvailableLocations cancellationToken" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvailableLocations (Optional cancellationToken As CancellationToken = Nothing) As IEnumerable(Of AzureLocation)" />
+      <MemberSignature Language="F#" Value="abstract member GetAvailableLocations : System.Threading.CancellationToken -&gt; seq&lt;Azure.Core.AzureLocation&gt;&#xA;override this.GetAvailableLocations : System.Threading.CancellationToken -&gt; seq&lt;Azure.Core.AzureLocation&gt;" Usage="managedInstance.GetAvailableLocations cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Azure.Core.AzureLocation&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -383,18 +383,18 @@
       </Docs>
     </Member>
     <Member MemberName="GetAvailableLocationsAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt; GetAvailableLocationsAsync (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.ResourceManager.Resources.Models.Location&gt;&gt; GetAvailableLocationsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.Core.AzureLocation&gt;&gt; GetAvailableLocationsAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.Core.AzureLocation&gt;&gt; GetAvailableLocationsAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.GetAvailableLocationsAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvailableLocationsAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of IEnumerable(Of Location))" />
-      <MemberSignature Language="F#" Value="abstract member GetAvailableLocationsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;&#xA;override this.GetAvailableLocationsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;" Usage="managedInstance.GetAvailableLocationsAsync cancellationToken" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAvailableLocationsAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of IEnumerable(Of AzureLocation))" />
+      <MemberSignature Language="F#" Value="abstract member GetAvailableLocationsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;Azure.Core.AzureLocation&gt;&gt;&#xA;override this.GetAvailableLocationsAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;Azure.Core.AzureLocation&gt;&gt;" Usage="managedInstance.GetAvailableLocationsAsync cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.Core.AzureLocation&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -455,11 +455,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetManagedDatabases">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.ManagedDatabaseCollection GetManagedDatabases ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.Sql.ManagedDatabaseCollection GetManagedDatabases() cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Sql.ManagedDatabaseCollection GetManagedDatabases ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Sql.ManagedDatabaseCollection GetManagedDatabases() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.GetManagedDatabases" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetManagedDatabases () As ManagedDatabaseCollection" />
-      <MemberSignature Language="F#" Value="member this.GetManagedDatabases : unit -&gt; Azure.ResourceManager.Sql.ManagedDatabaseCollection" Usage="managedInstance.GetManagedDatabases " />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetManagedDatabases () As ManagedDatabaseCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetManagedDatabases : unit -&gt; Azure.ResourceManager.Sql.ManagedDatabaseCollection&#xA;override this.GetManagedDatabases : unit -&gt; Azure.ResourceManager.Sql.ManagedDatabaseCollection" Usage="managedInstance.GetManagedDatabases " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
@@ -476,11 +476,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetManagedInstanceAdministrators">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.ManagedInstanceAdministratorCollection GetManagedInstanceAdministrators ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.Sql.ManagedInstanceAdministratorCollection GetManagedInstanceAdministrators() cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Sql.ManagedInstanceAdministratorCollection GetManagedInstanceAdministrators ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Sql.ManagedInstanceAdministratorCollection GetManagedInstanceAdministrators() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.GetManagedInstanceAdministrators" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetManagedInstanceAdministrators () As ManagedInstanceAdministratorCollection" />
-      <MemberSignature Language="F#" Value="member this.GetManagedInstanceAdministrators : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceAdministratorCollection" Usage="managedInstance.GetManagedInstanceAdministrators " />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetManagedInstanceAdministrators () As ManagedInstanceAdministratorCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetManagedInstanceAdministrators : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceAdministratorCollection&#xA;override this.GetManagedInstanceAdministrators : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceAdministratorCollection" Usage="managedInstance.GetManagedInstanceAdministrators " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
@@ -497,11 +497,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetManagedInstanceAzureADOnlyAuthentications">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.ManagedInstanceAzureADOnlyAuthenticationCollection GetManagedInstanceAzureADOnlyAuthentications ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.Sql.ManagedInstanceAzureADOnlyAuthenticationCollection GetManagedInstanceAzureADOnlyAuthentications() cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Sql.ManagedInstanceAzureADOnlyAuthenticationCollection GetManagedInstanceAzureADOnlyAuthentications ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Sql.ManagedInstanceAzureADOnlyAuthenticationCollection GetManagedInstanceAzureADOnlyAuthentications() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.GetManagedInstanceAzureADOnlyAuthentications" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetManagedInstanceAzureADOnlyAuthentications () As ManagedInstanceAzureADOnlyAuthenticationCollection" />
-      <MemberSignature Language="F#" Value="member this.GetManagedInstanceAzureADOnlyAuthentications : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceAzureADOnlyAuthenticationCollection" Usage="managedInstance.GetManagedInstanceAzureADOnlyAuthentications " />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetManagedInstanceAzureADOnlyAuthentications () As ManagedInstanceAzureADOnlyAuthenticationCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetManagedInstanceAzureADOnlyAuthentications : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceAzureADOnlyAuthenticationCollection&#xA;override this.GetManagedInstanceAzureADOnlyAuthentications : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceAzureADOnlyAuthenticationCollection" Usage="managedInstance.GetManagedInstanceAzureADOnlyAuthentications " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
@@ -518,11 +518,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetManagedInstanceEncryptionProtectors">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.ManagedInstanceEncryptionProtectorCollection GetManagedInstanceEncryptionProtectors ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.Sql.ManagedInstanceEncryptionProtectorCollection GetManagedInstanceEncryptionProtectors() cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Sql.ManagedInstanceEncryptionProtectorCollection GetManagedInstanceEncryptionProtectors ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Sql.ManagedInstanceEncryptionProtectorCollection GetManagedInstanceEncryptionProtectors() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.GetManagedInstanceEncryptionProtectors" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetManagedInstanceEncryptionProtectors () As ManagedInstanceEncryptionProtectorCollection" />
-      <MemberSignature Language="F#" Value="member this.GetManagedInstanceEncryptionProtectors : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceEncryptionProtectorCollection" Usage="managedInstance.GetManagedInstanceEncryptionProtectors " />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetManagedInstanceEncryptionProtectors () As ManagedInstanceEncryptionProtectorCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetManagedInstanceEncryptionProtectors : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceEncryptionProtectorCollection&#xA;override this.GetManagedInstanceEncryptionProtectors : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceEncryptionProtectorCollection" Usage="managedInstance.GetManagedInstanceEncryptionProtectors " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
@@ -539,11 +539,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetManagedInstanceKeys">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.ManagedInstanceKeyCollection GetManagedInstanceKeys ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.Sql.ManagedInstanceKeyCollection GetManagedInstanceKeys() cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Sql.ManagedInstanceKeyCollection GetManagedInstanceKeys ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Sql.ManagedInstanceKeyCollection GetManagedInstanceKeys() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.GetManagedInstanceKeys" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetManagedInstanceKeys () As ManagedInstanceKeyCollection" />
-      <MemberSignature Language="F#" Value="member this.GetManagedInstanceKeys : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceKeyCollection" Usage="managedInstance.GetManagedInstanceKeys " />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetManagedInstanceKeys () As ManagedInstanceKeyCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetManagedInstanceKeys : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceKeyCollection&#xA;override this.GetManagedInstanceKeys : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceKeyCollection" Usage="managedInstance.GetManagedInstanceKeys " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
@@ -560,11 +560,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetManagedInstanceOperations">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.ManagedInstanceOperationCollection GetManagedInstanceOperations ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.Sql.ManagedInstanceOperationCollection GetManagedInstanceOperations() cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Sql.ManagedInstanceOperationCollection GetManagedInstanceOperations ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Sql.ManagedInstanceOperationCollection GetManagedInstanceOperations() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.GetManagedInstanceOperations" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetManagedInstanceOperations () As ManagedInstanceOperationCollection" />
-      <MemberSignature Language="F#" Value="member this.GetManagedInstanceOperations : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceOperationCollection" Usage="managedInstance.GetManagedInstanceOperations " />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetManagedInstanceOperations () As ManagedInstanceOperationCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetManagedInstanceOperations : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceOperationCollection&#xA;override this.GetManagedInstanceOperations : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceOperationCollection" Usage="managedInstance.GetManagedInstanceOperations " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
@@ -581,11 +581,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetManagedInstancePrivateEndpointConnections">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.ManagedInstancePrivateEndpointConnectionCollection GetManagedInstancePrivateEndpointConnections ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.Sql.ManagedInstancePrivateEndpointConnectionCollection GetManagedInstancePrivateEndpointConnections() cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Sql.ManagedInstancePrivateEndpointConnectionCollection GetManagedInstancePrivateEndpointConnections ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Sql.ManagedInstancePrivateEndpointConnectionCollection GetManagedInstancePrivateEndpointConnections() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.GetManagedInstancePrivateEndpointConnections" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetManagedInstancePrivateEndpointConnections () As ManagedInstancePrivateEndpointConnectionCollection" />
-      <MemberSignature Language="F#" Value="member this.GetManagedInstancePrivateEndpointConnections : unit -&gt; Azure.ResourceManager.Sql.ManagedInstancePrivateEndpointConnectionCollection" Usage="managedInstance.GetManagedInstancePrivateEndpointConnections " />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetManagedInstancePrivateEndpointConnections () As ManagedInstancePrivateEndpointConnectionCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetManagedInstancePrivateEndpointConnections : unit -&gt; Azure.ResourceManager.Sql.ManagedInstancePrivateEndpointConnectionCollection&#xA;override this.GetManagedInstancePrivateEndpointConnections : unit -&gt; Azure.ResourceManager.Sql.ManagedInstancePrivateEndpointConnectionCollection" Usage="managedInstance.GetManagedInstancePrivateEndpointConnections " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
@@ -602,11 +602,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetManagedInstancePrivateLinks">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.ManagedInstancePrivateLinkCollection GetManagedInstancePrivateLinks ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.Sql.ManagedInstancePrivateLinkCollection GetManagedInstancePrivateLinks() cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Sql.ManagedInstancePrivateLinkCollection GetManagedInstancePrivateLinks ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Sql.ManagedInstancePrivateLinkCollection GetManagedInstancePrivateLinks() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.GetManagedInstancePrivateLinks" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetManagedInstancePrivateLinks () As ManagedInstancePrivateLinkCollection" />
-      <MemberSignature Language="F#" Value="member this.GetManagedInstancePrivateLinks : unit -&gt; Azure.ResourceManager.Sql.ManagedInstancePrivateLinkCollection" Usage="managedInstance.GetManagedInstancePrivateLinks " />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetManagedInstancePrivateLinks () As ManagedInstancePrivateLinkCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetManagedInstancePrivateLinks : unit -&gt; Azure.ResourceManager.Sql.ManagedInstancePrivateLinkCollection&#xA;override this.GetManagedInstancePrivateLinks : unit -&gt; Azure.ResourceManager.Sql.ManagedInstancePrivateLinkCollection" Usage="managedInstance.GetManagedInstancePrivateLinks " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
@@ -623,11 +623,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetManagedInstanceVulnerabilityAssessments">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.ManagedInstanceVulnerabilityAssessmentCollection GetManagedInstanceVulnerabilityAssessments ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.Sql.ManagedInstanceVulnerabilityAssessmentCollection GetManagedInstanceVulnerabilityAssessments() cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Sql.ManagedInstanceVulnerabilityAssessmentCollection GetManagedInstanceVulnerabilityAssessments ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Sql.ManagedInstanceVulnerabilityAssessmentCollection GetManagedInstanceVulnerabilityAssessments() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.GetManagedInstanceVulnerabilityAssessments" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetManagedInstanceVulnerabilityAssessments () As ManagedInstanceVulnerabilityAssessmentCollection" />
-      <MemberSignature Language="F#" Value="member this.GetManagedInstanceVulnerabilityAssessments : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceVulnerabilityAssessmentCollection" Usage="managedInstance.GetManagedInstanceVulnerabilityAssessments " />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetManagedInstanceVulnerabilityAssessments () As ManagedInstanceVulnerabilityAssessmentCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetManagedInstanceVulnerabilityAssessments : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceVulnerabilityAssessmentCollection&#xA;override this.GetManagedInstanceVulnerabilityAssessments : unit -&gt; Azure.ResourceManager.Sql.ManagedInstanceVulnerabilityAssessmentCollection" Usage="managedInstance.GetManagedInstanceVulnerabilityAssessments " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
@@ -644,11 +644,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetManagedServerSecurityAlertPolicies">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.ManagedServerSecurityAlertPolicyCollection GetManagedServerSecurityAlertPolicies ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.Sql.ManagedServerSecurityAlertPolicyCollection GetManagedServerSecurityAlertPolicies() cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Sql.ManagedServerSecurityAlertPolicyCollection GetManagedServerSecurityAlertPolicies ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Sql.ManagedServerSecurityAlertPolicyCollection GetManagedServerSecurityAlertPolicies() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.GetManagedServerSecurityAlertPolicies" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetManagedServerSecurityAlertPolicies () As ManagedServerSecurityAlertPolicyCollection" />
-      <MemberSignature Language="F#" Value="member this.GetManagedServerSecurityAlertPolicies : unit -&gt; Azure.ResourceManager.Sql.ManagedServerSecurityAlertPolicyCollection" Usage="managedInstance.GetManagedServerSecurityAlertPolicies " />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetManagedServerSecurityAlertPolicies () As ManagedServerSecurityAlertPolicyCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetManagedServerSecurityAlertPolicies : unit -&gt; Azure.ResourceManager.Sql.ManagedServerSecurityAlertPolicyCollection&#xA;override this.GetManagedServerSecurityAlertPolicies : unit -&gt; Azure.ResourceManager.Sql.ManagedServerSecurityAlertPolicyCollection" Usage="managedInstance.GetManagedServerSecurityAlertPolicies " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
@@ -665,11 +665,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetRecoverableManagedDatabases">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.RecoverableManagedDatabaseCollection GetRecoverableManagedDatabases ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.Sql.RecoverableManagedDatabaseCollection GetRecoverableManagedDatabases() cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Sql.RecoverableManagedDatabaseCollection GetRecoverableManagedDatabases ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Sql.RecoverableManagedDatabaseCollection GetRecoverableManagedDatabases() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.GetRecoverableManagedDatabases" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetRecoverableManagedDatabases () As RecoverableManagedDatabaseCollection" />
-      <MemberSignature Language="F#" Value="member this.GetRecoverableManagedDatabases : unit -&gt; Azure.ResourceManager.Sql.RecoverableManagedDatabaseCollection" Usage="managedInstance.GetRecoverableManagedDatabases " />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRecoverableManagedDatabases () As RecoverableManagedDatabaseCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetRecoverableManagedDatabases : unit -&gt; Azure.ResourceManager.Sql.RecoverableManagedDatabaseCollection&#xA;override this.GetRecoverableManagedDatabases : unit -&gt; Azure.ResourceManager.Sql.RecoverableManagedDatabaseCollection" Usage="managedInstance.GetRecoverableManagedDatabases " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
@@ -686,11 +686,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetRestorableDroppedManagedDatabases">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.RestorableDroppedManagedDatabaseCollection GetRestorableDroppedManagedDatabases ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.Sql.RestorableDroppedManagedDatabaseCollection GetRestorableDroppedManagedDatabases() cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Sql.RestorableDroppedManagedDatabaseCollection GetRestorableDroppedManagedDatabases ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Sql.RestorableDroppedManagedDatabaseCollection GetRestorableDroppedManagedDatabases() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.GetRestorableDroppedManagedDatabases" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetRestorableDroppedManagedDatabases () As RestorableDroppedManagedDatabaseCollection" />
-      <MemberSignature Language="F#" Value="member this.GetRestorableDroppedManagedDatabases : unit -&gt; Azure.ResourceManager.Sql.RestorableDroppedManagedDatabaseCollection" Usage="managedInstance.GetRestorableDroppedManagedDatabases " />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRestorableDroppedManagedDatabases () As RestorableDroppedManagedDatabaseCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetRestorableDroppedManagedDatabases : unit -&gt; Azure.ResourceManager.Sql.RestorableDroppedManagedDatabaseCollection&#xA;override this.GetRestorableDroppedManagedDatabases : unit -&gt; Azure.ResourceManager.Sql.RestorableDroppedManagedDatabaseCollection" Usage="managedInstance.GetRestorableDroppedManagedDatabases " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
@@ -755,11 +755,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetSqlAgentConfiguration">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Sql.SqlAgentConfiguration GetSqlAgentConfiguration ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Azure.ResourceManager.Sql.SqlAgentConfiguration GetSqlAgentConfiguration() cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Sql.SqlAgentConfiguration GetSqlAgentConfiguration ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Sql.SqlAgentConfiguration GetSqlAgentConfiguration() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sql.ManagedInstance.GetSqlAgentConfiguration" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetSqlAgentConfiguration () As SqlAgentConfiguration" />
-      <MemberSignature Language="F#" Value="member this.GetSqlAgentConfiguration : unit -&gt; Azure.ResourceManager.Sql.SqlAgentConfiguration" Usage="managedInstance.GetSqlAgentConfiguration " />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSqlAgentConfiguration () As SqlAgentConfiguration" />
+      <MemberSignature Language="F#" Value="abstract member GetSqlAgentConfiguration : unit -&gt; Azure.ResourceManager.Sql.SqlAgentConfiguration&#xA;override this.GetSqlAgentConfiguration : unit -&gt; Azure.ResourceManager.Sql.SqlAgentConfiguration" Usage="managedInstance.GetSqlAgentConfiguration " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
@@ -924,18 +924,18 @@
       </Docs>
     </Member>
     <Member MemberName="ResourceType">
-      <MemberSignature Language="C#" Value="public static readonly Azure.ResourceManager.ResourceType ResourceType;" />
-      <MemberSignature Language="ILAsm" Value=".field public static initonly class Azure.ResourceManager.ResourceType ResourceType" />
+      <MemberSignature Language="C#" Value="public static readonly Azure.Core.ResourceType ResourceType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Azure.Core.ResourceType ResourceType" />
       <MemberSignature Language="DocId" Value="F:Azure.ResourceManager.Sql.ManagedInstance.ResourceType" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ResourceType As ResourceType " />
-      <MemberSignature Language="F#" Value=" staticval mutable ResourceType : Azure.ResourceManager.ResourceType" Usage="Azure.ResourceManager.Sql.ManagedInstance.ResourceType" />
+      <MemberSignature Language="F#" Value=" staticval mutable ResourceType : Azure.Core.ResourceType" Usage="Azure.ResourceManager.Sql.ManagedInstance.ResourceType" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.ResourceType</ReturnType>
+        <ReturnType>Azure.Core.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets the resource type for the operations. </summary>
@@ -1055,18 +1055,18 @@
       </Docs>
     </Member>
     <Member MemberName="ValidResourceType">
-      <MemberSignature Language="C#" Value="protected override Azure.ResourceManager.ResourceType ValidResourceType { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.ResourceType ValidResourceType" />
+      <MemberSignature Language="C#" Value="protected override Azure.Core.ResourceType ValidResourceType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Core.ResourceType ValidResourceType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Sql.ManagedInstance.ValidResourceType" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property ValidResourceType As ResourceType" />
-      <MemberSignature Language="F#" Value="member this.ValidResourceType : Azure.ResourceManager.ResourceType" Usage="Azure.ResourceManager.Sql.ManagedInstance.ValidResourceType" />
+      <MemberSignature Language="F#" Value="member this.ValidResourceType : Azure.Core.ResourceType" Usage="Azure.ResourceManager.Sql.ManagedInstance.ValidResourceType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.ResourceType</ReturnType>
+        <ReturnType>Azure.Core.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets the valid resource type for the operations. </summary>

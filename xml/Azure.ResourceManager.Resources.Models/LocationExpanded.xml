@@ -118,18 +118,18 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator Azure.ResourceManager.Resources.Models.Location (Azure.ResourceManager.Resources.Models.LocationExpanded location);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Azure.ResourceManager.Resources.Models.Location op_Implicit(class Azure.ResourceManager.Resources.Models.LocationExpanded location) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Resources.Models.LocationExpanded.op_Implicit(Azure.ResourceManager.Resources.Models.LocationExpanded)~Azure.ResourceManager.Resources.Models.Location" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (location As LocationExpanded) As Location" />
-      <MemberSignature Language="F#" Value="static member op_Implicit : Azure.ResourceManager.Resources.Models.LocationExpanded -&gt; Azure.ResourceManager.Resources.Models.Location" Usage="Azure.ResourceManager.Resources.Models.LocationExpanded.op_Implicit location" />
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.Core.AzureLocation (Azure.ResourceManager.Resources.Models.LocationExpanded location);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Azure.Core.AzureLocation op_Implicit(class Azure.ResourceManager.Resources.Models.LocationExpanded location) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Resources.Models.LocationExpanded.op_Implicit(Azure.ResourceManager.Resources.Models.LocationExpanded)~Azure.Core.AzureLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (location As LocationExpanded) As AzureLocation" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : Azure.ResourceManager.Resources.Models.LocationExpanded -&gt; Azure.Core.AzureLocation" Usage="Azure.ResourceManager.Resources.Models.LocationExpanded.op_Implicit location" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Resources.Models.Location</ReturnType>
+        <ReturnType>Azure.Core.AzureLocation</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="location" Type="Azure.ResourceManager.Resources.Models.LocationExpanded" />

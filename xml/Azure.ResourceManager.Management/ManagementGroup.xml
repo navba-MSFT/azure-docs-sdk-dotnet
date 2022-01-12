@@ -38,11 +38,11 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="protected internal ManagementGroup (Azure.ResourceManager.Core.ArmResource options, Azure.ResourceManager.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.Core.ArmResource options, class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Management.ManagementGroup.#ctor(Azure.ResourceManager.Core.ArmResource,Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="C#" Value="protected internal ManagementGroup (Azure.ResourceManager.Core.ArmResource options, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.Core.ArmResource options, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Management.ManagementGroup.#ctor(Azure.ResourceManager.Core.ArmResource,Azure.Core.ResourceIdentifier)" />
       <MemberSignature Language="VB.NET" Value="Protected Friend Sub New (options As ArmResource, id As ResourceIdentifier)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Management.ManagementGroup : Azure.ResourceManager.Core.ArmResource * Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Management.ManagementGroup" Usage="new Azure.ResourceManager.Management.ManagementGroup (options, id)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Management.ManagementGroup : Azure.ResourceManager.Core.ArmResource * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Management.ManagementGroup" Usage="new Azure.ResourceManager.Management.ManagementGroup (options, id)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
@@ -50,7 +50,7 @@
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="options" Type="Azure.ResourceManager.Core.ArmResource" />
-        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="options"> The client parameters to use in these operations. </param>
@@ -311,18 +311,18 @@
       </Docs>
     </Member>
     <Member MemberName="ResourceType">
-      <MemberSignature Language="C#" Value="public static readonly Azure.ResourceManager.ResourceType ResourceType;" />
-      <MemberSignature Language="ILAsm" Value=".field public static initonly class Azure.ResourceManager.ResourceType ResourceType" />
+      <MemberSignature Language="C#" Value="public static readonly Azure.Core.ResourceType ResourceType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly valuetype Azure.Core.ResourceType ResourceType" />
       <MemberSignature Language="DocId" Value="F:Azure.ResourceManager.Management.ManagementGroup.ResourceType" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ResourceType As ResourceType " />
-      <MemberSignature Language="F#" Value=" staticval mutable ResourceType : Azure.ResourceManager.ResourceType" Usage="Azure.ResourceManager.Management.ManagementGroup.ResourceType" />
+      <MemberSignature Language="F#" Value=" staticval mutable ResourceType : Azure.Core.ResourceType" Usage="Azure.ResourceManager.Management.ManagementGroup.ResourceType" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.ResourceType</ReturnType>
+        <ReturnType>Azure.Core.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -394,18 +394,18 @@
       </Docs>
     </Member>
     <Member MemberName="ValidResourceType">
-      <MemberSignature Language="C#" Value="protected override Azure.ResourceManager.ResourceType ValidResourceType { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.ResourceType ValidResourceType" />
+      <MemberSignature Language="C#" Value="protected override Azure.Core.ResourceType ValidResourceType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Core.ResourceType ValidResourceType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Management.ManagementGroup.ValidResourceType" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property ValidResourceType As ResourceType" />
-      <MemberSignature Language="F#" Value="member this.ValidResourceType : Azure.ResourceManager.ResourceType" Usage="Azure.ResourceManager.Management.ManagementGroup.ValidResourceType" />
+      <MemberSignature Language="F#" Value="member this.ValidResourceType : Azure.Core.ResourceType" Usage="Azure.ResourceManager.Management.ManagementGroup.ValidResourceType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.ResourceType</ReturnType>
+        <ReturnType>Azure.Core.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

@@ -18,18 +18,18 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public DdosProtectionPlanData (Azure.ResourceManager.Resources.Models.Location location);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.ResourceManager.Resources.Models.Location location) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Network.DdosProtectionPlanData.#ctor(Azure.ResourceManager.Resources.Models.Location)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (location As Location)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Network.DdosProtectionPlanData : Azure.ResourceManager.Resources.Models.Location -&gt; Azure.ResourceManager.Network.DdosProtectionPlanData" Usage="new Azure.ResourceManager.Network.DdosProtectionPlanData location" />
+      <MemberSignature Language="C#" Value="public DdosProtectionPlanData (Azure.Core.AzureLocation location);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.Core.AzureLocation location) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Network.DdosProtectionPlanData.#ctor(Azure.Core.AzureLocation)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (location As AzureLocation)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Network.DdosProtectionPlanData : Azure.Core.AzureLocation -&gt; Azure.ResourceManager.Network.DdosProtectionPlanData" Usage="new Azure.ResourceManager.Network.DdosProtectionPlanData location" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="location" Type="Azure.ResourceManager.Resources.Models.Location" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
       </Parameters>
       <Docs>
         <param name="location"> The location. </param>

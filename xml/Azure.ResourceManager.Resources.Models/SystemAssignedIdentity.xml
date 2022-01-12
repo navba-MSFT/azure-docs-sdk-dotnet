@@ -65,33 +65,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="CompareTo">
-      <MemberSignature Language="C#" Value="public int CompareTo (Azure.ResourceManager.Resources.Models.SystemAssignedIdentity other);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 CompareTo(class Azure.ResourceManager.Resources.Models.SystemAssignedIdentity other) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Resources.Models.SystemAssignedIdentity.CompareTo(Azure.ResourceManager.Resources.Models.SystemAssignedIdentity)" />
-      <MemberSignature Language="VB.NET" Value="Public Function CompareTo (other As SystemAssignedIdentity) As Integer" />
-      <MemberSignature Language="F#" Value="member this.CompareTo : Azure.ResourceManager.Resources.Models.SystemAssignedIdentity -&gt; int" Usage="systemAssignedIdentity.CompareTo other" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Int32</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="other" Type="Azure.ResourceManager.Resources.Models.SystemAssignedIdentity" />
-      </Parameters>
-      <Docs>
-        <param name="other">
-          <see cref="T:Azure.ResourceManager.Resources.Models.SystemAssignedIdentity" /> object to compare. </param>
-        <summary>
-            Compares this <see cref="T:Azure.ResourceManager.Resources.Models.SystemAssignedIdentity" /> with another instance.
-            </summary>
-        <returns> -1 for less than, 0 for equals, 1 for greater than. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Equals">
       <MemberSignature Language="C#" Value="public bool Equals (Azure.ResourceManager.Resources.Models.SystemAssignedIdentity other);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(class Azure.ResourceManager.Resources.Models.SystemAssignedIdentity other) cil managed" />

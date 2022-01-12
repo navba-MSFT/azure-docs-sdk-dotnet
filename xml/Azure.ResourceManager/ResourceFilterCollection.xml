@@ -38,18 +38,18 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ResourceFilterCollection (Azure.ResourceManager.ResourceType type);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.ResourceType type) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceFilterCollection.#ctor(Azure.ResourceManager.ResourceType)" />
+      <MemberSignature Language="C#" Value="public ResourceFilterCollection (Azure.Core.ResourceType type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.Core.ResourceType type) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ResourceFilterCollection.#ctor(Azure.Core.ResourceType)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (type As ResourceType)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.ResourceFilterCollection : Azure.ResourceManager.ResourceType -&gt; Azure.ResourceManager.ResourceFilterCollection" Usage="new Azure.ResourceManager.ResourceFilterCollection type" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.ResourceFilterCollection : Azure.Core.ResourceType -&gt; Azure.ResourceManager.ResourceFilterCollection" Usage="new Azure.ResourceManager.ResourceFilterCollection type" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="type" Type="Azure.ResourceManager.ResourceType" />
+        <Parameter Name="type" Type="Azure.Core.ResourceType" />
       </Parameters>
       <Docs>
         <param name="type"> The resource type to filter by. </param>

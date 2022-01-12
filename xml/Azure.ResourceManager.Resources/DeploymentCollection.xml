@@ -407,11 +407,11 @@
       </Docs>
     </Member>
     <Member MemberName="ValidateResourceType">
-      <MemberSignature Language="C#" Value="protected override void ValidateResourceType (Azure.ResourceManager.ResourceIdentifier identifier);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void ValidateResourceType(class Azure.ResourceManager.ResourceIdentifier identifier) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Resources.DeploymentCollection.ValidateResourceType(Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="C#" Value="protected override void ValidateResourceType (Azure.Core.ResourceIdentifier identifier);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void ValidateResourceType(class Azure.Core.ResourceIdentifier identifier) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Resources.DeploymentCollection.ValidateResourceType(Azure.Core.ResourceIdentifier)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub ValidateResourceType (identifier As ResourceIdentifier)" />
-      <MemberSignature Language="F#" Value="override this.ValidateResourceType : Azure.ResourceManager.ResourceIdentifier -&gt; unit" Usage="deploymentCollection.ValidateResourceType identifier" />
+      <MemberSignature Language="F#" Value="override this.ValidateResourceType : Azure.Core.ResourceIdentifier -&gt; unit" Usage="deploymentCollection.ValidateResourceType identifier" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
@@ -421,7 +421,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="identifier" Type="Azure.ResourceManager.ResourceIdentifier" />
+        <Parameter Name="identifier" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="identifier"> The input resource Id to check. </param>
@@ -430,18 +430,18 @@
       </Docs>
     </Member>
     <Member MemberName="ValidResourceType">
-      <MemberSignature Language="C#" Value="protected override Azure.ResourceManager.ResourceType ValidResourceType { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.ResourceType ValidResourceType" />
+      <MemberSignature Language="C#" Value="protected override Azure.Core.ResourceType ValidResourceType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Core.ResourceType ValidResourceType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Resources.DeploymentCollection.ValidResourceType" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property ValidResourceType As ResourceType" />
-      <MemberSignature Language="F#" Value="member this.ValidResourceType : Azure.ResourceManager.ResourceType" Usage="Azure.ResourceManager.Resources.DeploymentCollection.ValidResourceType" />
+      <MemberSignature Language="F#" Value="member this.ValidResourceType : Azure.Core.ResourceType" Usage="Azure.ResourceManager.Resources.DeploymentCollection.ValidResourceType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.ResourceType</ReturnType>
+        <ReturnType>Azure.Core.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets the valid resource type for this object. </summary>

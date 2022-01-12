@@ -64,18 +64,18 @@
       </Docs>
     </Member>
     <Member MemberName="Id">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ResourceIdentifier Id { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.ResourceIdentifier Id" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Core.ResourceIdentifier Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier Id" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Resources.SubscriptionData.Id" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Id As ResourceIdentifier" />
-      <MemberSignature Language="F#" Value="member this.Id : Azure.ResourceManager.ResourceIdentifier" Usage="Azure.ResourceManager.Resources.SubscriptionData.Id" />
+      <MemberSignature Language="F#" Value="member this.Id : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Resources.SubscriptionData.Id" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.ResourceIdentifier</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

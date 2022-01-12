@@ -48,22 +48,22 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ResourceIdentity (System.Collections.Generic.Dictionary&lt;Azure.ResourceManager.ResourceIdentifier,Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt; user, bool useSystemAssigned);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.Dictionary`2&lt;class Azure.ResourceManager.ResourceIdentifier, class Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt; user, bool useSystemAssigned) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Resources.Models.ResourceIdentity.#ctor(System.Collections.Generic.Dictionary{Azure.ResourceManager.ResourceIdentifier,Azure.ResourceManager.Resources.Models.UserAssignedIdentity},System.Boolean)" />
+      <MemberSignature Language="C#" Value="public ResourceIdentity (System.Collections.Generic.Dictionary&lt;Azure.Core.ResourceIdentifier,Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt; user, bool useSystemAssigned);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.Dictionary`2&lt;class Azure.Core.ResourceIdentifier, class Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt; user, bool useSystemAssigned) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Resources.Models.ResourceIdentity.#ctor(System.Collections.Generic.Dictionary{Azure.Core.ResourceIdentifier,Azure.ResourceManager.Resources.Models.UserAssignedIdentity},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (user As Dictionary(Of ResourceIdentifier, UserAssignedIdentity), useSystemAssigned As Boolean)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Resources.Models.ResourceIdentity : System.Collections.Generic.Dictionary&lt;Azure.ResourceManager.ResourceIdentifier, Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt; * bool -&gt; Azure.ResourceManager.Resources.Models.ResourceIdentity" Usage="new Azure.ResourceManager.Resources.Models.ResourceIdentity (user, useSystemAssigned)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Resources.Models.ResourceIdentity : System.Collections.Generic.Dictionary&lt;Azure.Core.ResourceIdentifier, Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt; * bool -&gt; Azure.ResourceManager.Resources.Models.ResourceIdentity" Usage="new Azure.ResourceManager.Resources.Models.ResourceIdentity (user, useSystemAssigned)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="user" Type="System.Collections.Generic.Dictionary&lt;Azure.ResourceManager.ResourceIdentifier,Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt;" />
+        <Parameter Name="user" Type="System.Collections.Generic.Dictionary&lt;Azure.Core.ResourceIdentifier,Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt;" />
         <Parameter Name="useSystemAssigned" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="user"> Dictionary with a <see cref="T:Azure.ResourceManager.ResourceIdentifier" /> key and a <see cref="T:Azure.ResourceManager.Resources.Models.UserAssignedIdentity" /> object value. </param>
+        <param name="user"> Dictionary with a <see cref="T:Azure.Core.ResourceIdentifier" /> key and a <see cref="T:Azure.ResourceManager.Resources.Models.UserAssignedIdentity" /> object value. </param>
         <param name="useSystemAssigned"> Flag for using <see cref="P:Azure.ResourceManager.Resources.Models.ResourceIdentity.SystemAssignedIdentity" /> or not. </param>
         <summary>
             Initializes a new instance of the <see cref="T:Azure.ResourceManager.Resources.Models.ResourceIdentity" /> class.
@@ -181,18 +181,18 @@
       </Docs>
     </Member>
     <Member MemberName="UserAssignedIdentities">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Azure.ResourceManager.ResourceIdentifier,Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt; UserAssignedIdentities { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;class Azure.ResourceManager.ResourceIdentifier, class Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt; UserAssignedIdentities" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Azure.Core.ResourceIdentifier,Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt; UserAssignedIdentities { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;class Azure.Core.ResourceIdentifier, class Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt; UserAssignedIdentities" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Resources.Models.ResourceIdentity.UserAssignedIdentities" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserAssignedIdentities As IDictionary(Of ResourceIdentifier, UserAssignedIdentity)" />
-      <MemberSignature Language="F#" Value="member this.UserAssignedIdentities : System.Collections.Generic.IDictionary&lt;Azure.ResourceManager.ResourceIdentifier, Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt;" Usage="Azure.ResourceManager.Resources.Models.ResourceIdentity.UserAssignedIdentities" />
+      <MemberSignature Language="F#" Value="member this.UserAssignedIdentities : System.Collections.Generic.IDictionary&lt;Azure.Core.ResourceIdentifier, Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt;" Usage="Azure.ResourceManager.Resources.Models.ResourceIdentity.UserAssignedIdentities" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;Azure.ResourceManager.ResourceIdentifier,Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Azure.Core.ResourceIdentifier,Azure.ResourceManager.Resources.Models.UserAssignedIdentity&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

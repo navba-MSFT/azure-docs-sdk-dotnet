@@ -38,11 +38,11 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="protected ArmResource (Azure.ResourceManager.Core.ArmResource parentOperations, Azure.ResourceManager.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.Core.ArmResource parentOperations, class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Core.ArmResource.#ctor(Azure.ResourceManager.Core.ArmResource,Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="C#" Value="protected ArmResource (Azure.ResourceManager.Core.ArmResource parentOperations, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.Core.ArmResource parentOperations, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Core.ArmResource.#ctor(Azure.ResourceManager.Core.ArmResource,Azure.Core.ResourceIdentifier)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New (parentOperations As ArmResource, id As ResourceIdentifier)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Core.ArmResource : Azure.ResourceManager.Core.ArmResource * Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Core.ArmResource" Usage="new Azure.ResourceManager.Core.ArmResource (parentOperations, id)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Core.ArmResource : Azure.ResourceManager.Core.ArmResource * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Core.ArmResource" Usage="new Azure.ResourceManager.Core.ArmResource (parentOperations, id)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
@@ -50,7 +50,7 @@
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="parentOperations" Type="Azure.ResourceManager.Core.ArmResource" />
-        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="parentOperations"> The resource representing the parent resource. </param>
@@ -62,11 +62,11 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="protected ArmResource (Azure.ResourceManager.ArmClientOptions clientOptions, Azure.Core.TokenCredential credential, Uri uri, Azure.Core.Pipeline.HttpPipeline pipeline, Azure.ResourceManager.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.ArmClientOptions clientOptions, class Azure.Core.TokenCredential credential, class System.Uri uri, class Azure.Core.Pipeline.HttpPipeline pipeline, class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Core.ArmResource.#ctor(Azure.ResourceManager.ArmClientOptions,Azure.Core.TokenCredential,System.Uri,Azure.Core.Pipeline.HttpPipeline,Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="C#" Value="protected ArmResource (Azure.ResourceManager.ArmClientOptions clientOptions, Azure.Core.TokenCredential credential, Uri uri, Azure.Core.Pipeline.HttpPipeline pipeline, Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.ArmClientOptions clientOptions, class Azure.Core.TokenCredential credential, class System.Uri uri, class Azure.Core.Pipeline.HttpPipeline pipeline, class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Core.ArmResource.#ctor(Azure.ResourceManager.ArmClientOptions,Azure.Core.TokenCredential,System.Uri,Azure.Core.Pipeline.HttpPipeline,Azure.Core.ResourceIdentifier)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New (clientOptions As ArmClientOptions, credential As TokenCredential, uri As Uri, pipeline As HttpPipeline, id As ResourceIdentifier)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Core.ArmResource : Azure.ResourceManager.ArmClientOptions * Azure.Core.TokenCredential * Uri * Azure.Core.Pipeline.HttpPipeline * Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Core.ArmResource" Usage="new Azure.ResourceManager.Core.ArmResource (clientOptions, credential, uri, pipeline, id)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.Core.ArmResource : Azure.ResourceManager.ArmClientOptions * Azure.Core.TokenCredential * Uri * Azure.Core.Pipeline.HttpPipeline * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Core.ArmResource" Usage="new Azure.ResourceManager.Core.ArmResource (clientOptions, credential, uri, pipeline, id)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
@@ -77,7 +77,7 @@
         <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
         <Parameter Name="uri" Type="System.Uri" />
         <Parameter Name="pipeline" Type="Azure.Core.Pipeline.HttpPipeline" />
-        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="clientOptions" />
@@ -158,18 +158,18 @@
       </Docs>
     </Member>
     <Member MemberName="Id">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ResourceIdentifier Id { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.ResourceIdentifier Id" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Core.ResourceIdentifier Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier Id" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Core.ArmResource.Id" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Id As ResourceIdentifier" />
-      <MemberSignature Language="F#" Value="member this.Id : Azure.ResourceManager.ResourceIdentifier" Usage="Azure.ResourceManager.Core.ArmResource.Id" />
+      <MemberSignature Language="F#" Value="member this.Id : Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.Core.ArmResource.Id" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.ResourceIdentifier</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -180,25 +180,25 @@
       </Docs>
     </Member>
     <Member MemberName="ListAvailableLocations">
-      <MemberSignature Language="C#" Value="protected System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt; ListAvailableLocations (Azure.ResourceManager.ResourceType resourceType, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.ResourceManager.Resources.Models.Location&gt; ListAvailableLocations(class Azure.ResourceManager.ResourceType resourceType, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Core.ArmResource.ListAvailableLocations(Azure.ResourceManager.ResourceType,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Protected Function ListAvailableLocations (resourceType As ResourceType, Optional cancellationToken As CancellationToken = Nothing) As IEnumerable(Of Location)" />
-      <MemberSignature Language="F#" Value="member this.ListAvailableLocations : Azure.ResourceManager.ResourceType * System.Threading.CancellationToken -&gt; seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;" Usage="armResource.ListAvailableLocations (resourceType, cancellationToken)" />
+      <MemberSignature Language="C#" Value="protected System.Collections.Generic.IEnumerable&lt;Azure.Core.AzureLocation&gt; ListAvailableLocations (Azure.Core.ResourceType resourceType, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.Core.AzureLocation&gt; ListAvailableLocations(valuetype Azure.Core.ResourceType resourceType, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Core.ArmResource.ListAvailableLocations(Azure.Core.ResourceType,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Protected Function ListAvailableLocations (resourceType As ResourceType, Optional cancellationToken As CancellationToken = Nothing) As IEnumerable(Of AzureLocation)" />
+      <MemberSignature Language="F#" Value="member this.ListAvailableLocations : Azure.Core.ResourceType * System.Threading.CancellationToken -&gt; seq&lt;Azure.Core.AzureLocation&gt;" Usage="armResource.ListAvailableLocations (resourceType, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;Azure.Core.AzureLocation&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceType" Type="Azure.ResourceManager.ResourceType" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="resourceType"> The <see cref="T:Azure.ResourceManager.ResourceType" /> instance to use for the list. </param>
+        <param name="resourceType"> The <see cref="T:Azure.Core.ResourceType" /> instance to use for the list. </param>
         <param name="cancellationToken"> A token to allow the caller to cancel the call to the service. The default value is <see cref="P:System.Threading.CancellationToken.None" />. </param>
         <summary>
             Lists all available geo-locations.
@@ -208,25 +208,25 @@
       </Docs>
     </Member>
     <Member MemberName="ListAvailableLocationsAsync">
-      <MemberSignature Language="C#" Value="protected System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt; ListAvailableLocationsAsync (Azure.ResourceManager.ResourceType resourceType, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.ResourceManager.Resources.Models.Location&gt;&gt; ListAvailableLocationsAsync(class Azure.ResourceManager.ResourceType resourceType, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Core.ArmResource.ListAvailableLocationsAsync(Azure.ResourceManager.ResourceType,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Protected Function ListAvailableLocationsAsync (resourceType As ResourceType, Optional cancellationToken As CancellationToken = Nothing) As Task(Of IEnumerable(Of Location))" />
-      <MemberSignature Language="F#" Value="member this.ListAvailableLocationsAsync : Azure.ResourceManager.ResourceType * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;" Usage="armResource.ListAvailableLocationsAsync (resourceType, cancellationToken)" />
+      <MemberSignature Language="C#" Value="protected System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.Core.AzureLocation&gt;&gt; ListAvailableLocationsAsync (Azure.Core.ResourceType resourceType, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.Core.AzureLocation&gt;&gt; ListAvailableLocationsAsync(valuetype Azure.Core.ResourceType resourceType, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Core.ArmResource.ListAvailableLocationsAsync(Azure.Core.ResourceType,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Protected Function ListAvailableLocationsAsync (resourceType As ResourceType, Optional cancellationToken As CancellationToken = Nothing) As Task(Of IEnumerable(Of AzureLocation))" />
+      <MemberSignature Language="F#" Value="member this.ListAvailableLocationsAsync : Azure.Core.ResourceType * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;seq&lt;Azure.Core.AzureLocation&gt;&gt;" Usage="armResource.ListAvailableLocationsAsync (resourceType, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.Location&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.Core.AzureLocation&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="resourceType" Type="Azure.ResourceManager.ResourceType" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="resourceType"> The <see cref="T:Azure.ResourceManager.ResourceType" /> instance to use for the list. </param>
+        <param name="resourceType"> The <see cref="T:Azure.Core.ResourceType" /> instance to use for the list. </param>
         <param name="cancellationToken"> A token to allow the caller to cancel the call to the service. The default value is <see cref="P:System.Threading.CancellationToken.None" />. </param>
         <summary>
             Lists all available geo-locations.
@@ -280,11 +280,11 @@
       </Docs>
     </Member>
     <Member MemberName="ValidateResourceType">
-      <MemberSignature Language="C#" Value="protected virtual void ValidateResourceType (Azure.ResourceManager.ResourceIdentifier identifier);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void ValidateResourceType(class Azure.ResourceManager.ResourceIdentifier identifier) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Core.ArmResource.ValidateResourceType(Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="C#" Value="protected virtual void ValidateResourceType (Azure.Core.ResourceIdentifier identifier);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void ValidateResourceType(class Azure.Core.ResourceIdentifier identifier) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Core.ArmResource.ValidateResourceType(Azure.Core.ResourceIdentifier)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub ValidateResourceType (identifier As ResourceIdentifier)" />
-      <MemberSignature Language="F#" Value="abstract member ValidateResourceType : Azure.ResourceManager.ResourceIdentifier -&gt; unit&#xA;override this.ValidateResourceType : Azure.ResourceManager.ResourceIdentifier -&gt; unit" Usage="armResource.ValidateResourceType identifier" />
+      <MemberSignature Language="F#" Value="abstract member ValidateResourceType : Azure.Core.ResourceIdentifier -&gt; unit&#xA;override this.ValidateResourceType : Azure.Core.ResourceIdentifier -&gt; unit" Usage="armResource.ValidateResourceType identifier" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
@@ -294,7 +294,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="identifier" Type="Azure.ResourceManager.ResourceIdentifier" />
+        <Parameter Name="identifier" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="identifier"> The resource identifier. </param>
@@ -305,18 +305,18 @@
       </Docs>
     </Member>
     <Member MemberName="ValidResourceType">
-      <MemberSignature Language="C#" Value="protected abstract Azure.ResourceManager.ResourceType ValidResourceType { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.ResourceType ValidResourceType" />
+      <MemberSignature Language="C#" Value="protected virtual Azure.Core.ResourceType ValidResourceType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Core.ResourceType ValidResourceType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Core.ArmResource.ValidResourceType" />
-      <MemberSignature Language="VB.NET" Value="Protected MustOverride ReadOnly Property ValidResourceType As ResourceType" />
-      <MemberSignature Language="F#" Value="member this.ValidResourceType : Azure.ResourceManager.ResourceType" Usage="Azure.ResourceManager.Core.ArmResource.ValidResourceType" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable ReadOnly Property ValidResourceType As ResourceType" />
+      <MemberSignature Language="F#" Value="member this.ValidResourceType : Azure.Core.ResourceType" Usage="Azure.ResourceManager.Core.ArmResource.ValidResourceType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.ResourceType</ReturnType>
+        <ReturnType>Azure.Core.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

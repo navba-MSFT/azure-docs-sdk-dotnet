@@ -286,11 +286,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetFeature">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Resources.Feature GetFeature (Azure.ResourceManager.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Resources.Feature GetFeature(class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetFeature(Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Resources.Feature GetFeature (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Resources.Feature GetFeature(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetFeature(Azure.Core.ResourceIdentifier)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFeature (id As ResourceIdentifier) As Feature" />
-      <MemberSignature Language="F#" Value="abstract member GetFeature : Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.Feature&#xA;override this.GetFeature : Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.Feature" Usage="armClient.GetFeature id" />
+      <MemberSignature Language="F#" Value="abstract member GetFeature : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.Feature&#xA;override this.GetFeature : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.Feature" Usage="armClient.GetFeature id" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
@@ -300,7 +300,7 @@
         <ReturnType>Azure.ResourceManager.Resources.Feature</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="id"> The id of the feature. </param>
@@ -312,11 +312,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetGenericResource">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Resources.GenericResource GetGenericResource (Azure.ResourceManager.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Resources.GenericResource GetGenericResource(class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetGenericResource(Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Resources.GenericResource GetGenericResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Resources.GenericResource GetGenericResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetGenericResource(Azure.Core.ResourceIdentifier)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGenericResource (id As ResourceIdentifier) As GenericResource" />
-      <MemberSignature Language="F#" Value="abstract member GetGenericResource : Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.GenericResource&#xA;override this.GetGenericResource : Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.GenericResource" Usage="armClient.GetGenericResource id" />
+      <MemberSignature Language="F#" Value="abstract member GetGenericResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.GenericResource&#xA;override this.GetGenericResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.GenericResource" Usage="armClient.GetGenericResource id" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
@@ -326,7 +326,7 @@
         <ReturnType>Azure.ResourceManager.Resources.GenericResource</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="id"> The id of the resource to retrieve. </param>
@@ -338,11 +338,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetGenericResources">
-      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Resources.GenericResource&gt; GetGenericResources (params Azure.ResourceManager.ResourceIdentifier[] ids);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.Resources.GenericResource&gt; GetGenericResources(class Azure.ResourceManager.ResourceIdentifier[] ids) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetGenericResources(Azure.ResourceManager.ResourceIdentifier[])" />
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Resources.GenericResource&gt; GetGenericResources (params Azure.Core.ResourceIdentifier[] ids);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.Resources.GenericResource&gt; GetGenericResources(class Azure.Core.ResourceIdentifier[] ids) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetGenericResources(Azure.Core.ResourceIdentifier[])" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGenericResources (ParamArray ids As ResourceIdentifier()) As IReadOnlyList(Of GenericResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetGenericResources : Azure.ResourceManager.ResourceIdentifier[] -&gt; System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Resources.GenericResource&gt;&#xA;override this.GetGenericResources : Azure.ResourceManager.ResourceIdentifier[] -&gt; System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Resources.GenericResource&gt;" Usage="armClient.GetGenericResources ids" />
+      <MemberSignature Language="F#" Value="abstract member GetGenericResources : Azure.Core.ResourceIdentifier[] -&gt; System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Resources.GenericResource&gt;&#xA;override this.GetGenericResources : Azure.Core.ResourceIdentifier[] -&gt; System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Resources.GenericResource&gt;" Usage="armClient.GetGenericResources ids" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
@@ -352,7 +352,7 @@
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Resources.GenericResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ids" Type="Azure.ResourceManager.ResourceIdentifier[]">
+        <Parameter Name="ids" Type="Azure.Core.ResourceIdentifier[]">
           <Attributes>
             <Attribute>
               <AttributeName Language="C#">[System.ParamArray]</AttributeName>
@@ -371,11 +371,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetGenericResources">
-      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Resources.GenericResource&gt; GetGenericResources (System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ResourceIdentifier&gt; ids);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.Resources.GenericResource&gt; GetGenericResources(class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.ResourceIdentifier&gt; ids) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetGenericResources(System.Collections.Generic.IEnumerable{Azure.ResourceManager.ResourceIdentifier})" />
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Resources.GenericResource&gt; GetGenericResources (System.Collections.Generic.IEnumerable&lt;Azure.Core.ResourceIdentifier&gt; ids);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.Resources.GenericResource&gt; GetGenericResources(class System.Collections.Generic.IEnumerable`1&lt;class Azure.Core.ResourceIdentifier&gt; ids) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetGenericResources(System.Collections.Generic.IEnumerable{Azure.Core.ResourceIdentifier})" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGenericResources (ids As IEnumerable(Of ResourceIdentifier)) As IReadOnlyList(Of GenericResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetGenericResources : seq&lt;Azure.ResourceManager.ResourceIdentifier&gt; -&gt; System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Resources.GenericResource&gt;&#xA;override this.GetGenericResources : seq&lt;Azure.ResourceManager.ResourceIdentifier&gt; -&gt; System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Resources.GenericResource&gt;" Usage="armClient.GetGenericResources ids" />
+      <MemberSignature Language="F#" Value="abstract member GetGenericResources : seq&lt;Azure.Core.ResourceIdentifier&gt; -&gt; System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Resources.GenericResource&gt;&#xA;override this.GetGenericResources : seq&lt;Azure.Core.ResourceIdentifier&gt; -&gt; System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Resources.GenericResource&gt;" Usage="armClient.GetGenericResources ids" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
@@ -385,7 +385,7 @@
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Resources.GenericResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ids" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ResourceIdentifier&gt;" />
+        <Parameter Name="ids" Type="System.Collections.Generic.IEnumerable&lt;Azure.Core.ResourceIdentifier&gt;" />
       </Parameters>
       <Docs>
         <param name="ids"> A list of the IDs of the resources to retrieve. </param>
@@ -456,11 +456,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetManagementGroup">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Management.ManagementGroup GetManagementGroup (Azure.ResourceManager.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Management.ManagementGroup GetManagementGroup(class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetManagementGroup(Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Management.ManagementGroup GetManagementGroup (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Management.ManagementGroup GetManagementGroup(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetManagementGroup(Azure.Core.ResourceIdentifier)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetManagementGroup (id As ResourceIdentifier) As ManagementGroup" />
-      <MemberSignature Language="F#" Value="abstract member GetManagementGroup : Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Management.ManagementGroup&#xA;override this.GetManagementGroup : Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Management.ManagementGroup" Usage="armClient.GetManagementGroup id" />
+      <MemberSignature Language="F#" Value="abstract member GetManagementGroup : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Management.ManagementGroup&#xA;override this.GetManagementGroup : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Management.ManagementGroup" Usage="armClient.GetManagementGroup id" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
@@ -470,7 +470,7 @@
         <ReturnType>Azure.ResourceManager.Management.ManagementGroup</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="id"> The id of the management group operations. </param>
@@ -505,11 +505,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetPreDefinedTag">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Resources.PredefinedTag GetPreDefinedTag (Azure.ResourceManager.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Resources.PredefinedTag GetPreDefinedTag(class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetPreDefinedTag(Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Resources.PredefinedTag GetPreDefinedTag (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Resources.PredefinedTag GetPreDefinedTag(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetPreDefinedTag(Azure.Core.ResourceIdentifier)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPreDefinedTag (id As ResourceIdentifier) As PredefinedTag" />
-      <MemberSignature Language="F#" Value="abstract member GetPreDefinedTag : Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.PredefinedTag&#xA;override this.GetPreDefinedTag : Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.PredefinedTag" Usage="armClient.GetPreDefinedTag id" />
+      <MemberSignature Language="F#" Value="abstract member GetPreDefinedTag : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.PredefinedTag&#xA;override this.GetPreDefinedTag : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.PredefinedTag" Usage="armClient.GetPreDefinedTag id" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
@@ -519,7 +519,7 @@
         <ReturnType>Azure.ResourceManager.Resources.PredefinedTag</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="id"> The id of the PredefinedTag. </param>
@@ -531,11 +531,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetProvider">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Resources.Provider GetProvider (Azure.ResourceManager.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Resources.Provider GetProvider(class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetProvider(Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Resources.Provider GetProvider (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Resources.Provider GetProvider(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetProvider(Azure.Core.ResourceIdentifier)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetProvider (id As ResourceIdentifier) As Provider" />
-      <MemberSignature Language="F#" Value="abstract member GetProvider : Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.Provider&#xA;override this.GetProvider : Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.Provider" Usage="armClient.GetProvider id" />
+      <MemberSignature Language="F#" Value="abstract member GetProvider : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.Provider&#xA;override this.GetProvider : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.Provider" Usage="armClient.GetProvider id" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
@@ -545,7 +545,7 @@
         <ReturnType>Azure.ResourceManager.Resources.Provider</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="id"> The id of the Provider. </param>
@@ -557,11 +557,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetResourceGroup">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Resources.ResourceGroup GetResourceGroup (Azure.ResourceManager.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Resources.ResourceGroup GetResourceGroup(class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetResourceGroup(Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Resources.ResourceGroup GetResourceGroup (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Resources.ResourceGroup GetResourceGroup(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetResourceGroup(Azure.Core.ResourceIdentifier)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetResourceGroup (id As ResourceIdentifier) As ResourceGroup" />
-      <MemberSignature Language="F#" Value="abstract member GetResourceGroup : Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.ResourceGroup&#xA;override this.GetResourceGroup : Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.ResourceGroup" Usage="armClient.GetResourceGroup id" />
+      <MemberSignature Language="F#" Value="abstract member GetResourceGroup : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.ResourceGroup&#xA;override this.GetResourceGroup : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.ResourceGroup" Usage="armClient.GetResourceGroup id" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
@@ -571,7 +571,7 @@
         <ReturnType>Azure.ResourceManager.Resources.ResourceGroup</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="id"> The id of the resourcegroup. </param>
@@ -609,11 +609,11 @@
       </Docs>
     </Member>
     <Member MemberName="GetSubscription">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Resources.Subscription GetSubscription (Azure.ResourceManager.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Resources.Subscription GetSubscription(class Azure.ResourceManager.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetSubscription(Azure.ResourceManager.ResourceIdentifier)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Resources.Subscription GetSubscription (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Resources.Subscription GetSubscription(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmClient.GetSubscription(Azure.Core.ResourceIdentifier)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSubscription (id As ResourceIdentifier) As Subscription" />
-      <MemberSignature Language="F#" Value="abstract member GetSubscription : Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.Subscription&#xA;override this.GetSubscription : Azure.ResourceManager.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.Subscription" Usage="armClient.GetSubscription id" />
+      <MemberSignature Language="F#" Value="abstract member GetSubscription : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.Subscription&#xA;override this.GetSubscription : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Resources.Subscription" Usage="armClient.GetSubscription id" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
@@ -623,7 +623,7 @@
         <ReturnType>Azure.ResourceManager.Resources.Subscription</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.ResourceManager.ResourceIdentifier" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="id"> The id of the subscription. </param>
