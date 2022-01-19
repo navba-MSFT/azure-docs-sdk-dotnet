@@ -3,14 +3,14 @@ title: Azure WebJobs Tables client library for .NET
 keywords: Azure, dotnet, SDK, API, Microsoft.Azure.WebJobs.Extensions.Tables, tables
 author: christothes
 ms.author: christothes
-ms.date: 01/14/2022
+ms.date: 01/19/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: tables
 ---
-# Azure WebJobs Tables client library for .NET - Version 1.0.0-beta.1 
+# Azure WebJobs Tables client library for .NET - Version 1.0.0-alpha.20220119.1 
 
 
 This extension provides functionality for accessing Azure Tables in Azure Functions.
@@ -323,14 +323,14 @@ additional questions or comments.
 [cosmos_tables_create_cli]: https://docs.microsoft.com/azure/cosmos-db/scripts/cli/table/create
 [cosmos_tables_create_portal]: https://docs.microsoft.com/azure/cosmos-db/table/how-to-create-container
 
-[identity_dac]: https://github.com/Azure/azure-sdk-for-net/blob/Microsoft.Azure.WebJobs.Extensions.Tables_1.0.0-beta.1/sdk/identity/Azure.Identity/README.md#defaultazurecredential
+[identity_dac]: https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/identity/Azure.Identity/README.md#defaultazurecredential
 
 [appsettings_portal]: https://docs.microsoft.com/azure/azure-functions/functions-how-to-use-azure-function-app-settings?tabs=portal
 [local_settings_json]: https://docs.microsoft.com/azure/azure-functions/functions-host-json#override-hostjson-values
 
 [azure_sub]: https://azure.microsoft.com/free/dotnet/
-[RequestFailedException]: https://github.com/Azure/azure-sdk-for-net/tree/Microsoft.Azure.WebJobs.Extensions.Tables_1.0.0-beta.1/sdk/core/Azure.Core/src/RequestFailedException.cs
-[contrib]: https://github.com/Azure/azure-sdk-for-net/blob/Microsoft.Azure.WebJobs.Extensions.Tables_1.0.0-beta.1/CONTRIBUTING.md
+[RequestFailedException]: https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/core/Azure.Core/src/RequestFailedException.cs
+[contrib]: https://github.com/Azure/azure-sdk-for-net/blob/main/CONTRIBUTING.md
 
 [cla]: https://cla.microsoft.com
 [coc]: https://opensource.microsoft.com/codeofconduct/
