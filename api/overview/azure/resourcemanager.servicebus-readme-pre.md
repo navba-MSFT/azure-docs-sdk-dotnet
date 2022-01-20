@@ -3,14 +3,14 @@ title: Azure Azure.ResourceManager.ServiceBus Management client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.ResourceManager.ServiceBus, servicebus
 author: JoshLove-msft
 ms.author: JoshLove-msft
-ms.date: 12/28/2021
+ms.date: 01/20/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: servicebus
 ---
-# Azure Azure.ResourceManager.ServiceBus Management client library for .NET - Version 1.0.0-beta.2 
+# Azure Azure.ResourceManager.ServiceBus Management client library for .NET - Version 1.0.0-alpha.20220120.1 
 
 
 This package follows the [new Azure SDK guidelines](https://azure.github.io/azure-sdk/general_introduction.html) which provide a number of core capabilities that are shared amongst all Azure SDKs, including the intuitive Azure Identity library, an HTTP Pipeline with custom policies, error-handling, distributed tracing, and much more.
@@ -31,7 +31,7 @@ Set up a way to authenticate to Azure with Azure Identity.
 Some options are:
 - Through the [Azure CLI Login](https://docs.microsoft.com/cli/azure/authenticate-azure-cli).
 - Via [Visual Studio](https://docs.microsoft.com/dotnet/api/overview/azure/identity-readme?view=azure-dotnet#authenticating-via-visual-studio).
-- Setting [Environment Variables](https://github.com/Azure/azure-sdk-for-net/blob/Azure.ResourceManager.ServiceBus_1.0.0-beta.2/sdk/resourcemanager/Azure.ResourceManager/docs/AuthUsingEnvironmentVariables.md).
+- Setting [Environment Variables](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/resourcemanager/Azure.ResourceManager/docs/AuthUsingEnvironmentVariables.md).
 
 More information and different authentication approaches using Azure Identity can be found in [this document](https://docs.microsoft.com/dotnet/api/overview/azure/identity-readme?view=azure-dotnet).
 
@@ -51,16 +51,16 @@ Additional documentation for the `Azure.Identity.DefaultAzureCredential` class c
 
 ## Key concepts
 
-Key concepts of the Azure .NET SDK can be found [here](https://github.com/Azure/azure-sdk-for-net/blob/Azure.ResourceManager.ServiceBus_1.0.0-beta.2/sdk/resourcemanager/Azure.ResourceManager/README.md#key-concepts)
+Key concepts of the Azure .NET SDK can be found [here](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/resourcemanager/Azure.ResourceManager/README.md#key-concepts)
 
 
 ## Documentation
 
 Documentation is available to help you learn how to use this package
 
-- [Quickstart](https://github.com/Azure/azure-sdk-for-net/blob/Azure.ResourceManager.ServiceBus_1.0.0-beta.2/doc/mgmt_preview_quickstart.md)
+- [Quickstart](https://github.com/Azure/azure-sdk-for-net/blob/main/doc/mgmt_preview_quickstart.md)
 - [API References](https://docs.microsoft.com/dotnet/api/?view=azure-dotnet)
-- [Authentication](https://github.com/Azure/azure-sdk-for-net/blob/Azure.ResourceManager.ServiceBus_1.0.0-beta.2/sdk/identity/Azure.Identity/README.md)
+- [Authentication](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/identity/Azure.Identity/README.md)
 
 ## Examples
 
@@ -74,8 +74,8 @@ Subscription subscription = await armClient.GetDefaultSubscriptionAsync();
 ```
 ```C# Snippet:Managing_ServiceBusNamespaces_CreateResourceGroup
 string rgName = "myRgName";
-Location location = Location.WestUS2;
-ResourceGroupCreateOrUpdateOperation operation = await subscription.GetResourceGroups().CreateOrUpdateAsync(rgName, new ResourceGroupData(location));
+AzureLocation location = AzureLocation.WestUS2;
+ResourceGroupCreateOrUpdateOperation operation = await subscription.GetResourceGroups().CreateOrUpdateAsync(true, rgName, new ResourceGroupData(location));
 ResourceGroup resourceGroup = operation.Value;
 ```
 
@@ -84,8 +84,8 @@ Then we can create a namespace inside this resource group.
 ```C# Snippet:Managing_ServiceBusNamespaces_CreateNamespace
 string namespaceName = "myNamespace";
 ServiceBusNamespaceCollection namespaceCollection = resourceGroup.GetServiceBusNamespaces();
-Location location = Location.EastUS2;
-ServiceBusNamespace serviceBusNamespace = (await namespaceCollection.CreateOrUpdateAsync(namespaceName, new ServiceBusNamespaceData(location))).Value;
+AzureLocation location = AzureLocation.EastUS2;
+ServiceBusNamespace serviceBusNamespace = (await namespaceCollection.CreateOrUpdateAsync(true, namespaceName, new ServiceBusNamespaceData(location))).Value;
 ```
 
 ### Get all namespaces in a resource group
@@ -126,7 +126,7 @@ if (await namespaceCollection.ExistsAsync("bar"))
 ```C# Snippet:Managing_ServiceBusNamespaces_DeleteNamespace
 ServiceBusNamespaceCollection namespaceCollection = resourceGroup.GetServiceBusNamespaces();
 ServiceBusNamespace serviceBusNamespace = await namespaceCollection.GetAsync("myNamespace");
-await serviceBusNamespace.DeleteAsync();
+await serviceBusNamespace.DeleteAsync(true);
 ```
 
 
